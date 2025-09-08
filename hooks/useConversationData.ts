@@ -7,6 +7,7 @@ export const useConversationData = (topicId: string | undefined, topicTitle: str
     const [conversation, setConversation] = useState<ConversationLine[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState<string | null>(null);
+    const [retryCount, setRetryCount] = useState(0);
 
     useEffect(() => {
         if (!topicId || !topicTitle) {
@@ -87,7 +88,13 @@ export const useConversationData = (topicId: string | undefined, topicTitle: str
         return () => {
             isComponentMounted = false;
         };
-    }, [topicId, topicTitle]);
+    }, [topicId, topicTitle, retryCount]);
 
-    return { conversation, isLoading, error };
+    const retry = () => {
+        setRetryCount(prev => prev + 1);
+        setError(null);
+        setIsLoading(true);
+    };
+
+    return { conversation, isLoading, error, retry };
 };

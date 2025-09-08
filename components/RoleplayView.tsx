@@ -8,6 +8,7 @@ import { useRoleplay } from '../hooks/useRoleplay';
 import RoleplayMessage from './RoleplayMessage';
 import RoleplayControls from './RoleplayControls';
 import RoleSelectionModal from './RoleSelectionModal';
+import ErrorNotification from './ErrorNotification';
 
 
 const RoleplayView = () => {
@@ -27,7 +28,7 @@ const RoleplayView = () => {
         proceedToNextLine
     } = useRoleplay();
 
-    const { isSupported, isListening, transcript, startListening, stopListening, resetTranscript } = useSpeechRecognition();
+    const { isSupported, isListening, transcript, error: speechError, startListening, stopListening, resetTranscript, clearError } = useSpeechRecognition();
     const { speak, isSpeaking, cancel } = useAudio();
     const chatEndRef = useRef<HTMLDivElement>(null);
 
@@ -123,6 +124,15 @@ const RoleplayView = () => {
             </header>
 
             <div className="flex-grow p-4 space-y-4 overflow-y-auto bg-slate-50/50">
+                {speechError && (
+                    <ErrorNotification
+                        message={speechError}
+                        type="error"
+                        onDismiss={clearError}
+                        onRetry={startListening}
+                        retryLabel="音声認識を再開"
+                    />
+                )}
                 {messages.map((msg) => (
                     <RoleplayMessage key={msg.id} msg={msg} />
                 ))}

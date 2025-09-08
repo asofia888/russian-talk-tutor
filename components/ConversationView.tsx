@@ -4,6 +4,7 @@ import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { useConversationData } from '../hooks/useConversationData';
 import ConversationCard from './ConversationCard';
 import ConversationSkeleton from './ConversationSkeleton';
+import ErrorNotification from './ErrorNotification';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import EyeIcon from './icons/EyeIcon';
 
@@ -13,7 +14,7 @@ const ConversationView = () => {
     const navigate = useNavigate();
     const topicTitle = location.state?.topicTitle || '会話';
 
-    const { conversation, isLoading, error } = useConversationData(topicId, topicTitle);
+    const { conversation, isLoading, error, retry } = useConversationData(topicId, topicTitle);
     const [isListeningMode, setIsListeningMode] = useLocalStorage('listeningMode', false);
 
     const startRoleplay = () => {
@@ -31,15 +32,23 @@ const ConversationView = () => {
 
     if (error && conversation.length === 0) {
         return (
-            <div className="text-center p-8 bg-red-50 border border-red-200 rounded-lg">
-                <h2 className="text-xl font-bold text-red-700">エラーが発生しました</h2>
-                <p className="text-red-600 mt-2">{error}</p>
-                <button
-                    onClick={() => navigate('/')}
-                    className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
-                >
-                    トピック選択に戻る
-                </button>
+            <div className="space-y-6">
+                <h1 className="text-3xl font-bold text-slate-800">{topicTitle}</h1>
+                <ErrorNotification 
+                    message={error}
+                    type="error"
+                    onRetry={retry}
+                    retryLabel="再生成する"
+                    className="max-w-2xl mx-auto"
+                />
+                <div className="text-center">
+                    <button
+                        onClick={() => navigate('/')}
+                        className="px-6 py-3 bg-slate-600 text-white font-semibold rounded-lg hover:bg-slate-700 transition-colors"
+                    >
+                        トピック選択に戻る
+                    </button>
+                </div>
             </div>
         );
     }
@@ -80,9 +89,13 @@ const ConversationView = () => {
                 </div>
             </div>
              {error && conversation.length > 0 && ( // Show a non-blocking error if we have cached data but failed to refresh
-                <div className="mb-4 p-4 bg-yellow-50 border border-yellow-200 text-yellow-800 rounded-lg text-sm">
-                    <p><strong>お知らせ:</strong> {error}</p>
-                </div>
+                <ErrorNotification
+                    message={error}
+                    type="warning"
+                    onRetry={retry}
+                    retryLabel="更新を再試行"
+                    className="mb-4"
+                />
             )}
             <div className="space-y-6">
                 {conversation.map((line, index) => (
