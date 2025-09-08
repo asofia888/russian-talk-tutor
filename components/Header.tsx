@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { useFavorites } from '../contexts/FavoritesContext';
 import BookOpenIcon from './icons/BookOpenIcon';
 import SettingsIcon from './icons/SettingsIcon';
+import LogoIcon from './icons/LogoIcon';
 
 const Header = ({ onOpenSettings }: { onOpenSettings: () => void }) => {
     const { reviewQueueCount } = useFavorites();
@@ -11,7 +12,7 @@ const Header = ({ onOpenSettings }: { onOpenSettings: () => void }) => {
         <header className="bg-white shadow-md sticky top-0 z-10">
             <div className="container mx-auto px-4 md:px-6 py-3 flex justify-between items-center">
                 <Link to="/" className="flex items-center gap-3 group">
-                    <img src="/logo.svg" alt="Russian Talk Tutor Logo" className="h-10 w-10 transition-transform duration-300 group-hover:scale-110" />
+                    <LogoIcon className="h-10 w-10 transition-transform duration-300 group-hover:scale-110" />
                     <span className="text-2xl font-bold text-slate-800 hidden sm:block group-hover:text-blue-600 transition-colors">
                         Russian Talk Tutor
                     </span>

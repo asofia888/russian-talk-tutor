@@ -4,9 +4,14 @@
   "description": "An application to help Japanese speakers learn and practice Russian conversation.",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/logo.png",
       "sizes": "192x192 512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ],
