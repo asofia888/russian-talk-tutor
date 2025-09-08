@@ -1,0 +1,17 @@
+{
+  "short_name": "Russian Talk",
+  "name": "Russian Talk Tutor",
+  "description": "An application to help Japanese speakers learn and practice Russian conversation.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0284c7",
+  "background_color": "#f8fafc"
+}

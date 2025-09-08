@@ -1,0 +1,8 @@
+{
+  "name": "Russian Talk Tutor",
+  "description": "An application to help Japanese speakers learn and practice Russian conversation, with a goal of mastering 3000 words through interactive scenarios, role-playing, and vocabulary building.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
