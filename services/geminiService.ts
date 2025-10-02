@@ -1,6 +1,15 @@
 import { ConversationLine, Feedback } from '../types';
+import { withRetryAndTimeout } from '../utils/retry';
+import {
+    APIError,
+    NetworkError,
+    RateLimitError,
+    createErrorFromStatus,
+    classifyError as globalClassifyError,
+    logError
+} from '../utils/errors';
 
-// エラーの種類を定義
+// レガシーエラータイプ（後方互換性のため）
 export enum APIErrorType {
     NETWORK_ERROR = 'NETWORK_ERROR',
     QUOTA_EXCEEDED = 'QUOTA_EXCEEDED',
@@ -10,104 +19,40 @@ export enum APIErrorType {
     UNKNOWN_ERROR = 'UNKNOWN_ERROR'
 }
 
-export class APIError extends Error {
-    public readonly type: APIErrorType;
-    public readonly originalError: any;
-    public readonly retryable: boolean;
-
-    constructor(type: APIErrorType, message: string, originalError?: any) {
-        super(message);
-        this.name = 'APIError';
-        this.type = type;
-        this.originalError = originalError;
-        this.retryable = this.isRetryable(type);
-    }
-
-    private isRetryable(type: APIErrorType): boolean {
-        return [APIErrorType.NETWORK_ERROR, APIErrorType.TIMEOUT_ERROR].includes(type);
-    }
-}
-
 // エラーの分類とメッセージの生成
-function classifyError(error: any): APIError {
+function classifyError(error: any): Error {
     // ネットワークエラー
     if (!navigator.onLine) {
-        return new APIError(
-            APIErrorType.NETWORK_ERROR,
-            'インターネット接続を確認してください。オフラインでは一部の機能が利用できません。',
-            error
-        );
+        return new NetworkError('インターネット接続を確認してください。オフラインでは一部の機能が利用できません。');
+    }
+
+    // HTTPステータスコードがある場合
+    if (error?.status) {
+        return createErrorFromStatus(error.status, error.message);
     }
 
     // APIキーエラー
-    if (error?.status === 401 || error?.message?.includes('API key') || error?.message?.includes('authentication')) {
+    if (error?.message?.includes('API key') || error?.message?.includes('authentication')) {
         return new APIError(
-            APIErrorType.API_KEY_ERROR,
+            'API authentication failed',
             'APIキーの設定に問題があります。管理者にお問い合わせください。',
-            error
+            401,
+            false
         );
     }
 
     // クォータ超過
-    if (error?.status === 429 || error?.message?.includes('quota') || error?.message?.includes('limit') || error?.message?.includes('rate limit')) {
-        return new APIError(
-            APIErrorType.QUOTA_EXCEEDED,
-            'APIの利用制限に達しました。しばらく時間をおいてから再度お試しください。',
-            error
-        );
-    }
-
-    // リクエストエラー
-    if (error?.status >= 400 && error?.status < 500) {
-        return new APIError(
-            APIErrorType.INVALID_REQUEST,
-            'リクエストに問題があります。ページを再読み込みしてお試しください。',
-            error
-        );
+    if (error?.message?.includes('quota') || error?.message?.includes('limit') || error?.message?.includes('rate limit')) {
+        return new RateLimitError();
     }
 
     // タイムアウト
     if (error?.name === 'TimeoutError' || error?.message?.includes('timeout')) {
-        return new APIError(
-            APIErrorType.TIMEOUT_ERROR,
-            'リクエストがタイムアウトしました。ネットワーク接続を確認して再度お試しください。',
-            error
-        );
+        return new NetworkError('リクエストがタイムアウトしました。ネットワーク接続を確認して再度お試しください。');
     }
 
-    // その他のエラー
-    return new APIError(
-        APIErrorType.UNKNOWN_ERROR,
-        '予期しないエラーが発生しました。しばらく時間をおいてから再度お試しください。',
-        error
-    );
-}
-
-// リトライ機能付きのAPI呼び出し
-async function withRetry<T>(
-    operation: () => Promise<T>,
-    maxRetries: number = 3,
-    delay: number = 1000
-): Promise<T> {
-    let lastError: APIError;
-
-    for (let attempt = 1; attempt <= maxRetries; attempt++) {
-        try {
-            return await operation();
-        } catch (error) {
-            lastError = classifyError(error);
-
-            // 最後の試行、またはリトライ不可能なエラーの場合は即座にthrow
-            if (attempt === maxRetries || !lastError.retryable) {
-                throw lastError;
-            }
-
-            // 指数バックオフでリトライ
-            await new Promise(resolve => setTimeout(resolve, delay * Math.pow(2, attempt - 1)));
-        }
-    }
-
-    throw lastError!;
+    // その他のエラーはグローバル分類を使用
+    return globalClassifyError(error);
 }
 
 // API endpoint base URL
@@ -121,59 +66,91 @@ const getApiBaseUrl = (): string => {
 };
 
 export const generateConversation = async (topic: string): Promise<ConversationLine[]> => {
-    return withRetry(async () => {
-        const apiUrl = `${getApiBaseUrl()}/api/generate-conversation`;
+    try {
+        return await withRetryAndTimeout(
+            async () => {
+                const apiUrl = `${getApiBaseUrl()}/api/generate-conversation`;
 
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ topic }),
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
+                    const error: any = new Error(errorData.error || 'Failed to generate conversation');
+                    error.status = response.status;
+                    throw error;
+                }
+
+                const conversation = await response.json();
+
+                if (!Array.isArray(conversation) || conversation.length === 0) {
+                    throw new Error('無効な会話データを受信しました。');
+                }
+
+                return conversation as ConversationLine[];
             },
-            body: JSON.stringify({ topic }),
-        });
-
-        if (!response.ok) {
-            const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
-            const error: any = new Error(errorData.error || 'Failed to generate conversation');
-            error.status = response.status;
-            throw error;
-        }
-
-        const conversation = await response.json();
-
-        if (!Array.isArray(conversation) || conversation.length === 0) {
-            throw new Error('無効な会話データを受信しました。');
-        }
-
-        return conversation as ConversationLine[];
-    });
+            30000, // 30秒タイムアウト
+            {
+                maxAttempts: 3,
+                initialDelay: 1000,
+                onRetry: (error, attempt, delay) => {
+                    console.log(`会話生成をリトライします (${attempt}/3)。${Math.round(delay / 1000)}秒後に再試行...`);
+                }
+            }
+        );
+    } catch (error) {
+        const classifiedError = classifyError(error);
+        logError(classifiedError, 'generateConversation');
+        throw classifiedError;
+    }
 };
 
 export const getPronunciationFeedback = async (transcript: string, correctPhrase: string): Promise<Feedback> => {
-    return withRetry(async () => {
-        const apiUrl = `${getApiBaseUrl()}/api/pronunciation-feedback`;
+    try {
+        return await withRetryAndTimeout(
+            async () => {
+                const apiUrl = `${getApiBaseUrl()}/api/pronunciation-feedback`;
 
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ transcript, correctPhrase }),
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
+                    const error: any = new Error(errorData.error || 'Failed to generate feedback');
+                    error.status = response.status;
+                    throw error;
+                }
+
+                const feedback = await response.json();
+
+                if (!feedback || typeof feedback.score !== 'number' || typeof feedback.feedback !== 'string') {
+                    throw new Error('無効なフィードバックデータを受信しました。');
+                }
+
+                return feedback as Feedback;
             },
-            body: JSON.stringify({ transcript, correctPhrase }),
-        });
-
-        if (!response.ok) {
-            const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
-            const error: any = new Error(errorData.error || 'Failed to generate feedback');
-            error.status = response.status;
-            throw error;
-        }
-
-        const feedback = await response.json();
-
-        if (!feedback || typeof feedback.score !== 'number' || typeof feedback.feedback !== 'string') {
-            throw new Error('無効なフィードバックデータを受信しました。');
-        }
-
-        return feedback as Feedback;
-    }, 2); // フィードバックは重要度が低いため、リトライ回数を減らす
+            15000, // 15秒タイムアウト
+            {
+                maxAttempts: 2, // フィードバックは重要度が低いため、リトライ回数を減らす
+                initialDelay: 500,
+                onRetry: (error, attempt, delay) => {
+                    console.log(`発音フィードバックをリトライします (${attempt}/2)...`);
+                }
+            }
+        );
+    } catch (error) {
+        const classifiedError = classifyError(error);
+        logError(classifiedError, 'getPronunciationFeedback');
+        throw classifiedError;
+    }
 };

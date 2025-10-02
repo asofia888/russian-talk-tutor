@@ -9,6 +9,7 @@ import RoleplayView from './components/RoleplayView';
 import LegalView from './components/LegalView';
 import NotFoundView from './components/NotFoundView';
 import ErrorBoundary from './components/ErrorBoundary';
+import NetworkStatusBanner from './components/NetworkStatusBanner';
 import { FavoritesProvider } from './contexts/FavoritesContext';
 import { AudioProvider } from './contexts/AudioContext';
 import SettingsModal from './components/SettingsModal';
@@ -36,6 +37,7 @@ function App() {
             <FavoritesProvider>
                 <AudioProvider>
                     <HashRouter>
+                        <NetworkStatusBanner />
                         <div className="min-h-screen flex flex-col">
                             <Header onOpenSettings={() => setIsSettingsModalOpen(true)} />
                             <main className="flex-grow container mx-auto p-4 md:p-6">
@@ -62,11 +64,6 @@ function App() {
                             isOpen={isSettingsModalOpen}
                             onClose={() => setIsSettingsModalOpen(false)}
                         />
-                        {!isOnline && (
-                            <div className="fixed bottom-4 right-4 bg-slate-800 text-white text-sm font-semibold px-4 py-2 rounded-lg shadow-lg z-50 animate-pulse">
-                                オフラインモード
-                            </div>
-                        )}
                     </HashRouter>
                 </AudioProvider>
             </FavoritesProvider>
