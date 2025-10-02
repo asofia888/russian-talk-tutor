@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const tips = [
     'ロシア語の挨拶「Здравствуйте (zdrastvuyte)」は、フォーマルな場面で使える丁寧な言葉です。親しい間柄では「Привет (privet)」を使います。',

@@ -50,7 +50,7 @@ describe('FavoritesContext', () => {
     });
 
     expect(result.current.favorites).toHaveLength(1);
-    expect(result.current.favorites[0]).toMatchObject({
+    expect(result.current.favorites[0]!).toMatchObject({
       russian: 'Привет',
       pronunciation: 'Privet',
       japanese: 'こんにちは',
@@ -58,7 +58,7 @@ describe('FavoritesContext', () => {
       interval: 0,
       easeFactor: 2.5,
     });
-    expect(result.current.favorites[0].nextReviewDate).toBeDefined();
+    expect(result.current.favorites[0]!.nextReviewDate).toBeDefined();
   });
 
   it('should not add duplicate favorites', () => {
@@ -112,8 +112,8 @@ describe('FavoritesContext', () => {
       result.current.addFavorite(mockWord); // Привет
     });
 
-    expect(result.current.favorites[0].russian).toBe('Привет');
-    expect(result.current.favorites[1].russian).toBe('Спасибо');
+    expect(result.current.favorites[0]!.russian).toBe('Привет');
+    expect(result.current.favorites[1]!.russian).toBe('Спасибо');
   });
 
   it('should update favorite with "again" performance', () => {
@@ -123,13 +123,13 @@ describe('FavoritesContext', () => {
       result.current.addFavorite(mockWord);
     });
 
-    const initialWord = result.current.favorites[0];
+    const initialWord = result.current.favorites[0]!;
 
     act(() => {
       result.current.updateFavorite('Привет', 'again');
     });
 
-    const updatedWord = result.current.favorites[0];
+    const updatedWord = result.current.favorites[0]!;
 
     expect(updatedWord.repetition).toBe(0);
     expect(updatedWord.interval).toBe(1);
@@ -147,7 +147,7 @@ describe('FavoritesContext', () => {
       result.current.updateFavorite('Привет', 'good');
     });
 
-    const updatedWord = result.current.favorites[0];
+    const updatedWord = result.current.favorites[0]!;
 
     expect(updatedWord.repetition).toBe(1);
     expect(updatedWord.interval).toBe(1);
@@ -169,7 +169,7 @@ describe('FavoritesContext', () => {
       result.current.updateFavorite('Привет', 'good');
     });
 
-    const updatedWord = result.current.favorites[0];
+    const updatedWord = result.current.favorites[0]!;
 
     expect(updatedWord.repetition).toBe(2);
     expect(updatedWord.interval).toBe(6);
@@ -182,13 +182,13 @@ describe('FavoritesContext', () => {
       result.current.addFavorite(mockWord);
     });
 
-    const initialEaseFactor = result.current.favorites[0].easeFactor;
+    const initialEaseFactor = result.current.favorites[0]!.easeFactor;
 
     act(() => {
       result.current.updateFavorite('Привет', 'easy');
     });
 
-    const updatedWord = result.current.favorites[0];
+    const updatedWord = result.current.favorites[0]!;
 
     expect(updatedWord.repetition).toBe(1);
     expect(updatedWord.easeFactor).toBe(initialEaseFactor + 0.15);
@@ -205,19 +205,19 @@ describe('FavoritesContext', () => {
     act(() => {
       result.current.updateFavorite('Привет', 'good');
     });
-    expect(result.current.favorites[0].interval).toBe(1);
+    expect(result.current.favorites[0]!.interval).toBe(1);
 
     // Second repetition: interval = 6
     act(() => {
       result.current.updateFavorite('Привет', 'good');
     });
-    expect(result.current.favorites[0].interval).toBe(6);
+    expect(result.current.favorites[0]!.interval).toBe(6);
 
     // Third repetition: interval = ceil(6 * 2.5) = 15
     act(() => {
       result.current.updateFavorite('Привет', 'good');
     });
-    expect(result.current.favorites[0].interval).toBe(15);
+    expect(result.current.favorites[0]!.interval).toBe(15);
   });
 
   it('should calculate reviewQueueCount correctly', () => {
@@ -252,7 +252,7 @@ describe('FavoritesContext', () => {
 
     const parsed = JSON.parse(stored!);
     expect(parsed).toHaveLength(1);
-    expect(parsed[0].russian).toBe('Привет');
+    expect(parsed[0]!.russian).toBe('Привет');
   });
 
   it('should load favorites from localStorage on mount', () => {
@@ -271,7 +271,7 @@ describe('FavoritesContext', () => {
     const { result } = renderHook(() => useFavorites(), { wrapper });
 
     expect(result.current.favorites).toHaveLength(1);
-    expect(result.current.favorites[0].russian).toBe('Привет');
+    expect(result.current.favorites[0]!.russian).toBe('Привет');
   });
 
   it('should not update non-existent favorite', () => {
@@ -304,7 +304,7 @@ describe('FavoritesContext', () => {
       result.current.updateFavorite('Привет', 'good');
     });
 
-    const updatedWord = result.current.favorites[0];
+    const updatedWord = result.current.favorites[0]!;
     const nextReviewDate = new Date(updatedWord.nextReviewDate);
 
     expect(nextReviewDate.getTime()).toBeGreaterThan(today.getTime());

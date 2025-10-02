@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { useConversationData } from '../hooks/useConversationData';
 import ConversationCard from './ConversationCard';

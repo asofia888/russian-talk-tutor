@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { ConversationLine } from '../types';
 import MicIcon from './icons/MicIcon';
 import ArrowRightIcon from './icons/ArrowRightIcon';

@@ -1,5 +1,4 @@
 
-import React from 'react';
 import LoadingSpinner from './icons/LoadingSpinner';
 import LoadingTips from './LoadingTips';
 

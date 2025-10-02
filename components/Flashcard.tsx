@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FavoriteWord } from '../types';
 import { useFavorites } from '../contexts/FavoritesContext';
 import { useAudio } from '../contexts/AudioContext';

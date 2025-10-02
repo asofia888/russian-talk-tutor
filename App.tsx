@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
 import TopicSelection from './components/TopicSelection';
@@ -16,20 +16,6 @@ import SettingsModal from './components/SettingsModal';
 
 function App() {
     const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
-    const [isOnline, setIsOnline] = useState(navigator.onLine);
-
-    useEffect(() => {
-        const handleOnline = () => setIsOnline(true);
-        const handleOffline = () => setIsOnline(false);
-
-        window.addEventListener('online', handleOnline);
-        window.addEventListener('offline', handleOffline);
-
-        return () => {
-            window.removeEventListener('online', handleOnline);
-            window.removeEventListener('offline', handleOffline);
-        };
-    }, []);
 
 
     return (

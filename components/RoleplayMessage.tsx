@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Message } from '../types';
 import LoadingSpinner from './icons/LoadingSpinner';
 import CheckCircleIcon from './icons/CheckCircleIcon';

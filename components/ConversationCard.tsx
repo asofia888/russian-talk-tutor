@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ConversationLine, Word } from '../types';
 import WordChip from './WordChip';
 import PlayIcon from './icons/PlayIcon';

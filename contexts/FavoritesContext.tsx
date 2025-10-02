@@ -1,5 +1,5 @@
 
-import React, { createContext, useContext, ReactNode, useMemo } from 'react';
+import { createContext, useContext, ReactNode, useMemo } from 'react';
 import { Word, FavoriteWord } from '../types';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 

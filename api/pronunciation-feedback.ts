@@ -46,7 +46,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             return res.status(400).json({ error: 'Correct phrase is required and must be a string' });
         }
 
-        const apiKey = process.env.GEMINI_API_KEY;
+        const apiKey = process.env['GEMINI_API_KEY'];
         if (!apiKey) {
             console.error('GEMINI_API_KEY is not set');
             return res.status(500).json({ error: 'Server configuration error' });
@@ -65,7 +65,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             },
         });
 
-        const jsonText = response.text.trim();
+        const jsonText = response.text?.trim();
         if (!jsonText) {
             throw new Error('Empty response from AI');
         }

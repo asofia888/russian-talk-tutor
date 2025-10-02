@@ -16,7 +16,7 @@ interface SpeechRecognitionHook {
 const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 export const useSpeechRecognition = (): SpeechRecognitionHook => {
-    const [isSupported, setIsSupported] = useState(!!SpeechRecognitionAPI);
+    const [isSupported] = useState(!!SpeechRecognitionAPI);
     const [isListening, setIsListening] = useState(false);
     const [transcript, setTranscript] = useState('');
     const [error, setError] = useState<string | null>(null);
@@ -33,8 +33,12 @@ export const useSpeechRecognition = (): SpeechRecognitionHook => {
         recognition.onresult = (event: SpeechRecognitionEvent) => {
             let finalTranscript = '';
             for (let i = event.resultIndex; i < event.results.length; ++i) {
-                if (event.results[i].isFinal) {
-                    finalTranscript += event.results[i][0].transcript;
+                const result = event.results[i];
+                if (result && result.isFinal) {
+                    const transcript = result[0];
+                    if (transcript) {
+                        finalTranscript += transcript.transcript;
+                    }
                 }
             }
             if (finalTranscript) {

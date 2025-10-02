@@ -1,4 +1,4 @@
-import React, { Component, ErrorInfo, ReactNode } from 'react';
+import { Component, ErrorInfo, ReactNode } from 'react';
 import AlertTriangleIcon from './icons/AlertTriangleIcon';
 import { AppError, classifyError, logError } from '../utils/errors';
 import { recoveryStrategies } from '../hooks/useErrorRecovery';
@@ -30,7 +30,7 @@ class ErrorBoundary extends Component<Props, State> {
         };
     }
 
-    componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+    override componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
         const appError = classifyError(error);
 
         logError(appError, 'ErrorBoundary');
@@ -44,13 +44,11 @@ class ErrorBoundary extends Component<Props, State> {
         this.props.onError?.(appError, errorInfo);
     }
 
-    handleRetry = () => {
-        this.setState(prev => ({
+    handleRetry = (): void => {
+        this.setState({
             hasError: false,
-            error: undefined,
-            errorInfo: undefined,
-            retryCount: prev.retryCount + 1,
-        }));
+            retryCount: this.state.retryCount + 1,
+        });
     };
 
     handleClearCache = async () => {
@@ -67,7 +65,7 @@ class ErrorBoundary extends Component<Props, State> {
         recoveryStrategies.reloadPage();
     };
 
-    render() {
+    override render(): ReactNode {
         if (this.state.hasError) {
             if (this.props.fallback) {
                 return this.props.fallback;
@@ -120,7 +118,7 @@ class ErrorBoundary extends Component<Props, State> {
                             )}
                         </div>
 
-                        {import.meta.env.DEV && error && (
+                        {import.meta.env?.DEV && error && (
                             <details className="mt-6 text-left">
                                 <summary className="cursor-pointer text-sm text-slate-500 hover:text-slate-700">
                                     開発者向け情報を表示

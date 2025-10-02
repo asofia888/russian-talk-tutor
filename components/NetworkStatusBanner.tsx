@@ -18,9 +18,10 @@ const NetworkStatusBanner: React.FC = () => {
 
       return () => clearTimeout(timer);
     }
+    return undefined;
   }, [isOnline, wasOffline, reconnect]);
 
-  // オフライン時のバナー
+  // Always return JSX or null for type safety
   if (!isOnline) {
     return (
       <div className="fixed top-0 left-0 right-0 z-50 bg-red-600 text-white px-4 py-3 shadow-lg">
@@ -37,7 +38,6 @@ const NetworkStatusBanner: React.FC = () => {
     );
   }
 
-  // 再接続時のバナー
   if (showReconnected) {
     return (
       <div className="fixed top-0 left-0 right-0 z-50 bg-green-600 text-white px-4 py-3 shadow-lg animate-slide-down">
@@ -61,7 +61,6 @@ const NetworkStatusBanner: React.FC = () => {
     );
   }
 
-  // 低速ネットワーク時の警告
   if (networkQuality === 'poor') {
     return (
       <div className="fixed top-0 left-0 right-0 z-50 bg-yellow-500 text-white px-4 py-2 shadow-lg">

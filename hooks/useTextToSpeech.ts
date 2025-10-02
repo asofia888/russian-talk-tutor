@@ -24,6 +24,7 @@ export const useTextToSpeech = () => {
                 window.speechSynthesis.cancel();
             };
         }
+        return undefined;
     }, []);
 
     const speak = useCallback((text: string, lang: string, onEnd?: () => void) => {
@@ -42,7 +43,11 @@ export const useTextToSpeech = () => {
         // 2. Otherwise, search for any other voice that matches the language.
         // 3. If no matching voice is found, do not set `utterance.voice` and let the browser choose based on `utterance.lang`.
         let voiceToUse: SpeechSynthesisVoice | null = null;
-        const langPrefix = lang.split('-')[0];
+        const langPrefixParts = lang.split('-');
+        const langPrefix = langPrefixParts[0];
+        if (!langPrefix) {
+            return;
+        }
 
         if (selectedVoice && selectedVoice.lang.startsWith(langPrefix)) {
             voiceToUse = selectedVoice;

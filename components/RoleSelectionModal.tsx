@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 interface RoleSelectionModalProps {
     speakers: string[];
     onSelect: (speaker: string) => void;

@@ -98,8 +98,8 @@ export const generateConversation = async (topic: string): Promise<ConversationL
             {
                 maxAttempts: 3,
                 initialDelay: 1000,
-                onRetry: (error, attempt, delay) => {
-                    console.log(`会話生成をリトライします (${attempt}/3)。${Math.round(delay / 1000)}秒後に再試行...`);
+                onRetry: (_error, attempt, _delay) => {
+                    console.log(`会話生成をリトライします (${attempt}/3)。${Math.round(_delay / 1000)}秒後に再試行...`);
                 }
             }
         );
@@ -143,7 +143,7 @@ export const getPronunciationFeedback = async (transcript: string, correctPhrase
             {
                 maxAttempts: 2, // フィードバックは重要度が低いため、リトライ回数を減らす
                 initialDelay: 500,
-                onRetry: (error, attempt, delay) => {
+                onRetry: (_error, attempt, _delay) => {
                     console.log(`発音フィードバックをリトライします (${attempt}/2)...`);
                 }
             }

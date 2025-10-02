@@ -1,4 +1,3 @@
-import React from 'react';
 // FIX: Import Declension type for use in component constants.
 import { Word, Declension } from '../types';
 

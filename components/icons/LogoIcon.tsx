@@ -1,5 +1,3 @@
-import React from 'react';
-
 const LogoIcon = ({ className }: { className?: string }) => (
     <svg
         className={className}

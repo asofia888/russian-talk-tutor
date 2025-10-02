@@ -12,7 +12,7 @@ export enum ErrorType {
 export class AppError extends Error {
   public readonly type: ErrorType;
   public readonly userMessage: string;
-  public readonly originalError?: Error;
+  public readonly originalError: Error | undefined;
   public readonly retryable: boolean;
 
   constructor(
@@ -27,7 +27,9 @@ export class AppError extends Error {
     this.type = type;
     this.userMessage = userMessage;
     this.retryable = retryable;
-    this.originalError = originalError;
+    if (originalError !== undefined) {
+      this.originalError = originalError;
+    }
 
     // プロトタイプチェーンの修正
     Object.setPrototypeOf(this, AppError.prototype);
@@ -51,7 +53,7 @@ export class NetworkError extends AppError {
 
 // APIエラー
 export class APIError extends AppError {
-  public readonly statusCode?: number;
+  public readonly statusCode: number | undefined;
 
   constructor(
     message: string,
@@ -62,14 +64,16 @@ export class APIError extends AppError {
   ) {
     super(ErrorType.API, message, userMessage, retryable, originalError);
     this.name = 'APIError';
-    this.statusCode = statusCode;
+    if (statusCode !== undefined) {
+      this.statusCode = statusCode;
+    }
     Object.setPrototypeOf(this, APIError.prototype);
   }
 }
 
 // レート制限エラー
 export class RateLimitError extends AppError {
-  public readonly retryAfter?: number;
+  public readonly retryAfter: number | undefined;
 
   constructor(retryAfter?: number, originalError?: Error) {
     super(
@@ -80,7 +84,9 @@ export class RateLimitError extends AppError {
       originalError
     );
     this.name = 'RateLimitError';
-    this.retryAfter = retryAfter;
+    if (retryAfter !== undefined) {
+      this.retryAfter = retryAfter;
+    }
     Object.setPrototypeOf(this, RateLimitError.prototype);
   }
 }

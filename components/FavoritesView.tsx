@@ -1,5 +1,5 @@
 
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { useFavorites } from '../contexts/FavoritesContext';
 import Flashcard from './Flashcard';
 import LearnedWordListItem from './LearnedWordListItem';
@@ -16,7 +16,7 @@ const FavoritesView = () => {
         const queue = favorites
             .filter(f => new Date(f.nextReviewDate) <= today)
             .sort((a, b) => new Date(a.nextReviewDate).getTime() - new Date(b.nextReviewDate).getTime());
-        
+
         return [queue, favorites];
     }, [favorites]);
 
@@ -33,6 +33,11 @@ const FavoritesView = () => {
         );
     }
 
+    const firstWord = reviewQueue[0];
+    if (!firstWord) {
+        return null;
+    }
+
     return (
         <div className="space-y-12">
             <section>
@@ -46,7 +51,7 @@ const FavoritesView = () => {
                                 <h2 className="text-xl font-bold text-slate-700">本日レビューする単語</h2>
                                 <span className="px-4 py-1 bg-blue-100 text-blue-700 font-bold rounded-full">{reviewQueue.length}</span>
                             </div>
-                            <Flashcard word={reviewQueue[0]} key={reviewQueue[0].russian} />
+                            <Flashcard word={firstWord} key={firstWord.russian} />
                         </>
                     ) : (
                         <div className="text-center py-10">

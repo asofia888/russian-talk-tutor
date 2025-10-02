@@ -51,7 +51,7 @@ describe('useRoleplay', () => {
     });
 
     expect(result.current.messages).toHaveLength(1);
-    expect(result.current.messages[0]).toMatchObject({
+    expect(result.current.messages[0]!).toMatchObject({
       speaker: 'A',
       text: 'Привет',
       pronunciation: 'Privet',
@@ -62,9 +62,9 @@ describe('useRoleplay', () => {
 
   it('should add user message and fetch feedback', async () => {
     const mockFeedback = {
-      isCorrect: true,
+      is_correct: true,
       score: 95,
-      feedback: 'Excellent pronunciation!',
+      text: 'Excellent pronunciation!',
     };
 
     vi.mocked(geminiService.getPronunciationFeedback).mockResolvedValue(mockFeedback);
@@ -83,7 +83,7 @@ describe('useRoleplay', () => {
       expect(result.current.messages).toHaveLength(1);
     });
 
-    const userMessage = result.current.messages[0];
+    const userMessage = result.current.messages[0]!;
     expect(userMessage.isUser).toBe(true);
     expect(userMessage.text).toBe('Privet');
     expect(userMessage.correctPhrase).toBe('Привет');
@@ -107,10 +107,10 @@ describe('useRoleplay', () => {
     });
 
     await waitFor(() => {
-      expect(result.current.messages[0].isFeedbackLoading).toBe(false);
+      expect(result.current.messages[0]!.isFeedbackLoading).toBe(false);
     });
 
-    const userMessage = result.current.messages[0];
+    const userMessage = result.current.messages[0]!;
     expect(userMessage.feedbackError).toBe('API Error');
     expect(userMessage.feedback).toBeUndefined();
   });
@@ -162,9 +162,9 @@ describe('useRoleplay', () => {
 
   it('should handle multiple messages in sequence', async () => {
     vi.mocked(geminiService.getPronunciationFeedback).mockResolvedValue({
-      isCorrect: true,
+      is_correct: true,
       score: 90,
-      feedback: 'Good',
+      text: 'Good',
     });
 
     const { result } = renderHook(() => useRoleplay());
@@ -187,7 +187,7 @@ describe('useRoleplay', () => {
       expect(result.current.messages).toHaveLength(2);
     });
 
-    expect(result.current.messages[0].isUser).toBe(false);
-    expect(result.current.messages[1].isUser).toBe(true);
+    expect(result.current.messages[0]!.isUser).toBe(false);
+    expect(result.current.messages[1]!.isUser).toBe(true);
   });
 });

@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ConversationLine } from '../types';
 import { useSpeechRecognition } from '../hooks/useSpeechRecognition';
@@ -104,7 +104,7 @@ const RoleplayView = () => {
 
     const lastMessage = messages.length > 0 ? messages[messages.length - 1] : null;
     // Check if the last message corresponds to the current turn for the user
-    const userHasCompletedTurn = isUserTurn && lastMessage?.isUser && lastMessage.correctPhrase === currentLine.russian;
+    const userHasCompletedTurn = isUserTurn && !!lastMessage?.isUser && lastMessage.correctPhrase === currentLine?.russian;
 
 
     return (
@@ -144,7 +144,7 @@ const RoleplayView = () => {
                 isUserTurn={isUserTurn}
                 userHasCompletedTurn={userHasCompletedTurn}
                 isSpeaking={isSpeaking}
-                currentLine={currentLine}
+                currentLine={currentLine ?? null}
                 isMicSupported={isSupported}
                 isListening={isListening}
                 transcript={transcript}

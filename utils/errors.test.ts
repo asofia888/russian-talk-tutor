@@ -141,7 +141,7 @@ describe('createErrorFromStatus', () => {
     const error = createErrorFromStatus(400);
 
     expect(error).toBeInstanceOf(APIError);
-    expect(error.statusCode).toBe(400);
+    expect((error as APIError).statusCode).toBe(400);
     expect(error.retryable).toBe(false);
   });
 
@@ -155,7 +155,7 @@ describe('createErrorFromStatus', () => {
     const error = createErrorFromStatus(404);
 
     expect(error).toBeInstanceOf(APIError);
-    expect(error.statusCode).toBe(404);
+    expect((error as APIError).statusCode).toBe(404);
   });
 
   it('should create error for 429 Rate Limit', () => {
@@ -168,7 +168,7 @@ describe('createErrorFromStatus', () => {
     const error = createErrorFromStatus(500);
 
     expect(error).toBeInstanceOf(APIError);
-    expect(error.statusCode).toBe(500);
+    expect((error as APIError).statusCode).toBe(500);
     expect(error.retryable).toBe(true);
   });
 
