@@ -1,5 +1,7 @@
 # Russian Talk Tutor - 使用説明書
 
+> ⚠️ **重要**: このアプリを使用するには、Vercelダッシュボードで `GEMINI_API_KEY` 環境変数を設定する必要があります。詳しくは [DEPLOYMENT_INSTRUCTIONS.md](./DEPLOYMENT_INSTRUCTIONS.md) を参照してください。
+
 ## 概要
 
 「Russian Talk Tutor」は、GoogleのGemini AIを活用して、日本語話者がロシア語の会話をリアルなシナリオで練習できるウェブアプリケーションです。3000語の習得を目標に、初心者から上級者まで、自分のレベルに合ったトピックを選び、実践的な会話力と語彙力を身につけることを目指します。

@@ -108,7 +108,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const apiKey = process.env['GEMINI_API_KEY'];
         if (!apiKey) {
             console.error('GEMINI_API_KEY is not set');
-            return res.status(500).json({ error: 'Server configuration error' });
+            return res.status(500).json({
+                error: 'Server configuration error: GEMINI_API_KEY is not configured',
+                hint: 'Please set the GEMINI_API_KEY environment variable in Vercel dashboard'
+            });
         }
 
         const ai = new GoogleGenAI({ apiKey });
