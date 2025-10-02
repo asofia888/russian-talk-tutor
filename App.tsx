@@ -1,18 +1,21 @@
 
-import { useState } from 'react';
+import { useState, lazy, Suspense } from 'react';
 import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
 import TopicSelection from './components/TopicSelection';
-import ConversationView from './components/ConversationView';
-import FavoritesView from './components/FavoritesView';
-import RoleplayView from './components/RoleplayView';
-import LegalView from './components/LegalView';
-import NotFoundView from './components/NotFoundView';
 import ErrorBoundary from './components/ErrorBoundary';
 import NetworkStatusBanner from './components/NetworkStatusBanner';
+import LoadingSpinner from './components/LoadingSpinner';
 import { FavoritesProvider } from './contexts/FavoritesContext';
 import { AudioProvider } from './contexts/AudioContext';
-import SettingsModal from './components/SettingsModal';
+
+// Lazy load heavy components
+const ConversationView = lazy(() => import('./components/ConversationView'));
+const FavoritesView = lazy(() => import('./components/FavoritesView'));
+const RoleplayView = lazy(() => import('./components/RoleplayView'));
+const LegalView = lazy(() => import('./components/LegalView'));
+const NotFoundView = lazy(() => import('./components/NotFoundView'));
+const SettingsModal = lazy(() => import('./components/SettingsModal'));
 
 function App() {
     const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
@@ -28,14 +31,16 @@ function App() {
                             <Header onOpenSettings={() => setIsSettingsModalOpen(true)} />
                             <main className="flex-grow container mx-auto p-4 md:p-6">
                                 <ErrorBoundary>
-                                    <Routes>
-                                        <Route path="/" element={<TopicSelection />} />
-                                        <Route path="/conversation/:topicId" element={<ConversationView />} />
-                                        <Route path="/favorites" element={<FavoritesView />} />
-                                        <Route path="/roleplay" element={<RoleplayView />} />
-                                        <Route path="/legal" element={<LegalView />} />
-                                        <Route path="*" element={<NotFoundView />} />
-                                    </Routes>
+                                    <Suspense fallback={<LoadingSpinner />}>
+                                        <Routes>
+                                            <Route path="/" element={<TopicSelection />} />
+                                            <Route path="/conversation/:topicId" element={<ConversationView />} />
+                                            <Route path="/favorites" element={<FavoritesView />} />
+                                            <Route path="/roleplay" element={<RoleplayView />} />
+                                            <Route path="/legal" element={<LegalView />} />
+                                            <Route path="*" element={<NotFoundView />} />
+                                        </Routes>
+                                    </Suspense>
                                 </ErrorBoundary>
                             </main>
                             <footer className="text-center p-4 text-slate-500 text-sm">
@@ -46,10 +51,14 @@ function App() {
                                 <p>© 2024 Russian Talk Tutor. All rights reserved.</p>
                             </footer>
                         </div>
-                        <SettingsModal
-                            isOpen={isSettingsModalOpen}
-                            onClose={() => setIsSettingsModalOpen(false)}
-                        />
+                        {isSettingsModalOpen && (
+                            <Suspense fallback={null}>
+                                <SettingsModal
+                                    isOpen={isSettingsModalOpen}
+                                    onClose={() => setIsSettingsModalOpen(false)}
+                                />
+                            </Suspense>
+                        )}
                     </HashRouter>
                 </AudioProvider>
             </FavoritesProvider>
