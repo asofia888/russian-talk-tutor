@@ -9,13 +9,19 @@
       "maxDuration": 60
     }
   },
-  "routes": [
+  "headers": [
     {
-      "src": "/service-worker.js",
-      "headers": {
-        "Content-Type": "application/javascript; charset=utf-8",
-        "Service-Worker-Allowed": "/"
-      }
+      "source": "/service-worker.js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "key": "Service-Worker-Allowed",
+          "value": "/"
+        }
+      ]
     }
   ]
 }
