@@ -56,7 +56,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         }
 
         const ai = new GoogleGenAI({ apiKey });
-        const model = "gemini-2.0-flash-exp";
+        const model = "gemini-flash-latest";
 
         const response = await ai.models.generateContent({
             model: model,
