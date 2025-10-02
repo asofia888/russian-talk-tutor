@@ -94,7 +94,7 @@ export const generateConversation = async (topic: string): Promise<ConversationL
 
                 return conversation as ConversationLine[];
             },
-            30000, // 30秒タイムアウト
+            60000, // 60秒タイムアウト (Gemini APIのレスポンスが遅い場合に対応)
             {
                 maxAttempts: 3,
                 initialDelay: 1000,
