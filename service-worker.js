@@ -14,7 +14,13 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') {
     return;
   }
-  
+
+  // Skip non-HTTP(S) schemes (chrome-extension, etc.)
+  const url = new URL(event.request.url);
+  if (!url.protocol.startsWith('http')) {
+    return;
+  }
+
   // For API calls to Gemini, always go to the network.
   if (event.request.url.includes('generativelanguage.googleapis.com')) {
     // This will fall back to the browser's default fetch behavior.
@@ -28,7 +34,10 @@ self.addEventListener('fetch', event => {
       if (fetchResponse && fetchResponse.status === 200) {
         const responseToCache = fetchResponse.clone();
         caches.open(CACHE_NAME).then(cache => {
-          cache.put(event.request, responseToCache);
+          cache.put(event.request, responseToCache).catch(err => {
+            // Silently ignore cache errors (e.g., quota exceeded, unsupported schemes)
+            console.log('Cache put failed:', err.message);
+          });
         });
       }
       return fetchResponse;

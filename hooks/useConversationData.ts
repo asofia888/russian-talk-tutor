@@ -51,7 +51,9 @@ export const useConversationData = (topicId: string | undefined, topicTitle: str
 
             // 2. Fetch from network to get the latest data or initial data
             try {
-                const freshData = await generateConversation(topicTitle);
+                // Use topicId for predefined topics (e.g., "b-greetings"), topicTitle for custom topics
+                const topicIdentifier = isCustomTopic ? topicTitle : topicId;
+                const freshData = await generateConversation(topicIdentifier);
                 if (isComponentMounted) {
                     setConversation(freshData);
                     // Update cache with fresh data (skip for custom topics)
