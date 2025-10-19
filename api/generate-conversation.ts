@@ -1,5 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleGenAI, Type } from "@google/genai";
+import fs from 'fs';
+import path from 'path';
 
 const declensionSchema = {
     type: Type.OBJECT,
@@ -105,6 +107,20 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             return res.status(400).json({ error: 'Topic is required and must be a string' });
         }
 
+        // Try to load fixed conversation data first
+        const conversationPath = path.join(process.cwd(), 'data', 'conversations', `${topic}.json`);
+
+        try {
+            if (fs.existsSync(conversationPath)) {
+                const conversationData = fs.readFileSync(conversationPath, 'utf-8');
+                const conversation = JSON.parse(conversationData);
+                return res.status(200).json(conversation);
+            }
+        } catch (fileError) {
+            console.log(`Fixed conversation not found for topic: ${topic}, falling back to AI generation`);
+        }
+
+        // Fallback to AI generation if fixed data not found
         const apiKey = process.env['GEMINI_API_KEY'];
         if (!apiKey) {
             console.error('GEMINI_API_KEY is not set');

@@ -1,0 +1,455 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Позвольте представиться. Меня зовут Иван Петрович. Я представляю компанию «Прогресс».",
+    "pronunciation": "Pazvol'tye pryedstavitsa. Myenya zavut Ivan Pyetrovich. Ya pryedstavlyayu kampaniyu «Pragryes».",
+    "japanese": "自己紹介させてください。私の名前はイワン・ペトロヴィチです。「プログレス」社を代表しています。",
+    "words": [
+      {
+        "russian": "Позвольте",
+        "pronunciation": "Pazvol'tye",
+        "japanese": "許してください（命令形）"
+      },
+      {
+        "russian": "представиться",
+        "pronunciation": "pryedstavitsa",
+        "japanese": "自己紹介する（完了体）"
+      },
+      {
+        "russian": "Меня",
+        "pronunciation": "Myenya",
+        "japanese": "私を"
+      },
+      {
+        "russian": "зовут",
+        "pronunciation": "zavut",
+        "japanese": "呼ぶ"
+      },
+      {
+        "russian": "Иван",
+        "pronunciation": "Ivan",
+        "japanese": "イワン（名）"
+      },
+      {
+        "russian": "Петрович",
+        "pronunciation": "Pyetrovich",
+        "japanese": "ペトロヴィチ（父称）"
+      },
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "представляю",
+        "pronunciation": "pryedstavlyayu",
+        "japanese": "代表する"
+      },
+      {
+        "russian": "компанию",
+        "pronunciation": "kampaniyu",
+        "japanese": "会社（対格）"
+      },
+      {
+        "russian": "Прогресс",
+        "pronunciation": "Pragryes",
+        "japanese": "プログレス"
+      }
+    ],
+    "grammarPoint": {
+      "title": "丁寧な依頼「Позвольте + 不定形」",
+      "explanation": "「Позвольте」（許してください）+ 不定形は非常に丁寧で公式的な依頼や許可を求める表現です。ビジネスや公式な場面でよく使われます。「Позвольте представиться」で「自己紹介させてください」という意味です。",
+      "examples": [
+        {
+          "russian": "Позвольте задать вопрос.",
+          "pronunciation": "Pazvol'tye zadat' vaprоs.",
+          "japanese": "質問させてください。"
+        },
+        {
+          "russian": "Позвольте выразить благодарность.",
+          "pronunciation": "Pazvol'tye vyrazit' blagadarnost'.",
+          "japanese": "感謝を表明させてください。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Очень приятно. Я — Анна Сергеевна, директор по развитию. Чем могу быть полезна?",
+    "pronunciation": "Ochin' priyatna. Ya — Anna Syergyeyevna, diryektar pa razvitiyuю Chyem magu byt' palyezna?",
+    "japanese": "お会いできて嬉しいです。私はアンナ・セルゲーエヴナ、開発部長です。何かお役に立てますか?",
+    "words": [
+      {
+        "russian": "Очень",
+        "pronunciation": "Ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "приятно",
+        "pronunciation": "priyatna",
+        "japanese": "嬉しい"
+      },
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "Анна",
+        "pronunciation": "Anna",
+        "japanese": "アンナ（名）"
+      },
+      {
+        "russian": "Сергеевна",
+        "pronunciation": "Syergyeyevna",
+        "japanese": "セルゲーエヴナ（女性父称）"
+      },
+      {
+        "russian": "директор",
+        "pronunciation": "diryektar",
+        "japanese": "部長、責任者"
+      },
+      {
+        "russian": "по",
+        "pronunciation": "pa",
+        "japanese": "～担当の"
+      },
+      {
+        "russian": "развитию",
+        "pronunciation": "razvitiyuю",
+        "japanese": "開発（与格）"
+      },
+      {
+        "russian": "Чем",
+        "pronunciation": "Chyem",
+        "japanese": "何で"
+      },
+      {
+        "russian": "могу",
+        "pronunciation": "magu",
+        "japanese": "できる"
+      },
+      {
+        "russian": "быть",
+        "pronunciation": "byt'",
+        "japanese": "である"
+      },
+      {
+        "russian": "полезна",
+        "pronunciation": "palyezna",
+        "japanese": "役立つ（女性短語尾）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Мы хотели бы обсудить возможность сотрудничества. Наша компания специализируется на разработке программного обеспечения.",
+    "pronunciation": "My khatyeli by аbsudit' vazmozhnost' satrudnichyestva. Nasha kampaniya spyetsializiruyetsa na razrabоtkye pragrammnavа аbyespyechyeniya.",
+    "japanese": "協力の可能性について話し合いたいと思います。当社はソフトウェア開発を専門としています。",
+    "words": [
+      {
+        "russian": "Мы",
+        "pronunciation": "My",
+        "japanese": "私たちは"
+      },
+      {
+        "russian": "хотели",
+        "pronunciation": "khatyeli",
+        "japanese": "欲しかった"
+      },
+      {
+        "russian": "бы",
+        "pronunciation": "by",
+        "japanese": "～したい（条件法）"
+      },
+      {
+        "russian": "обсудить",
+        "pronunciation": "аbsudit'",
+        "japanese": "話し合う（完了体）"
+      },
+      {
+        "russian": "возможность",
+        "pronunciation": "vazmozhnost'",
+        "japanese": "可能性"
+      },
+      {
+        "russian": "сотрудничества",
+        "pronunciation": "satrudnichyestva",
+        "japanese": "協力（生格）"
+      },
+      {
+        "russian": "Наша",
+        "pronunciation": "Nasha",
+        "japanese": "私たちの"
+      },
+      {
+        "russian": "компания",
+        "pronunciation": "kampaniya",
+        "japanese": "会社"
+      },
+      {
+        "russian": "специализируется",
+        "pronunciation": "spyetsializiruyetsa",
+        "japanese": "専門とする"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～において"
+      },
+      {
+        "russian": "разработке",
+        "pronunciation": "razrabоtkye",
+        "japanese": "開発（前置格）"
+      },
+      {
+        "russian": "программного",
+        "pronunciation": "pragrammnavа",
+        "japanese": "プログラムの（生格中性形）"
+      },
+      {
+        "russian": "обеспечения",
+        "pronunciation": "аbyespyechyeniya",
+        "japanese": "供給、ソフトウェア（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Это очень интересно. Не могли бы вы подробнее рассказать о ваших решениях?",
+    "pronunciation": "Eta ochin' intyeryesna. Nye magli by vy padrоbnyeye rasskazat' a vashikh ryeshyeniyakh?",
+    "japanese": "それはとても興味深いです。御社のソリューションについてもっと詳しく教えていただけますか?",
+    "words": [
+      {
+        "russian": "Это",
+        "pronunciation": "Eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "очень",
+        "pronunciation": "ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "интересно",
+        "pronunciation": "intyeryesna",
+        "japanese": "興味深い"
+      },
+      {
+        "russian": "Не",
+        "pronunciation": "Nye",
+        "japanese": "～できませんか（丁寧な依頼）"
+      },
+      {
+        "russian": "могли",
+        "pronunciation": "magli",
+        "japanese": "できた"
+      },
+      {
+        "russian": "бы",
+        "pronunciation": "by",
+        "japanese": "～だろう"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "подробнее",
+        "pronunciation": "padrоbnyeye",
+        "japanese": "もっと詳しく（比較級）"
+      },
+      {
+        "russian": "рассказать",
+        "pronunciation": "rasskazat'",
+        "japanese": "話す（完了体）"
+      },
+      {
+        "russian": "о",
+        "pronunciation": "a",
+        "japanese": "～について"
+      },
+      {
+        "russian": "ваших",
+        "pronunciation": "vashikh",
+        "japanese": "あなたの（前置格複数）"
+      },
+      {
+        "russian": "решениях",
+        "pronunciation": "ryeshyeniyakh",
+        "japanese": "ソリューション、решений（前置格複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "С удовольствием. Мы предлагаем комплексные решения для автоматизации бизнес-процессов.",
+    "pronunciation": "S udаvol'stviyem. My pryedlagayem kоmplyeksnyye ryeshyeniya dlya aftamatizatsii biznyеs-pratsyessav.",
+    "japanese": "喜んで。私たちはビジネスプロセスの自動化のための包括的なソリューションを提供しています。",
+    "words": [
+      {
+        "russian": "С",
+        "pronunciation": "S",
+        "japanese": "～と一緒に"
+      },
+      {
+        "russian": "удовольствием",
+        "pronunciation": "udаvol'stviyem",
+        "japanese": "喜び（造格）"
+      },
+      {
+        "russian": "Мы",
+        "pronunciation": "My",
+        "japanese": "私たちは"
+      },
+      {
+        "russian": "предлагаем",
+        "pronunciation": "pryedlagayem",
+        "japanese": "提供する"
+      },
+      {
+        "russian": "комплексные",
+        "pronunciation": "kоmplyeksnyye",
+        "japanese": "包括的な（複数対格）"
+      },
+      {
+        "russian": "решения",
+        "pronunciation": "ryeshyeniya",
+        "japanese": "ソリューション（複数対格）"
+      },
+      {
+        "russian": "для",
+        "pronunciation": "dlya",
+        "japanese": "～のための"
+      },
+      {
+        "russian": "автоматизации",
+        "pronunciation": "aftamatizatsii",
+        "japanese": "自動化（生格）"
+      },
+      {
+        "russian": "бизнес-процессов",
+        "pronunciation": "biznyеs-pratsyessav",
+        "japanese": "ビジネスプロセス（生格複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Замечательно. Давайте назначим встречу на следующей неделе для детального обсуждения.",
+    "pronunciation": "Zamyechаtyel'na. Davaytye naznachim fstryechu na slyeduyushchyey nyedyelye dlya dyetal'nava аbsuzhnyeniya.",
+    "japanese": "素晴らしいです。詳細な話し合いのために来週ミーティングを設定しましょう。",
+    "words": [
+      {
+        "russian": "Замечательно",
+        "pronunciation": "Zamyechаtyel'na",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Давайте",
+        "pronunciation": "Davaytye",
+        "japanese": "～しましょう"
+      },
+      {
+        "russian": "назначим",
+        "pronunciation": "naznachim",
+        "japanese": "設定しよう（完了体一人称複数）"
+      },
+      {
+        "russian": "встречу",
+        "pronunciation": "fstryechu",
+        "japanese": "会合（対格）"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～に"
+      },
+      {
+        "russian": "следующей",
+        "pronunciation": "slyeduyushchyey",
+        "japanese": "次の（前置格女性形）"
+      },
+      {
+        "russian": "неделе",
+        "pronunciation": "nyedyelye",
+        "japanese": "週（前置格）"
+      },
+      {
+        "russian": "для",
+        "pronunciation": "dlya",
+        "japanese": "～のために"
+      },
+      {
+        "russian": "детального",
+        "pronunciation": "dyetal'nava",
+        "japanese": "詳細な（生格中性形）"
+      },
+      {
+        "russian": "обсуждения",
+        "pronunciation": "аbsuzhnyeniya",
+        "japanese": "話し合い（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Отлично. Благодарю за уделённое время. До встречи!",
+    "pronunciation": "Atlichna. Blagadaryú za udyelyonnoye vryemya. Da fstrechi!",
+    "japanese": "素晴らしいです。お時間をいただきありがとうございます。またお会いしましょう!",
+    "words": [
+      {
+        "russian": "Отлично",
+        "pronunciation": "Atlichna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Благодарю",
+        "pronunciation": "Blagadaryú",
+        "japanese": "感謝します（公式的）"
+      },
+      {
+        "russian": "за",
+        "pronunciation": "za",
+        "japanese": "～に対して"
+      },
+      {
+        "russian": "уделённое",
+        "pronunciation": "udyelyonnoye",
+        "japanese": "割いた（過去分詞中性形）"
+      },
+      {
+        "russian": "время",
+        "pronunciation": "vryemya",
+        "japanese": "時間"
+      },
+      {
+        "russian": "До",
+        "pronunciation": "Da",
+        "japanese": "～まで"
+      },
+      {
+        "russian": "встречи",
+        "pronunciation": "fstrechi",
+        "japanese": "会合（生格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "公式的な感謝「Благодарю за + 対格」",
+      "explanation": "「Благодарю」は「спасибо」よりも公式的で丁寧な感謝の表現です。ビジネスや公式な場面で使われます。「Благодарю за + 対格」で「～に感謝します」という意味になります。",
+      "examples": [
+        {
+          "russian": "Благодарю вас за помощь.",
+          "pronunciation": "Blagadaryú vas za pomashch.",
+          "japanese": "ご支援に感謝します。"
+        },
+        {
+          "russian": "Благодарю за приглашение.",
+          "pronunciation": "Blagadaryú za priglasheniye.",
+          "japanese": "ご招待ありがとうございます。"
+        }
+      ]
+    }
+  }
+]

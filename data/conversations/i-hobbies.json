@@ -1,0 +1,425 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Чем вы увлекаетесь в свободное время?",
+    "pronunciation": "Chyem vy uvlekayetes' f svabodnoye vyremya?",
+    "japanese": "自由時間に何に熱中していますか?",
+    "words": [
+      {
+        "russian": "Чем",
+        "pronunciation": "Chyem",
+        "japanese": "何に（造格）",
+        "baseForm": "что",
+        "caseInfo": {
+          "caseName": "Instrumental",
+          "caseNameJapanese": "造格",
+          "explanation": "動詞「увлекаться」（熱中する）は造格を取ります。「Чем вы увлекаетесь?」で「何に熱中していますか?」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "что",
+              "genitive": "чего",
+              "dative": "чему",
+              "accusative": "что",
+              "instrumental": "чем",
+              "prepositional": "чём"
+            },
+            "plural": {
+              "nominative": "что",
+              "genitive": "чего",
+              "dative": "чему",
+              "accusative": "что",
+              "instrumental": "чем",
+              "prepositional": "чём"
+            }
+          }
+        }
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "увлекаетесь",
+        "pronunciation": "uvlekayetes'",
+        "japanese": "熱中する、興味を持つ"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "свободное",
+        "pronunciation": "svabodnoye",
+        "japanese": "自由な（対格中性形）"
+      },
+      {
+        "russian": "время",
+        "pronunciation": "vyremya",
+        "japanese": "時間"
+      }
+    ],
+    "grammarPoint": {
+      "title": "趣味を尋ねる「Чем увлекаться?」",
+      "explanation": "趣味や興味について尋ねる時は「Чем вы увлекаетесь?」という表現を使います。動詞「увлекаться」は造格を取ります。答える時も「Я увлекаюсь + 造格」という形になります。",
+      "examples": [
+        {
+          "russian": "Я увлекаюсь фотографией.",
+          "pronunciation": "Ya uvlekayus' fatagrafiyey.",
+          "japanese": "私は写真に興味があります。"
+        },
+        {
+          "russian": "Он увлекается спортом.",
+          "pronunciation": "On uvlekayetsa sportam.",
+          "japanese": "彼はスポーツに熱中しています。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Я увлекаюсь чтением. Люблю читать классическую литературу.",
+    "pronunciation": "Ya uvlekayus' chteniyem. Lyublyu chitat' klassicheskuyu literaturu.",
+    "japanese": "私は読書に興味があります。古典文学を読むのが好きです。",
+    "words": [
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "увлекаюсь",
+        "pronunciation": "uvlekayus'",
+        "japanese": "熱中している"
+      },
+      {
+        "russian": "чтением",
+        "pronunciation": "chteniyem",
+        "japanese": "読書（造格）",
+        "baseForm": "чтение"
+      },
+      {
+        "russian": "Люблю",
+        "pronunciation": "Lyublyu",
+        "japanese": "好きである"
+      },
+      {
+        "russian": "читать",
+        "pronunciation": "chitat'",
+        "japanese": "読む"
+      },
+      {
+        "russian": "классическую",
+        "pronunciation": "klassicheskuyu",
+        "japanese": "古典の（対格女性形）"
+      },
+      {
+        "russian": "литературу",
+        "pronunciation": "literaturu",
+        "japanese": "文学（対格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Интересно! А я занимаюсь йогой три раза в неделю.",
+    "pronunciation": "Intyeresna! A ya zanimayus' yogay tri raza v nyedelyu.",
+    "japanese": "面白い! 私は週3回ヨガをやっています。",
+    "words": [
+      {
+        "russian": "Интересно",
+        "pronunciation": "Intyeresna",
+        "japanese": "面白い"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "я",
+        "pronunciation": "ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "занимаюсь",
+        "pronunciation": "zanimayus'",
+        "japanese": "従事する、する"
+      },
+      {
+        "russian": "йогой",
+        "pronunciation": "yogay",
+        "japanese": "ヨガ（造格）"
+      },
+      {
+        "russian": "три",
+        "pronunciation": "tri",
+        "japanese": "3"
+      },
+      {
+        "russian": "раза",
+        "pronunciation": "raza",
+        "japanese": "回（生格単数）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～につき"
+      },
+      {
+        "russian": "неделю",
+        "pronunciation": "nyedelyu",
+        "japanese": "週（対格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "頻度の表現「数詞 + раз(а) в + 対格」",
+      "explanation": "頻度を表す時は「数詞 + раз(а)/раз + в + 時間単位（対格）」という構文を使います。「один раз」（1回）、「два/три/четыре раза」（2/3/4回）、「пять раз」（5回以上）のように変化します。",
+      "examples": [
+        {
+          "russian": "Я хожу в спортзал два раза в неделю.",
+          "pronunciation": "Ya khazhu f spartzal dva raza v nyedelyu.",
+          "japanese": "私は週2回ジムに行きます。"
+        },
+        {
+          "russian": "Он ест пять раз в день.",
+          "pronunciation": "On yest pyat' raz v dyen'.",
+          "japanese": "彼は1日5回食べます。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Здорово! Йога очень полезна для здоровья. А вы давно этим занимаетесь?",
+    "pronunciation": "Zdarova! Yoga ochin' palyezna dlya zdarov'ya. A vy davno etim zanimayetes'?",
+    "japanese": "素晴らしい! ヨガは健康にとても良いですね。長くやっているのですか?",
+    "words": [
+      {
+        "russian": "Здорово",
+        "pronunciation": "Zdarova",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Йога",
+        "pronunciation": "Yoga",
+        "japanese": "ヨガ"
+      },
+      {
+        "russian": "очень",
+        "pronunciation": "ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "полезна",
+        "pronunciation": "palyezna",
+        "japanese": "有益な（女性短語尾）"
+      },
+      {
+        "russian": "для",
+        "pronunciation": "dlya",
+        "japanese": "～のために"
+      },
+      {
+        "russian": "здоровья",
+        "pronunciation": "zdarov'ya",
+        "japanese": "健康（生格）"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "давно",
+        "pronunciation": "davno",
+        "japanese": "長く、昔から"
+      },
+      {
+        "russian": "этим",
+        "pronunciation": "etim",
+        "japanese": "これに（造格）"
+      },
+      {
+        "russian": "занимаетесь",
+        "pronunciation": "zanimayetes'",
+        "japanese": "従事する"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Уже два года. Раньше я играла в теннис, но потом переключилась на йогу.",
+    "pronunciation": "Uzhe dva goda. Ran'she ya igrala f tyennis, no patom pyereklyuchilas' na yogu.",
+    "japanese": "もう2年です。以前はテニスをしていましたが、その後ヨガに切り替えました。",
+    "words": [
+      {
+        "russian": "Уже",
+        "pronunciation": "Uzhe",
+        "japanese": "もう、すでに"
+      },
+      {
+        "russian": "два",
+        "pronunciation": "dva",
+        "japanese": "2"
+      },
+      {
+        "russian": "года",
+        "pronunciation": "goda",
+        "japanese": "年（生格単数）"
+      },
+      {
+        "russian": "Раньше",
+        "pronunciation": "Ran'she",
+        "japanese": "以前は"
+      },
+      {
+        "russian": "я",
+        "pronunciation": "ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "играла",
+        "pronunciation": "igrala",
+        "japanese": "遊んでいた、していた（女性過去形）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～を（スポーツ）"
+      },
+      {
+        "russian": "теннис",
+        "pronunciation": "tyennis",
+        "japanese": "テニス"
+      },
+      {
+        "russian": "но",
+        "pronunciation": "no",
+        "japanese": "しかし"
+      },
+      {
+        "russian": "потом",
+        "pronunciation": "patom",
+        "japanese": "その後"
+      },
+      {
+        "russian": "переключилась",
+        "pronunciation": "pyereklyuchilas'",
+        "japanese": "切り替えた（女性過去形）"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～に"
+      },
+      {
+        "russian": "йогу",
+        "pronunciation": "yogu",
+        "japanese": "ヨガ（対格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Понятно. А по выходным чем занимаетесь?",
+    "pronunciation": "Panyatna. A pa vykhadnym chyem zanimayetes'?",
+    "japanese": "なるほど。週末は何をしていますか?",
+    "words": [
+      {
+        "russian": "Понятно",
+        "pronunciation": "Panyatna",
+        "japanese": "なるほど"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "по",
+        "pronunciation": "pa",
+        "japanese": "～に（時間）"
+      },
+      {
+        "russian": "выходным",
+        "pronunciation": "vykhadnym",
+        "japanese": "休日（与格複数）"
+      },
+      {
+        "russian": "чем",
+        "pronunciation": "chyem",
+        "japanese": "何に"
+      },
+      {
+        "russian": "занимаетесь",
+        "pronunciation": "zanimayetes'",
+        "japanese": "する"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "По выходным я обычно гуляю в парке или встречаюсь с друзьями.",
+    "pronunciation": "Pa vykhadnym ya abychna gulyayu f parke ili fstryechayus' s druz'yami.",
+    "japanese": "週末は普段公園を散歩したり、友達に会ったりします。",
+    "words": [
+      {
+        "russian": "По",
+        "pronunciation": "Pa",
+        "japanese": "～に"
+      },
+      {
+        "russian": "выходным",
+        "pronunciation": "vykhadnym",
+        "japanese": "休日（与格複数）"
+      },
+      {
+        "russian": "я",
+        "pronunciation": "ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "обычно",
+        "pronunciation": "abychna",
+        "japanese": "普段"
+      },
+      {
+        "russian": "гуляю",
+        "pronunciation": "gulyayu",
+        "japanese": "散歩する"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "парке",
+        "pronunciation": "parke",
+        "japanese": "公園（前置格）"
+      },
+      {
+        "russian": "или",
+        "pronunciation": "ili",
+        "japanese": "または"
+      },
+      {
+        "russian": "встречаюсь",
+        "pronunciation": "fstryechayus'",
+        "japanese": "会う"
+      },
+      {
+        "russian": "с",
+        "pronunciation": "s",
+        "japanese": "～と"
+      },
+      {
+        "russian": "друзьями",
+        "pronunciation": "druz'yami",
+        "japanese": "友達（造格複数）"
+      }
+    ]
+  }
+]

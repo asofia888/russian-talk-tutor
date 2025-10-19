@@ -1,0 +1,431 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Расскажите о русских народных традициях. Что вам кажется самым интересным?",
+    "pronunciation": "Rasskazhite a russkikh narodnykh traditsiyakh. Shto vam kazhetsa samym intyeryesnym?",
+    "japanese": "ロシアの民族伝統について教えてください。何が一番面白いと思いますか?",
+    "words": [
+      {
+        "russian": "Расскажите",
+        "pronunciation": "Rasskazhite",
+        "japanese": "話してください"
+      },
+      {
+        "russian": "о",
+        "pronunciation": "a",
+        "japanese": "～について"
+      },
+      {
+        "russian": "русских",
+        "pronunciation": "russkikh",
+        "japanese": "ロシアの（前置格複数）"
+      },
+      {
+        "russian": "народных",
+        "pronunciation": "narodnykh",
+        "japanese": "民族の（前置格複数）"
+      },
+      {
+        "russian": "традициях",
+        "pronunciation": "traditsiyakh",
+        "japanese": "伝統（前置格複数）"
+      },
+      {
+        "russian": "Что",
+        "pronunciation": "Shto",
+        "japanese": "何が"
+      },
+      {
+        "russian": "вам",
+        "pronunciation": "vam",
+        "japanese": "あなたに"
+      },
+      {
+        "russian": "кажется",
+        "pronunciation": "kazhetsa",
+        "japanese": "思われる"
+      },
+      {
+        "russian": "самым",
+        "pronunciation": "samym",
+        "japanese": "最も（造格）"
+      },
+      {
+        "russian": "интересным",
+        "pronunciation": "intyeryesnym",
+        "japanese": "面白い（造格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Мне очень нравится празднование Масленицы. Это древний праздник проводов зимы с блинами и народными гуляниями.",
+    "pronunciation": "Mnye ochin' nravitsa prazdnavаniye Maslyen itsy. Eta drevniy prazdnik pravadov zimy s blinami i narodnymi gulyаniyami.",
+    "japanese": "マースレニツァのお祝いがとても好きです。これは冬を見送る古代の祭りで、ブリヌイと民衆の祝祭があります。",
+    "words": [
+      {
+        "russian": "Мне",
+        "pronunciation": "Mnye",
+        "japanese": "私に"
+      },
+      {
+        "russian": "очень",
+        "pronunciation": "ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "нравится",
+        "pronunciation": "nravitsa",
+        "japanese": "気に入る"
+      },
+      {
+        "russian": "празднование",
+        "pronunciation": "prazdnavаniye",
+        "japanese": "お祝い"
+      },
+      {
+        "russian": "Масленицы",
+        "pronunciation": "Maslyen itsy",
+        "japanese": "マースレニツァ（生格）"
+      },
+      {
+        "russian": "Это",
+        "pronunciation": "Eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "древний",
+        "pronunciation": "drevniy",
+        "japanese": "古代の"
+      },
+      {
+        "russian": "праздник",
+        "pronunciation": "prazdnik",
+        "japanese": "祭り"
+      },
+      {
+        "russian": "проводов",
+        "pronunciation": "pravadov",
+        "japanese": "見送り（生格）"
+      },
+      {
+        "russian": "зимы",
+        "pronunciation": "zimy",
+        "japanese": "冬（生格）"
+      },
+      {
+        "russian": "с",
+        "pronunciation": "s",
+        "japanese": "～と一緒に"
+      },
+      {
+        "russian": "блинами",
+        "pronunciation": "blinami",
+        "japanese": "ブリヌイ（造格複数）"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "народными",
+        "pronunciation": "narodnymi",
+        "japanese": "民衆の（造格複数）"
+      },
+      {
+        "russian": "гуляниями",
+        "pronunciation": "gulyаniyami",
+        "japanese": "祝祭、散策（造格複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Да, Масленица — замечательный праздник! А что можете сказать о русском гостеприимстве?",
+    "pronunciation": "Da, Maslyenitsa — zamyechаtyel'nyy prazdnik! A shto mozhete skazat' a russkom gastepriiمstve?",
+    "japanese": "はい、マースレニツァは素晴らしいお祭りですね! ロシアのおもてなしについては何が言えますか?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "Масленица",
+        "pronunciation": "Maslyenitsa",
+        "japanese": "マースレニツァ"
+      },
+      {
+        "russian": "замечательный",
+        "pronunciation": "zamyechаtyel'nyy",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "праздник",
+        "pronunciation": "prazdnik",
+        "japanese": "祭り"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "что",
+        "pronunciation": "shto",
+        "japanese": "何を"
+      },
+      {
+        "russian": "можете",
+        "pronunciation": "mozhete",
+        "japanese": "できる"
+      },
+      {
+        "russian": "сказать",
+        "pronunciation": "skazat'",
+        "japanese": "言う"
+      },
+      {
+        "russian": "о",
+        "pronunciation": "a",
+        "japanese": "～について"
+      },
+      {
+        "russian": "русском",
+        "pronunciation": "russkom",
+        "japanese": "ロシアの（前置格中性形）"
+      },
+      {
+        "russian": "гостеприимстве",
+        "pronunciation": "gastepriiمstve",
+        "japanese": "おもてなし（前置格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Русское гостеприимство действительно уникально. Принято щедро угощать гостей, накрывать богатый стол.",
+    "pronunciation": "Russkoye gastepriimstva dyeystvityel'na unikal'na. Prinyata shchyedra ugashchat' gastyey, nakryvat' bagatyy stol.",
+    "japanese": "ロシアのおもてなしは本当にユニークです。客を気前よくもてなし、豪華な食卓を用意するのが慣例です。",
+    "words": [
+      {
+        "russian": "Русское",
+        "pronunciation": "Russkoye",
+        "japanese": "ロシアの（中性形）"
+      },
+      {
+        "russian": "гостеприимство",
+        "pronunciation": "gastepriimstva",
+        "japanese": "おもてなし"
+      },
+      {
+        "russian": "действительно",
+        "pronunciation": "dyeystvityel'na",
+        "japanese": "本当に"
+      },
+      {
+        "russian": "уникально",
+        "pronunciation": "unikal'na",
+        "japanese": "ユニークである"
+      },
+      {
+        "russian": "Принято",
+        "pronunciation": "Prinyata",
+        "japanese": "慣例である（短語尾過去分詞中性形）"
+      },
+      {
+        "russian": "щедро",
+        "pronunciation": "shchyedra",
+        "japanese": "気前よく"
+      },
+      {
+        "russian": "угощать",
+        "pronunciation": "ugashchat'",
+        "japanese": "もてなす"
+      },
+      {
+        "russian": "гостей",
+        "pronunciation": "gastyey",
+        "japanese": "客（対格複数）"
+      },
+      {
+        "russian": "накрывать",
+        "pronunciation": "nakryvat'",
+        "japanese": "用意する、覆う"
+      },
+      {
+        "russian": "богатый",
+        "pronunciation": "bagatyy",
+        "japanese": "豊かな、豪華な"
+      },
+      {
+        "russian": "стол",
+        "pronunciation": "stol",
+        "japanese": "食卓"
+      }
+    ],
+    "grammarPoint": {
+      "title": "非人称表現「принято」（慣例である）",
+      "explanation": "「принято + 不定形」は「～することが慣例である、～するのが普通である」という意味の非人称表現です。「принято」は過去分詞の短語尾形中性形で、社会的な習慣や規範を表します。",
+      "examples": [
+        {
+          "russian": "В России принято дарить цветы.",
+          "pronunciation": "V Rossii prinyata darit' tsvyety.",
+          "japanese": "ロシアでは花を贈ることが慣例です。"
+        },
+        {
+          "russian": "Не принято опаздывать на встречи.",
+          "pronunciation": "Nye prinyata apazdyvat' na fstrechi.",
+          "japanese": "会議に遅刻することは良くないとされています。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Интересно! А как относятся к театру и балету в России?",
+    "pronunciation": "Intyeryesna! A kak atnosyatsa k tyeatru i balyetu v Rossii?",
+    "japanese": "面白いですね! ロシアでは劇場とバレエに対してどのような態度ですか?",
+    "words": [
+      {
+        "russian": "Интересно",
+        "pronunciation": "Intyeryesna",
+        "japanese": "面白い"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "как",
+        "pronunciation": "kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "относятся",
+        "pronunciation": "atnosyatsa",
+        "japanese": "関係する、扱う"
+      },
+      {
+        "russian": "к",
+        "pronunciation": "k",
+        "japanese": "～に対して"
+      },
+      {
+        "russian": "театру",
+        "pronunciation": "tyeatru",
+        "japanese": "劇場（与格）"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "балету",
+        "pronunciation": "balyetu",
+        "japanese": "バレエ（与格）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "России",
+        "pronunciation": "Rossii",
+        "japanese": "ロシア（前置格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "С огромным уважением! Большой театр и Мариинский театр известны во всём мире. Русский балет — это национальное достояние.",
+    "pronunciation": "S аgromnym uvazhyeniyem! Bal'shoy tyeatr i Mariinskiy tyeatr izvyestny va fsyom mire. Russkiy balyet — eta natsianal'naye dastаyaniye.",
+    "japanese": "とても尊敬されています! ボリショイ劇場とマリインスキー劇場は世界中で有名です。ロシアバレエは国の宝です。",
+    "words": [
+      {
+        "russian": "С",
+        "pronunciation": "S",
+        "japanese": "～と一緒に、～を伴って"
+      },
+      {
+        "russian": "огромным",
+        "pronunciation": "аgromnym",
+        "japanese": "巨大な（造格）"
+      },
+      {
+        "russian": "уважением",
+        "pronunciation": "uvazhyeniyem",
+        "japanese": "尊敬（造格）"
+      },
+      {
+        "russian": "Большой",
+        "pronunciation": "Bal'shoy",
+        "japanese": "大きい（ボリショイ）"
+      },
+      {
+        "russian": "театр",
+        "pronunciation": "tyeatr",
+        "japanese": "劇場"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "Мариинский",
+        "pronunciation": "Mariinskiy",
+        "japanese": "マリインスキー"
+      },
+      {
+        "russian": "известны",
+        "pronunciation": "izvyestny",
+        "japanese": "有名な（複数短語尾）"
+      },
+      {
+        "russian": "во",
+        "pronunciation": "va",
+        "japanese": "～で"
+      },
+      {
+        "russian": "всём",
+        "pronunciation": "fsyom",
+        "japanese": "全ての（前置格）"
+      },
+      {
+        "russian": "мире",
+        "pronunciation": "mire",
+        "japanese": "世界（前置格）"
+      },
+      {
+        "russian": "Русский",
+        "pronunciation": "Russkiy",
+        "japanese": "ロシアの"
+      },
+      {
+        "russian": "балет",
+        "pronunciation": "balyet",
+        "japanese": "バレエ"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "национальное",
+        "pronunciation": "natsianal'naye",
+        "japanese": "国の（中性形）"
+      },
+      {
+        "russian": "достояние",
+        "pronunciation": "dastаyaniye",
+        "japanese": "宝、財産"
+      }
+    ]
+  }
+]

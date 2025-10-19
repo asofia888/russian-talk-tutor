@@ -1,0 +1,576 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Добрый день! Я звоню по объявлению о сдаче квартиры.",
+    "pronunciation": "Dobryy dyen'! Ya zvanyú pa ab"yavlyeniyu a sdache kvartiry.",
+    "japanese": "こんにちは! アパート賃貸の広告について電話しています。",
+    "words": [
+      {
+        "russian": "Добрый",
+        "pronunciation": "Dobryy",
+        "japanese": "良い"
+      },
+      {
+        "russian": "день",
+        "pronunciation": "dyen'",
+        "japanese": "日"
+      },
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "звоню",
+        "pronunciation": "zvanyú",
+        "japanese": "電話する"
+      },
+      {
+        "russian": "по",
+        "pronunciation": "pa",
+        "japanese": "～について"
+      },
+      {
+        "russian": "объявлению",
+        "pronunciation": "ab"yavlyeniyu",
+        "japanese": "広告（与格）",
+        "baseForm": "объявление",
+        "caseInfo": {
+          "caseName": "Dative",
+          "caseNameJapanese": "与格",
+          "explanation": "前置詞「по」は「～について、～に関して」という意味で与格を取ります。「по объявлению」で「広告について」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "объявление",
+              "genitive": "объявления",
+              "dative": "объявлению",
+              "accusative": "объявление",
+              "instrumental": "объявлением",
+              "prepositional": "объявлении"
+            },
+            "plural": {
+              "nominative": "объявления",
+              "genitive": "объявлений",
+              "dative": "объявлениям",
+              "accusative": "объявления",
+              "instrumental": "объявлениями",
+              "prepositional": "объявлениях"
+            }
+          }
+        }
+      },
+      {
+        "russian": "о",
+        "pronunciation": "a",
+        "japanese": "～について"
+      },
+      {
+        "russian": "сдаче",
+        "pronunciation": "sdache",
+        "japanese": "賃貸（前置格）",
+        "baseForm": "сдача"
+      },
+      {
+        "russian": "квартиры",
+        "pronunciation": "kvartiry",
+        "japanese": "アパート（生格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "前置詞「о/об + 前置格」（～について）",
+      "explanation": "「～について」という意味を表す時は前置詞「о」（母音の前では「об」）と前置格を使います。「о сдаче квартиры」で「アパートの賃貸について」という意味です。",
+      "examples": [
+        {
+          "russian": "Мы говорили о политике.",
+          "pronunciation": "My gavarili a palitike.",
+          "japanese": "私たちは政治について話しました。"
+        },
+        {
+          "russian": "Книга об истории России.",
+          "pronunciation": "Kniga ab istorii Rossii.",
+          "japanese": "ロシアの歴史についての本。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, квартира всё ещё свободна. Что бы вы хотели узнать?",
+    "pronunciation": "Da, kvartira fsyo yeshchyo svabodna. Shto by vy khatyeli uznat'?",
+    "japanese": "はい、アパートはまだ空いています。何を知りたいですか?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "квартира",
+        "pronunciation": "kvartira",
+        "japanese": "アパート"
+      },
+      {
+        "russian": "всё",
+        "pronunciation": "fsyo",
+        "japanese": "まだ"
+      },
+      {
+        "russian": "ещё",
+        "pronunciation": "yeshchyo",
+        "japanese": "まだ"
+      },
+      {
+        "russian": "свободна",
+        "pronunciation": "svabodna",
+        "japanese": "空いている（女性短語尾）"
+      },
+      {
+        "russian": "Что",
+        "pronunciation": "Shto",
+        "japanese": "何を"
+      },
+      {
+        "russian": "бы",
+        "pronunciation": "by",
+        "japanese": "～だろう（条件法助詞）"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "хотели",
+        "pronunciation": "khatyeli",
+        "japanese": "欲しかった"
+      },
+      {
+        "russian": "узнать",
+        "pronunciation": "uznat'",
+        "japanese": "知る（完了体）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Во-первых, сколько комнат и какая площадь? Во-вторых, квартира с мебелью или без?",
+    "pronunciation": "Va-pyervykh, skol'ka komnat i kakaya ploshchad'? Va-ftorykh, kvartira s myebel'yu ili byez?",
+    "japanese": "まず、部屋数と面積はどれくらいですか? 次に、家具付きですか、それとも家具なしですか?",
+    "words": [
+      {
+        "russian": "Во-первых",
+        "pronunciation": "Va-pyervykh",
+        "japanese": "第一に、まず"
+      },
+      {
+        "russian": "сколько",
+        "pronunciation": "skol'ka",
+        "japanese": "いくつ"
+      },
+      {
+        "russian": "комнат",
+        "pronunciation": "komnat",
+        "japanese": "部屋（生格複数）"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "какая",
+        "pronunciation": "kakaya",
+        "japanese": "どのような"
+      },
+      {
+        "russian": "площадь",
+        "pronunciation": "ploshchad'",
+        "japanese": "面積"
+      },
+      {
+        "russian": "Во-вторых",
+        "pronunciation": "Va-ftorykh",
+        "japanese": "第二に、次に"
+      },
+      {
+        "russian": "с",
+        "pronunciation": "s",
+        "japanese": "～と一緒に"
+      },
+      {
+        "russian": "мебелью",
+        "pronunciation": "myebel'yu",
+        "japanese": "家具（造格）"
+      },
+      {
+        "russian": "или",
+        "pronunciation": "ili",
+        "japanese": "または"
+      },
+      {
+        "russian": "без",
+        "pronunciation": "byez",
+        "japanese": "～なしで"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Двухкомнатная квартира, пятьдесят квадратных метров. Полностью меблирована: есть диван, кровать, шкаф, стол, стулья. На кухне вся бытовая техника.",
+    "pronunciation": "Dvukhkomnatnaya kvartira, pyat'desyat kvadratnykh myetrav. Polnast'yu myeblirana: yest' divan, kravat', shkaf, stol, stul'ya. Na kukhne fsya bytavaya tyekhnika.",
+    "japanese": "2部屋のアパート、50平方メートルです。完全家具付き：ソファ、ベッド、クローゼット、テーブル、椅子があります。キッチンには全ての家電があります。",
+    "words": [
+      {
+        "russian": "Двухкомнатная",
+        "pronunciation": "Dvukhkomnatnaya",
+        "japanese": "2部屋の（女性形）"
+      },
+      {
+        "russian": "квартира",
+        "pronunciation": "kvartira",
+        "japanese": "アパート"
+      },
+      {
+        "russian": "пятьдесят",
+        "pronunciation": "pyat'desyat",
+        "japanese": "50"
+      },
+      {
+        "russian": "квадратных",
+        "pronunciation": "kvadratnykh",
+        "japanese": "平方の（生格複数）"
+      },
+      {
+        "russian": "метров",
+        "pronunciation": "myetrav",
+        "japanese": "メートル（生格複数）"
+      },
+      {
+        "russian": "Полностью",
+        "pronunciation": "Polnast'yu",
+        "japanese": "完全に"
+      },
+      {
+        "russian": "меблирована",
+        "pronunciation": "myeblirana",
+        "japanese": "家具が備え付けられた（女性短語尾過去分詞）"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある"
+      },
+      {
+        "russian": "диван",
+        "pronunciation": "divan",
+        "japanese": "ソファ"
+      },
+      {
+        "russian": "кровать",
+        "pronunciation": "kravat'",
+        "japanese": "ベッド"
+      },
+      {
+        "russian": "шкаф",
+        "pronunciation": "shkaf",
+        "japanese": "クローゼット、棚"
+      },
+      {
+        "russian": "стол",
+        "pronunciation": "stol",
+        "japanese": "テーブル"
+      },
+      {
+        "russian": "стулья",
+        "pronunciation": "stul'ya",
+        "japanese": "椅子（複数主格）"
+      },
+      {
+        "russian": "На",
+        "pronunciation": "Na",
+        "japanese": "～に"
+      },
+      {
+        "russian": "кухне",
+        "pronunciation": "kukhne",
+        "japanese": "キッチン（前置格）"
+      },
+      {
+        "russian": "вся",
+        "pronunciation": "fsya",
+        "japanese": "全ての（女性形）"
+      },
+      {
+        "russian": "бытовая",
+        "pronunciation": "bytavaya",
+        "japanese": "家庭用の（女性形）"
+      },
+      {
+        "russian": "техника",
+        "pronunciation": "tyekhnika",
+        "japanese": "技術、機器"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Отлично! А где находится квартира и какая арендная плата?",
+    "pronunciation": "Atlichna! A gde nakhoditsa kvartira i kakaya arendnaya plata?",
+    "japanese": "素晴らしい! アパートはどこにあり、家賃はいくらですか?",
+    "words": [
+      {
+        "russian": "Отлично",
+        "pronunciation": "Atlichna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "где",
+        "pronunciation": "gde",
+        "japanese": "どこに"
+      },
+      {
+        "russian": "находится",
+        "pronunciation": "nakhoditsa",
+        "japanese": "位置する"
+      },
+      {
+        "russian": "какая",
+        "pronunciation": "kakaya",
+        "japanese": "どのような"
+      },
+      {
+        "russian": "арендная",
+        "pronunciation": "arendnaya",
+        "japanese": "賃貸の（女性形）"
+      },
+      {
+        "russian": "плата",
+        "pronunciation": "plata",
+        "japanese": "支払い、料金"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "В центре города, недалеко от метро. Тридцать тысяч рублей в месяц плюс коммунальные услуги.",
+    "pronunciation": "F tsentre gorada, nyedalyeko at myetro. Tridtsat' tysyach rublyey v myesyats plyus kommunal'nyye uslugi.",
+    "japanese": "市の中心部で、地下鉄から近いです。月3万ルーブルプラス光熱費です。",
+    "words": [
+      {
+        "russian": "В",
+        "pronunciation": "F",
+        "japanese": "～に"
+      },
+      {
+        "russian": "центре",
+        "pronunciation": "tsentre",
+        "japanese": "中心部（前置格）"
+      },
+      {
+        "russian": "города",
+        "pronunciation": "gorada",
+        "japanese": "市（生格）"
+      },
+      {
+        "russian": "недалеко",
+        "pronunciation": "nyedalyeko",
+        "japanese": "近くに"
+      },
+      {
+        "russian": "от",
+        "pronunciation": "at",
+        "japanese": "～から"
+      },
+      {
+        "russian": "метро",
+        "pronunciation": "myetro",
+        "japanese": "地下鉄"
+      },
+      {
+        "russian": "Тридцать",
+        "pronunciation": "Tridtsat'",
+        "japanese": "30"
+      },
+      {
+        "russian": "тысяч",
+        "pronunciation": "tysyach",
+        "japanese": "千（生格複数）"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～につき"
+      },
+      {
+        "russian": "месяц",
+        "pronunciation": "myesyats",
+        "japanese": "月"
+      },
+      {
+        "russian": "плюс",
+        "pronunciation": "plyus",
+        "japanese": "プラス"
+      },
+      {
+        "russian": "коммунальные",
+        "pronunciation": "kommunal'nyye",
+        "japanese": "公共の（複数形）"
+      },
+      {
+        "russian": "услуги",
+        "pronunciation": "uslugi",
+        "japanese": "サービス（複数主格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "「тысяча」（千）の格変化",
+      "explanation": "「тысяча」（千）は女性名詞として格変化します。数詞の後では：「одна тысяча」（1千、主格）、「две/три/четыре тысячи」（2/3/4千、生格単数）、「пять тысяч」（5千以上、生格複数）となります。",
+      "examples": [
+        {
+          "russian": "одна тысяча рублей",
+          "pronunciation": "adna tysyacha rublyey",
+          "japanese": "1000ルーブル"
+        },
+        {
+          "russian": "пять тысяч человек",
+          "pronunciation": "pyat' tysyach chelavyek",
+          "japanese": "5000人"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Понятно. Можно посмотреть квартиру сегодня или завтра?",
+    "pronunciation": "Panyatna. Mozhna pasmatryet' kvartiru syevodnya ili zaftra?",
+    "japanese": "わかりました。今日か明日にアパートを見ることはできますか?",
+    "words": [
+      {
+        "russian": "Понятно",
+        "pronunciation": "Panyatna",
+        "japanese": "わかりました"
+      },
+      {
+        "russian": "Можно",
+        "pronunciation": "Mozhna",
+        "japanese": "できる"
+      },
+      {
+        "russian": "посмотреть",
+        "pronunciation": "pasmatryet'",
+        "japanese": "見る（完了体）"
+      },
+      {
+        "russian": "квартиру",
+        "pronunciation": "kvartiru",
+        "japanese": "アパート（対格）"
+      },
+      {
+        "russian": "сегодня",
+        "pronunciation": "syevodnya",
+        "japanese": "今日"
+      },
+      {
+        "russian": "или",
+        "pronunciation": "ili",
+        "japanese": "または"
+      },
+      {
+        "russian": "завтра",
+        "pronunciation": "zaftra",
+        "japanese": "明日"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, конечно. Завтра в три часа вас устроит?",
+    "pronunciation": "Da, kanyeshna. Zaftra f tri chasa vas ustroit?",
+    "japanese": "はい、もちろんです。明日の3時で大丈夫ですか?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "конечно",
+        "pronunciation": "kanyeshna",
+        "japanese": "もちろん"
+      },
+      {
+        "russian": "Завтра",
+        "pronunciation": "Zaftra",
+        "japanese": "明日"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "три",
+        "pronunciation": "tri",
+        "japanese": "3"
+      },
+      {
+        "russian": "часа",
+        "pronunciation": "chasa",
+        "japanese": "時"
+      },
+      {
+        "russian": "вас",
+        "pronunciation": "vas",
+        "japanese": "あなたを"
+      },
+      {
+        "russian": "устроит",
+        "pronunciation": "ustroit",
+        "japanese": "適する、都合が良い"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Прекрасно! Записываю адрес. Спасибо большое!",
+    "pronunciation": "Pryekrasna! Zapisyvayu adryес. Spasiba bal'shoye!",
+    "japanese": "素晴らしい! 住所を書き留めます。どうもありがとう!",
+    "words": [
+      {
+        "russian": "Прекрасно",
+        "pronunciation": "Pryekrasna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Записываю",
+        "pronunciation": "Zapisyvayu",
+        "japanese": "書き留める"
+      },
+      {
+        "russian": "адрес",
+        "pronunciation": "adryес",
+        "japanese": "住所"
+      },
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "большое",
+        "pronunciation": "bal'shoye",
+        "japanese": "大きな"
+      }
+    ]
+  }
+]

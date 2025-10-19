@@ -1,0 +1,277 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Что это?",
+    "pronunciation": "Shto eta?",
+    "japanese": "これは何ですか?",
+    "words": [
+      {
+        "russian": "Что",
+        "pronunciation": "Shto",
+        "japanese": "何"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "これは"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Это книга.",
+    "pronunciation": "Eta kniga.",
+    "japanese": "これは本です。",
+    "words": [
+      {
+        "russian": "Это",
+        "pronunciation": "Eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "книга",
+        "pronunciation": "kniga",
+        "japanese": "本"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Где ручка?",
+    "pronunciation": "Gde ruchka?",
+    "japanese": "ペンはどこですか?",
+    "words": [
+      {
+        "russian": "Где",
+        "pronunciation": "Gde",
+        "japanese": "どこに"
+      },
+      {
+        "russian": "ручка",
+        "pronunciation": "ruchka",
+        "japanese": "ペン"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Ручка на столе.",
+    "pronunciation": "Ruchka na stale.",
+    "japanese": "ペンは机の上です。",
+    "words": [
+      {
+        "russian": "Ручка",
+        "pronunciation": "Ruchka",
+        "japanese": "ペン"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～の上に"
+      },
+      {
+        "russian": "столе",
+        "pronunciation": "stale",
+        "japanese": "机（前置格）",
+        "baseForm": "стол",
+        "caseInfo": {
+          "caseName": "Prepositional",
+          "caseNameJapanese": "前置格",
+          "explanation": "前置詞「на」（～の上に）で場所を表す時は前置格を使います。「на столе」で「机の上に」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "стол",
+              "genitive": "стола",
+              "dative": "столу",
+              "accusative": "стол",
+              "instrumental": "столом",
+              "prepositional": "столе"
+            },
+            "plural": {
+              "nominative": "столы",
+              "genitive": "столов",
+              "dative": "столам",
+              "accusative": "столы",
+              "instrumental": "столами",
+              "prepositional": "столах"
+            }
+          }
+        }
+      }
+    ],
+    "grammarPoint": {
+      "title": "場所を表す前置詞「на + 前置格」",
+      "explanation": "物の位置を表す時、「на」（～の上に）や「в」（～の中に）などの前置詞を使い、その後ろには前置格が続きます。「на столе」（机の上に）、「в комнате」（部屋の中に）のように使います。",
+      "examples": [
+        {
+          "russian": "Книга в сумке.",
+          "pronunciation": "Kniga v sumke.",
+          "japanese": "本はバッグの中です。"
+        },
+        {
+          "russian": "Кот на диване.",
+          "pronunciation": "Kot na divane.",
+          "japanese": "猫はソファの上です。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Когда урок?",
+    "pronunciation": "Kagda urok?",
+    "japanese": "授業はいつですか?",
+    "words": [
+      {
+        "russian": "Когда",
+        "pronunciation": "Kagda",
+        "japanese": "いつ"
+      },
+      {
+        "russian": "урок",
+        "pronunciation": "urok",
+        "japanese": "授業、レッスン"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Урок в два часа.",
+    "pronunciation": "Urok v dva chasa.",
+    "japanese": "授業は2時です。",
+    "words": [
+      {
+        "russian": "Урок",
+        "pronunciation": "Urok",
+        "japanese": "授業"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に（時刻）"
+      },
+      {
+        "russian": "два",
+        "pronunciation": "dva",
+        "japanese": "2"
+      },
+      {
+        "russian": "часа",
+        "pronunciation": "chasa",
+        "japanese": "時（生格単数）",
+        "baseForm": "час",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "数詞「2、3、4」の後では名詞は生格単数形を使います。「два часа」で「2時」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "час",
+              "genitive": "часа",
+              "dative": "часу",
+              "accusative": "час",
+              "instrumental": "часом",
+              "prepositional": "часе"
+            },
+            "plural": {
+              "nominative": "часы",
+              "genitive": "часов",
+              "dative": "часам",
+              "accusative": "часы",
+              "instrumental": "часами",
+              "prepositional": "часах"
+            }
+          }
+        }
+      }
+    ],
+    "grammarPoint": {
+      "title": "数詞と名詞の格変化",
+      "explanation": "ロシア語では数詞によって後ろの名詞の格が変わります。「1」の後は主格、「2、3、4」の後は生格単数、「5」以上の後は生格複数を使います。例：「один час」（1時）、「два часа」（2時）、「пять часов」（5時）。",
+      "examples": [
+        {
+          "russian": "один день",
+          "pronunciation": "adin dyen'",
+          "japanese": "1日"
+        },
+        {
+          "russian": "три дня",
+          "pronunciation": "tri dnya",
+          "japanese": "3日"
+        },
+        {
+          "russian": "пять дней",
+          "pronunciation": "pyat' dnyey",
+          "japanese": "5日"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Почему вы изучаете русский язык?",
+    "pronunciation": "Pachimu vy izuchaete russkiy yazyk?",
+    "japanese": "なぜあなたはロシア語を勉強しているのですか?",
+    "words": [
+      {
+        "russian": "Почему",
+        "pronunciation": "Pachimu",
+        "japanese": "なぜ"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "изучаете",
+        "pronunciation": "izuchaete",
+        "japanese": "勉強する（二人称複数/丁寧現在形）"
+      },
+      {
+        "russian": "русский",
+        "pronunciation": "russkiy",
+        "japanese": "ロシアの"
+      },
+      {
+        "russian": "язык",
+        "pronunciation": "yazyk",
+        "japanese": "言語"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Потому что мне интересна русская культура.",
+    "pronunciation": "Patamu shta mnye interesna russkaya kul'tura.",
+    "japanese": "なぜならロシア文化に興味があるからです。",
+    "words": [
+      {
+        "russian": "Потому что",
+        "pronunciation": "Patamu shta",
+        "japanese": "なぜなら～だから"
+      },
+      {
+        "russian": "мне",
+        "pronunciation": "mnye",
+        "japanese": "私に（与格）",
+        "baseForm": "я"
+      },
+      {
+        "russian": "интересна",
+        "pronunciation": "interesna",
+        "japanese": "興味深い（女性形短語尾）"
+      },
+      {
+        "russian": "русская",
+        "pronunciation": "russkaya",
+        "japanese": "ロシアの（女性形）"
+      },
+      {
+        "russian": "культура",
+        "pronunciation": "kul'tura",
+        "japanese": "文化"
+      }
+    ]
+  }
+]

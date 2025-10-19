@@ -1,0 +1,398 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Здравствуйте! Я бы хотел открыть счёт в вашем банке.",
+    "pronunciation": "Zdravstvuyte! Ya by khatyer atkryt' shchyot v vashem banke.",
+    "japanese": "こんにちは! 御行で口座を開設したいのですが。",
+    "words": [
+      {
+        "russian": "Здравствуйте",
+        "pronunciation": "Zdravstvuyte",
+        "japanese": "こんにちは"
+      },
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "бы",
+        "pronunciation": "by",
+        "japanese": "～したい（条件法）"
+      },
+      {
+        "russian": "хотел",
+        "pronunciation": "khatyer",
+        "japanese": "欲しかった"
+      },
+      {
+        "russian": "открыть",
+        "pronunciation": "atkryt'",
+        "japanese": "開く（完了体）"
+      },
+      {
+        "russian": "счёт",
+        "pronunciation": "shchyot",
+        "japanese": "口座、勘定"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "вашем",
+        "pronunciation": "vashem",
+        "japanese": "あなたの（前置格男性形）"
+      },
+      {
+        "russian": "банке",
+        "pronunciation": "banke",
+        "japanese": "銀行（前置格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "丁寧な依頼「Я бы хотел + 不定形」",
+      "explanation": "丁寧に希望を述べる時は条件法「Я бы хотел (男性)/хотела (女性) + 不定形」を使います。直訳すると「もし私が～したければ」という意味で、丁寧なニュアンスを出します。",
+      "examples": [
+        {
+          "russian": "Я бы хотела заказать столик.",
+          "pronunciation": "Ya by khatyela zakazat' stolik.",
+          "japanese": "テーブルを予約したいのですが。（女性）"
+        },
+        {
+          "russian": "Мы бы хотели получить информацию.",
+          "pronunciation": "My by khatyeli paluchit' infarmátsiyu.",
+          "japanese": "情報を得たいのですが。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Конечно. Вам нужен текущий счёт или сберегательный?",
+    "pronunciation": "Kanyeshna. Vam nuzhen tyekushchiy shchyot ili sbyeryegatel'nyy?",
+    "japanese": "もちろんです。当座預金口座ですか、それとも貯蓄口座ですか?",
+    "words": [
+      {
+        "russian": "Конечно",
+        "pronunciation": "Kanyeshna",
+        "japanese": "もちろん"
+      },
+      {
+        "russian": "Вам",
+        "pronunciation": "Vam",
+        "japanese": "あなたに（与格）"
+      },
+      {
+        "russian": "нужен",
+        "pronunciation": "nuzhen",
+        "japanese": "必要である（男性短語尾）"
+      },
+      {
+        "russian": "текущий",
+        "pronunciation": "tyekushchiy",
+        "japanese": "当座の、現在の"
+      },
+      {
+        "russian": "счёт",
+        "pronunciation": "shchyot",
+        "japanese": "口座"
+      },
+      {
+        "russian": "или",
+        "pronunciation": "ili",
+        "japanese": "または"
+      },
+      {
+        "russian": "сберегательный",
+        "pronunciation": "sbyeryegatel'nyy",
+        "japanese": "貯蓄の"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Сберегательный, пожалуйста. Какой процент по вкладам?",
+    "pronunciation": "Sbyeryegatel'nyy, pazhalusta. Kakoy protsyent pa vkladam?",
+    "japanese": "貯蓄口座をお願いします。預金の利率はどれくらいですか?",
+    "words": [
+      {
+        "russian": "Сберегательный",
+        "pronunciation": "Sbyeryegatel'nyy",
+        "japanese": "貯蓄の"
+      },
+      {
+        "russian": "пожалуйста",
+        "pronunciation": "pazhalusta",
+        "japanese": "お願いします"
+      },
+      {
+        "russian": "Какой",
+        "pronunciation": "Kakoy",
+        "japanese": "どの"
+      },
+      {
+        "russian": "процент",
+        "pronunciation": "protsyent",
+        "japanese": "パーセント、利率"
+      },
+      {
+        "russian": "по",
+        "pronunciation": "pa",
+        "japanese": "～に対する"
+      },
+      {
+        "russian": "вкладам",
+        "pronunciation": "vkladam",
+        "japanese": "預金（与格複数）",
+        "baseForm": "вклад"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Зависит от срока. На год — семь процентов годовых. Также понадобится паспорт и минимальный взнос.",
+    "pronunciation": "Zavisit at sroka. Na got — syem' protsyentav gadavykh. Takzhe panadobitsa paspart i minimal'nyy vznos.",
+    "japanese": "期間によります。1年で年利7パーセントです。またパスポートと最低預金額が必要です。",
+    "words": [
+      {
+        "russian": "Зависит",
+        "pronunciation": "Zavisit",
+        "japanese": "依存する"
+      },
+      {
+        "russian": "от",
+        "pronunciation": "at",
+        "japanese": "～から"
+      },
+      {
+        "russian": "срока",
+        "pronunciation": "sroka",
+        "japanese": "期間（生格）"
+      },
+      {
+        "russian": "На",
+        "pronunciation": "Na",
+        "japanese": "～で"
+      },
+      {
+        "russian": "год",
+        "pronunciation": "got",
+        "japanese": "年"
+      },
+      {
+        "russian": "семь",
+        "pronunciation": "syem'",
+        "japanese": "7"
+      },
+      {
+        "russian": "процентов",
+        "pronunciation": "protsyentav",
+        "japanese": "パーセント（生格複数）"
+      },
+      {
+        "russian": "годовых",
+        "pronunciation": "gadavykh",
+        "japanese": "年利の（生格複数）"
+      },
+      {
+        "russian": "Также",
+        "pronunciation": "Takzhe",
+        "japanese": "また"
+      },
+      {
+        "russian": "понадобится",
+        "pronunciation": "panadobitsa",
+        "japanese": "必要になる（完了体未来形）"
+      },
+      {
+        "russian": "паспорт",
+        "pronunciation": "paspart",
+        "japanese": "パスポート"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "минимальный",
+        "pronunciation": "minimal'nyy",
+        "japanese": "最小の"
+      },
+      {
+        "russian": "взнос",
+        "pronunciation": "vznos",
+        "japanese": "預金、拠出金"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "У меня есть паспорт. А какой минимальный взнос?",
+    "pronunciation": "U menya yest' paspart. A kakoy minimal'nyy vznos?",
+    "japanese": "パスポートは持っています。最低預金額はいくらですか?",
+    "words": [
+      {
+        "russian": "У",
+        "pronunciation": "U",
+        "japanese": "～に"
+      },
+      {
+        "russian": "меня",
+        "pronunciation": "menya",
+        "japanese": "私（生格）"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある"
+      },
+      {
+        "russian": "паспорт",
+        "pronunciation": "paspart",
+        "japanese": "パスポート"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "какой",
+        "pronunciation": "kakoy",
+        "japanese": "どの、いくらの"
+      },
+      {
+        "russian": "минимальный",
+        "pronunciation": "minimal'nyy",
+        "japanese": "最小の"
+      },
+      {
+        "russian": "взнос",
+        "pronunciation": "vznos",
+        "japanese": "預金"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Десять тысяч рублей. Также нужно будет заполнить анкету.",
+    "pronunciation": "Dyesyat' tysyach rublyey. Takzhe nuzhna budyet zapolnit' ankyetu.",
+    "japanese": "1万ルーブルです。また申込書に記入していただく必要があります。",
+    "words": [
+      {
+        "russian": "Десять",
+        "pronunciation": "Dyesyat'",
+        "japanese": "10"
+      },
+      {
+        "russian": "тысяч",
+        "pronunciation": "tysyach",
+        "japanese": "千（生格複数）"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）"
+      },
+      {
+        "russian": "Также",
+        "pronunciation": "Takzhe",
+        "japanese": "また"
+      },
+      {
+        "russian": "нужно",
+        "pronunciation": "nuzhna",
+        "japanese": "必要である"
+      },
+      {
+        "russian": "будет",
+        "pronunciation": "budyet",
+        "japanese": "～でしょう"
+      },
+      {
+        "russian": "заполнить",
+        "pronunciation": "zapolnit'",
+        "japanese": "記入する（完了体）"
+      },
+      {
+        "russian": "анкету",
+        "pronunciation": "ankyetu",
+        "japanese": "アンケート、申込書（対格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Хорошо. Сколько времени займёт оформление?",
+    "pronunciation": "Harasho. Skol'ka vyemyeni zaymyot afarmlyeniye?",
+    "japanese": "わかりました。手続きにどれくらい時間がかかりますか?",
+    "words": [
+      {
+        "russian": "Хорошо",
+        "pronunciation": "Harasho",
+        "japanese": "わかりました"
+      },
+      {
+        "russian": "Сколько",
+        "pronunciation": "Skol'ka",
+        "japanese": "どれくらい"
+      },
+      {
+        "russian": "времени",
+        "pronunciation": "vyemyeni",
+        "japanese": "時間（生格）"
+      },
+      {
+        "russian": "займёт",
+        "pronunciation": "zaymyot",
+        "japanese": "かかる（完了体未来形）"
+      },
+      {
+        "russian": "оформление",
+        "pronunciation": "afarmlyeniye",
+        "japanese": "手続き、登録"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Примерно двадцать минут. Начнём прямо сейчас?",
+    "pronunciation": "Primyerna dvadtsat' minut. Nachnyom pryama seychas?",
+    "japanese": "約20分です。今すぐ始めましょうか?",
+    "words": [
+      {
+        "russian": "Примерно",
+        "pronunciation": "Primyerna",
+        "japanese": "約、およそ"
+      },
+      {
+        "russian": "двадцать",
+        "pronunciation": "dvadtsat'",
+        "japanese": "20"
+      },
+      {
+        "russian": "минут",
+        "pronunciation": "minut",
+        "japanese": "分（生格複数）"
+      },
+      {
+        "russian": "Начнём",
+        "pronunciation": "Nachnyom",
+        "japanese": "始めよう（完了体一人称複数）"
+      },
+      {
+        "russian": "прямо",
+        "pronunciation": "pryama",
+        "japanese": "まさに、直ちに"
+      },
+      {
+        "russian": "сейчас",
+        "pronunciation": "seychas",
+        "japanese": "今"
+      }
+    ]
+  }
+]

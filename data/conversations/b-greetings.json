@@ -1,0 +1,228 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Здравствуйте!",
+    "pronunciation": "Zdravstvuyte!",
+    "japanese": "こんにちは!",
+    "words": [
+      {
+        "russian": "Здравствуйте",
+        "pronunciation": "Zdravstvuyte",
+        "japanese": "こんにちは（丁寧）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Здравствуйте! Как дела?",
+    "pronunciation": "Zdravstvuyte! Kak dela?",
+    "japanese": "こんにちは! お元気ですか?",
+    "words": [
+      {
+        "russian": "Здравствуйте",
+        "pronunciation": "Zdravstvuyte",
+        "japanese": "こんにちは（丁寧）"
+      },
+      {
+        "russian": "Как",
+        "pronunciation": "Kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "дела",
+        "pronunciation": "dela",
+        "japanese": "様子、調子",
+        "baseForm": "дело",
+        "caseInfo": {
+          "caseName": "Nominative",
+          "caseNameJapanese": "主格",
+          "explanation": "「дела」は複数主格形で、「Как дела?」は「調子はどう?」という慣用表現です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "дело",
+              "genitive": "дела",
+              "dative": "делу",
+              "accusative": "дело",
+              "instrumental": "делом",
+              "prepositional": "деле"
+            },
+            "plural": {
+              "nominative": "дела",
+              "genitive": "дел",
+              "dative": "делам",
+              "accusative": "дела",
+              "instrumental": "делами",
+              "prepositional": "делах"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Хорошо, спасибо. А у вас?",
+    "pronunciation": "Harasho, spasiba. A u vas?",
+    "japanese": "元気です、ありがとう。あなたは?",
+    "words": [
+      {
+        "russian": "Хорошо",
+        "pronunciation": "Harasho",
+        "japanese": "よい、元気"
+      },
+      {
+        "russian": "спасибо",
+        "pronunciation": "spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "そして、では"
+      },
+      {
+        "russian": "у",
+        "pronunciation": "u",
+        "japanese": "～のところに（所有・状態を表す前置詞）"
+      },
+      {
+        "russian": "вас",
+        "pronunciation": "vas",
+        "japanese": "あなた（生格/対格）",
+        "baseForm": "вы",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "前置詞「у」の後では生格を使います。「у вас」で「あなたのところでは」という意味になります。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "вы",
+              "genitive": "вас",
+              "dative": "вам",
+              "accusative": "вас",
+              "instrumental": "вами",
+              "prepositional": "вас"
+            },
+            "plural": {
+              "nominative": "вы",
+              "genitive": "вас",
+              "dative": "вам",
+              "accusative": "вас",
+              "instrumental": "вами",
+              "prepositional": "вас"
+            }
+          }
+        }
+      }
+    ],
+    "grammarPoint": {
+      "title": "「у + 生格」で所有・状態を表す",
+      "explanation": "ロシア語には英語の「have」に相当する動詞がありません。代わりに「у + 人（生格）+ ある」という構文を使います。「А у вас?」は「あなたは（どうですか）?」という意味です。",
+      "examples": [
+        {
+          "russian": "У меня есть книга.",
+          "pronunciation": "U menya yest' kniga.",
+          "japanese": "私は本を持っています。"
+        },
+        {
+          "russian": "У тебя всё хорошо?",
+          "pronunciation": "U tebya vsyo harasho?",
+          "japanese": "君は大丈夫？"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Тоже хорошо. Приятно познакомиться!",
+    "pronunciation": "Tozhe harasho. Priyatna paznakomitsa!",
+    "japanese": "私も元気です。お会いできて嬉しいです!",
+    "words": [
+      {
+        "russian": "Тоже",
+        "pronunciation": "Tozhe",
+        "japanese": "同じく、も"
+      },
+      {
+        "russian": "хорошо",
+        "pronunciation": "harasho",
+        "japanese": "よい"
+      },
+      {
+        "russian": "Приятно",
+        "pronunciation": "Priyatna",
+        "japanese": "嬉しい、楽しい"
+      },
+      {
+        "russian": "познакомиться",
+        "pronunciation": "paznakomitsa",
+        "japanese": "知り合う"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Взаимно! До свидания!",
+    "pronunciation": "Vzaimna! Da svidaniya!",
+    "japanese": "こちらこそ! さようなら!",
+    "words": [
+      {
+        "russian": "Взаимно",
+        "pronunciation": "Vzaimna",
+        "japanese": "お互いに、こちらこそ"
+      },
+      {
+        "russian": "До",
+        "pronunciation": "Da",
+        "japanese": "～まで"
+      },
+      {
+        "russian": "свидания",
+        "pronunciation": "svidaniya",
+        "japanese": "再会（生格）",
+        "baseForm": "свидание",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "前置詞「до」（～まで）の後では生格を使います。「До свидания」は直訳すると「再会まで」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "свидание",
+              "genitive": "свидания",
+              "dative": "свиданию",
+              "accusative": "свидание",
+              "instrumental": "свиданием",
+              "prepositional": "свидании"
+            },
+            "plural": {
+              "nominative": "свидания",
+              "genitive": "свиданий",
+              "dative": "свиданиям",
+              "accusative": "свидания",
+              "instrumental": "свиданиями",
+              "prepositional": "свиданиях"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "До свидания!",
+    "pronunciation": "Da svidaniya!",
+    "japanese": "さようなら!",
+    "words": [
+      {
+        "russian": "До",
+        "pronunciation": "Da",
+        "japanese": "～まで"
+      },
+      {
+        "russian": "свидания",
+        "pronunciation": "svidaniya",
+        "japanese": "再会（生格）"
+      }
+    ]
+  }
+]

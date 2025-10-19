@@ -1,0 +1,419 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Приезжайте к нам на дачу в эти выходные!",
+    "pronunciation": "Priyezzhayte k nam na dachu v eti vykhadnyye!",
+    "japanese": "今週末にうちのダーチャに来てください!",
+    "words": [
+      {
+        "russian": "Приезжайте",
+        "pronunciation": "Priyezzhayte",
+        "japanese": "来てください（乗り物で、命令形）"
+      },
+      {
+        "russian": "к",
+        "pronunciation": "k",
+        "japanese": "～のところへ"
+      },
+      {
+        "russian": "нам",
+        "pronunciation": "nam",
+        "japanese": "私たち（与格）"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～に、～へ"
+      },
+      {
+        "russian": "дачу",
+        "pronunciation": "dachu",
+        "japanese": "ダーチャ（対格）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "эти",
+        "pronunciation": "eti",
+        "japanese": "これらの"
+      },
+      {
+        "russian": "выходные",
+        "pronunciation": "vykhadnyye",
+        "japanese": "週末、休日（複数対格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "С удовольствием! А что там можно делать?",
+    "pronunciation": "S udаvol'stviyem! A shto tam mozhna dyelat'?",
+    "japanese": "喜んで! そこで何ができますか?",
+    "words": [
+      {
+        "russian": "С",
+        "pronunciation": "S",
+        "japanese": "～と一緒に"
+      },
+      {
+        "russian": "удовольствием",
+        "pronunciation": "udаvol'stviyem",
+        "japanese": "喜び（造格）"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "что",
+        "pronunciation": "shto",
+        "japanese": "何を"
+      },
+      {
+        "russian": "там",
+        "pronunciation": "tam",
+        "japanese": "そこで"
+      },
+      {
+        "russian": "можно",
+        "pronunciation": "mozhna",
+        "japanese": "できる"
+      },
+      {
+        "russian": "делать",
+        "pronunciation": "dyelat'",
+        "japanese": "する"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Можно отдыхать на природе, собирать грибы в лесу, купаться в озере. У нас есть баня!",
+    "pronunciation": "Mozhna аtdykhat' na prirоdye, sabirat' griby v lyesu, kupatsa v оzyerye. U nas yest' banya!",
+    "japanese": "自然の中で休んだり、森でキノコ採りをしたり、湖で泳いだりできます。バーニャもあります!",
+    "words": [
+      {
+        "russian": "Можно",
+        "pronunciation": "Mozhna",
+        "japanese": "できる"
+      },
+      {
+        "russian": "отдыхать",
+        "pronunciation": "аtdykhat'",
+        "japanese": "休む"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～で"
+      },
+      {
+        "russian": "природе",
+        "pronunciation": "prirоdye",
+        "japanese": "自然（前置格）"
+      },
+      {
+        "russian": "собирать",
+        "pronunciation": "sabirat'",
+        "japanese": "集める、採る"
+      },
+      {
+        "russian": "грибы",
+        "pronunciation": "griby",
+        "japanese": "キノコ（対格複数）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "лесу",
+        "pronunciation": "lyesu",
+        "japanese": "森（前置格）"
+      },
+      {
+        "russian": "купаться",
+        "pronunciation": "kupatsa",
+        "japanese": "泳ぐ、入浴する"
+      },
+      {
+        "russian": "озере",
+        "pronunciation": "оzyerye",
+        "japanese": "湖（前置格）"
+      },
+      {
+        "russian": "У",
+        "pronunciation": "U",
+        "japanese": "～に"
+      },
+      {
+        "russian": "нас",
+        "pronunciation": "nas",
+        "japanese": "私たち（生格）"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある"
+      },
+      {
+        "russian": "баня",
+        "pronunciation": "banya",
+        "japanese": "バーニャ（ロシア式サウナ）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "不定人称文「можно + 不定形」",
+      "explanation": "「можно + 不定形」は「～することができる、～してもよい」という意味の不定人称文です。行為者を特定せずに一般的な可能性や許可を表します。「Можно отдыхать」で「休むことができる」という意味です。",
+      "examples": [
+        {
+          "russian": "Здесь можно курить?",
+          "pronunciation": "Zdyes' mozhna kurit'?",
+          "japanese": "ここで喫煙できますか?"
+        },
+        {
+          "russian": "Можно войти?",
+          "pronunciation": "Mozhna vayti?",
+          "japanese": "入ってもいいですか?"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Звучит замечательно! А далеко ли ваша дача от города?",
+    "pronunciation": "Zvuchit zamyechаtyel'na! A dalyeko li vasha dacha at gorаda?",
+    "japanese": "素晴らしそうですね! ダーチャは街から遠いですか?",
+    "words": [
+      {
+        "russian": "Звучит",
+        "pronunciation": "Zvuchit",
+        "japanese": "聞こえる"
+      },
+      {
+        "russian": "замечательно",
+        "pronunciation": "zamyechаtyel'na",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "далеко",
+        "pronunciation": "dalyeko",
+        "japanese": "遠い"
+      },
+      {
+        "russian": "ли",
+        "pronunciation": "li",
+        "japanese": "～か（疑問助詞）"
+      },
+      {
+        "russian": "ваша",
+        "pronunciation": "vasha",
+        "japanese": "あなたの（女性形）"
+      },
+      {
+        "russian": "даcha",
+        "pronunciation": "dacha",
+        "japanese": "ダーチャ"
+      },
+      {
+        "russian": "от",
+        "pronunciation": "at",
+        "japanese": "～から"
+      },
+      {
+        "russian": "города",
+        "pronunciation": "gorаda",
+        "japanese": "街（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Около часа на машине. Там очень тихо и спокойно, никакой городской суеты.",
+    "pronunciation": "Окаla chasa na mashine. Tam ochin' tikha i spakоyna, nikakоy garаdskоy suyety.",
+    "japanese": "車で約1時間です。そこはとても静かで落ち着いていて、都会の喧騒がありません。",
+    "words": [
+      {
+        "russian": "Около",
+        "pronunciation": "Окаla",
+        "japanese": "約、およそ"
+      },
+      {
+        "russian": "часа",
+        "pronunciation": "chasa",
+        "japanese": "時間（生格単数）"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～で（手段）"
+      },
+      {
+        "russian": "машине",
+        "pronunciation": "mashine",
+        "japanese": "車（前置格）"
+      },
+      {
+        "russian": "Там",
+        "pronunciation": "Tam",
+        "japanese": "そこは"
+      },
+      {
+        "russian": "очень",
+        "pronunciation": "ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "тихо",
+        "pronunciation": "tikha",
+        "japanese": "静かである"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "спокойно",
+        "pronunciation": "spakоyna",
+        "japanese": "落ち着いている"
+      },
+      {
+        "russian": "никакой",
+        "pronunciation": "nikakоy",
+        "japanese": "どんな～もない（生格女性形）"
+      },
+      {
+        "russian": "городской",
+        "pronunciation": "garаdskоy",
+        "japanese": "都会の（生格女性形）"
+      },
+      {
+        "russian": "суеты",
+        "pronunciation": "suyety",
+        "japanese": "喧騒、慌ただしさ（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Прекрасно! А что нужно взять с собой?",
+    "pronunciation": "Pryekrasna! A shto nuzhna vzyat' s sabоy?",
+    "japanese": "素晴らしい! 何を持って行く必要がありますか?",
+    "words": [
+      {
+        "russian": "Прекрасно",
+        "pronunciation": "Pryekrasna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "что",
+        "pronunciation": "shto",
+        "japanese": "何を"
+      },
+      {
+        "russian": "нужно",
+        "pronunciation": "nuzhna",
+        "japanese": "必要である"
+      },
+      {
+        "russian": "взять",
+        "pronunciation": "vzyat'",
+        "japanese": "持って行く（完了体）"
+      },
+      {
+        "russian": "с",
+        "pronunciation": "s",
+        "japanese": "～と一緒に"
+      },
+      {
+        "russian": "собой",
+        "pronunciation": "sabоy",
+        "japanese": "自分（造格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Только хорошее настроение! Всё остальное у нас есть. Приезжайте в субботу утром.",
+    "pronunciation": "Tоl'ka kharоsheye nastrаyeniye! Fsyo аstal'nоye u nas yest'. Priyezzhayte f subоtu utram.",
+    "japanese": "良い気分だけです! 他のものは全部うちにあります。土曜日の朝に来てください。",
+    "words": [
+      {
+        "russian": "Только",
+        "pronunciation": "Tоl'ka",
+        "japanese": "だけ"
+      },
+      {
+        "russian": "хорошее",
+        "pronunciation": "kharоsheye",
+        "japanese": "良い（対格中性形）"
+      },
+      {
+        "russian": "настроение",
+        "pronunciation": "nastrаyeniye",
+        "japanese": "気分"
+      },
+      {
+        "russian": "Всё",
+        "pronunciation": "Fsyo",
+        "japanese": "全て"
+      },
+      {
+        "russian": "остальное",
+        "pronunciation": "аstal'nоye",
+        "japanese": "残りの（中性形）"
+      },
+      {
+        "russian": "у",
+        "pronunciation": "u",
+        "japanese": "～に"
+      },
+      {
+        "russian": "нас",
+        "pronunciation": "nas",
+        "japanese": "私たち（生格）"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある"
+      },
+      {
+        "russian": "Приезжайте",
+        "pronunciation": "Priyezzhayte",
+        "japanese": "来てください"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "субботу",
+        "pronunciation": "subоtu",
+        "japanese": "土曜日（対格）"
+      },
+      {
+        "russian": "утром",
+        "pronunciation": "utram",
+        "japanese": "朝に（造格）"
+      }
+    ]
+  }
+]

@@ -1,0 +1,396 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Извините, как пройти к метро?",
+    "pronunciation": "Izvinite, kak prayti k myetro?",
+    "japanese": "すみません、地下鉄へはどう行けばいいですか?",
+    "words": [
+      {
+        "russian": "Извините",
+        "pronunciation": "Izvinite",
+        "japanese": "すみません"
+      },
+      {
+        "russian": "как",
+        "pronunciation": "kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "пройти",
+        "pronunciation": "prayti",
+        "japanese": "行く、通る（完了体不定形）"
+      },
+      {
+        "russian": "к",
+        "pronunciation": "k",
+        "japanese": "～へ（方向）"
+      },
+      {
+        "russian": "метро",
+        "pronunciation": "myetro",
+        "japanese": "地下鉄"
+      }
+    ],
+    "grammarPoint": {
+      "title": "運動の動詞「идти/пройти」",
+      "explanation": "ロシア語の運動の動詞は複雑で、方向性と完了・不完了の違いがあります。「идти」（歩いて行く、不完了体）、「пройти」（歩いて行く、完了体）。「Как пройти?」は「どうやって（歩いて）行けますか?」という決まり文句です。",
+      "examples": [
+        {
+          "russian": "Я иду в магазин.",
+          "pronunciation": "Ya idu v magazin.",
+          "japanese": "私は店に向かって歩いています。"
+        },
+        {
+          "russian": "Я прошёл два километра.",
+          "pronunciation": "Ya prashol dva kilometra.",
+          "japanese": "私は2キロ歩きました。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Идите прямо, потом поверните налево. Там увидите вход.",
+    "pronunciation": "Idite pryama, patom pavernite nalyeva. Tam uvidite fkhot.",
+    "japanese": "まっすぐ行って、それから左に曲がってください。そこに入り口が見えます。",
+    "words": [
+      {
+        "russian": "Идите",
+        "pronunciation": "Idite",
+        "japanese": "行ってください（命令形）"
+      },
+      {
+        "russian": "прямо",
+        "pronunciation": "pryama",
+        "japanese": "まっすぐ"
+      },
+      {
+        "russian": "потом",
+        "pronunciation": "patom",
+        "japanese": "それから"
+      },
+      {
+        "russian": "поверните",
+        "pronunciation": "pavernite",
+        "japanese": "曲がってください（完了体命令形）"
+      },
+      {
+        "russian": "налево",
+        "pronunciation": "nalyeva",
+        "japanese": "左に"
+      },
+      {
+        "russian": "Там",
+        "pronunciation": "Tam",
+        "japanese": "そこに"
+      },
+      {
+        "russian": "увидите",
+        "pronunciation": "uvidite",
+        "japanese": "見える（完了体未来形）"
+      },
+      {
+        "russian": "вход",
+        "pronunciation": "fkhot",
+        "japanese": "入り口"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Спасибо! Скажите, сколько стоит билет?",
+    "pronunciation": "Spasiba! Skazhite, skol'ka stoit bilyet?",
+    "japanese": "ありがとう! すみません、チケットはいくらですか?",
+    "words": [
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "Скажите",
+        "pronunciation": "Skazhite",
+        "japanese": "教えてください（命令形）"
+      },
+      {
+        "russian": "сколько",
+        "pronunciation": "skol'ka",
+        "japanese": "いくら"
+      },
+      {
+        "russian": "стоит",
+        "pronunciation": "stoit",
+        "japanese": "かかる、値段である"
+      },
+      {
+        "russian": "билет",
+        "pronunciation": "bilyet",
+        "japanese": "チケット"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Один билет стоит шестьдесят рублей. Можете купить в кассе или в автомате.",
+    "pronunciation": "Adin bilyet stoit shest'desyat rublyey. Mozhete kupit' f kassye ili v avtamate.",
+    "japanese": "チケット1枚は60ルーブルです。窓口か自動券売機で買えます。",
+    "words": [
+      {
+        "russian": "Один",
+        "pronunciation": "Adin",
+        "japanese": "1つの"
+      },
+      {
+        "russian": "билет",
+        "pronunciation": "bilyet",
+        "japanese": "チケット"
+      },
+      {
+        "russian": "стоит",
+        "pronunciation": "stoit",
+        "japanese": "かかる"
+      },
+      {
+        "russian": "шестьдесят",
+        "pronunciation": "shest'desyat",
+        "japanese": "60"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）"
+      },
+      {
+        "russian": "Можете",
+        "pronunciation": "Mozhete",
+        "japanese": "できます（二人称複数）"
+      },
+      {
+        "russian": "купить",
+        "pronunciation": "kupit'",
+        "japanese": "買う（完了体不定形）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "кассе",
+        "pronunciation": "kassye",
+        "japanese": "窓口（前置格）",
+        "baseForm": "касса"
+      },
+      {
+        "russian": "или",
+        "pronunciation": "ili",
+        "japanese": "または"
+      },
+      {
+        "russian": "автомате",
+        "pronunciation": "avtamate",
+        "japanese": "自動機（前置格）",
+        "baseForm": "автомат"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "А как доехать до Красной площади?",
+    "pronunciation": "A kak dayekhat' da Krasnay ploshchadi?",
+    "japanese": "では赤の広場へはどう行けばいいですか?",
+    "words": [
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "как",
+        "pronunciation": "kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "доехать",
+        "pronunciation": "dayekhat'",
+        "japanese": "乗り物で行く（完了体）"
+      },
+      {
+        "russian": "до",
+        "pronunciation": "da",
+        "japanese": "～まで"
+      },
+      {
+        "russian": "Красной",
+        "pronunciation": "Krasnay",
+        "japanese": "赤い（生格女性形）"
+      },
+      {
+        "russian": "площади",
+        "pronunciation": "ploshchadi",
+        "japanese": "広場（生格）",
+        "baseForm": "площадь",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "前置詞「до」（～まで）の後では生格を使います。「до Красной площади」で「赤の広場まで」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "площадь",
+              "genitive": "площади",
+              "dative": "площади",
+              "accusative": "площадь",
+              "instrumental": "площадью",
+              "prepositional": "площади"
+            },
+            "plural": {
+              "nominative": "площади",
+              "genitive": "площадей",
+              "dative": "площадям",
+              "accusative": "площади",
+              "instrumental": "площадями",
+              "prepositional": "площадях"
+            }
+          }
+        }
+      }
+    ],
+    "grammarPoint": {
+      "title": "運動の動詞「ехать/доехать」",
+      "explanation": "「ехать」は乗り物で移動する不完了体、「доехать」は「～まで乗り物で到着する」完了体です。「Как доехать до ~?」は「～までどう（乗り物で）行けばいいですか?」という道案内でよく使う表現です。",
+      "examples": [
+        {
+          "russian": "Я еду на работу.",
+          "pronunciation": "Ya yedu na rabotu.",
+          "japanese": "私は仕事に向かっています。（乗り物で）"
+        },
+        {
+          "russian": "Мы доехали до центра.",
+          "pronunciation": "My dayekhali da tsentra.",
+          "japanese": "私たちは中心部まで着きました。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Садитесь на красную линию и езжайте три остановки. Выходите на станции «Охотный ряд».",
+    "pronunciation": "Sadites' na krasnuyu liniyu i yezzhayte tri astanovki. Vykhadite na stantsii «Akhotnyy ryat».",
+    "japanese": "赤い線に乗って3駅進んでください。「オホートヌイ・リャド」駅で降りてください。",
+    "words": [
+      {
+        "russian": "Садитесь",
+        "pronunciation": "Sadites'",
+        "japanese": "乗ってください（命令形）"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～に（乗り物）"
+      },
+      {
+        "russian": "красную",
+        "pronunciation": "krasnuyu",
+        "japanese": "赤い（対格女性形）"
+      },
+      {
+        "russian": "линию",
+        "pronunciation": "liniyu",
+        "japanese": "線（対格）",
+        "baseForm": "линия"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "そして"
+      },
+      {
+        "russian": "езжайте",
+        "pronunciation": "yezzhayte",
+        "japanese": "行ってください（命令形）"
+      },
+      {
+        "russian": "три",
+        "pronunciation": "tri",
+        "japanese": "3"
+      },
+      {
+        "russian": "остановки",
+        "pronunciation": "astanovki",
+        "japanese": "停留所、駅（生格単数）"
+      },
+      {
+        "russian": "Выходите",
+        "pronunciation": "Vykhadite",
+        "japanese": "降りてください（命令形）"
+      },
+      {
+        "russian": "станции",
+        "pronunciation": "stantsii",
+        "japanese": "駅（前置格）"
+      },
+      {
+        "russian": "Охотный ряд",
+        "pronunciation": "Akhotnyy ryat",
+        "japanese": "オホートヌイ・リャド（駅名）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Понятно. Большое спасибо за помощь!",
+    "pronunciation": "Panyatna. Bal'shoye spasiba za pomashch!",
+    "japanese": "わかりました。助けてくれてありがとう!",
+    "words": [
+      {
+        "russian": "Понятно",
+        "pronunciation": "Panyatna",
+        "japanese": "わかりました"
+      },
+      {
+        "russian": "Большое",
+        "pronunciation": "Bal'shoye",
+        "japanese": "大きな"
+      },
+      {
+        "russian": "спасибо",
+        "pronunciation": "spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "за",
+        "pronunciation": "za",
+        "japanese": "～に対して"
+      },
+      {
+        "russian": "помощь",
+        "pronunciation": "pomashch",
+        "japanese": "助け（対格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Не за что! Счастливого пути!",
+    "pronunciation": "Nye za shto! Shchastlivava puti!",
+    "japanese": "どういたしまして! 良い旅を!",
+    "words": [
+      {
+        "russian": "Не за что",
+        "pronunciation": "Nye za shto",
+        "japanese": "どういたしまして"
+      },
+      {
+        "russian": "Счастливого",
+        "pronunciation": "Shchastlivava",
+        "japanese": "幸せな（生格）"
+      },
+      {
+        "russian": "пути",
+        "pronunciation": "puti",
+        "japanese": "道、旅（生格）",
+        "baseForm": "путь"
+      }
+    ]
+  }
+]

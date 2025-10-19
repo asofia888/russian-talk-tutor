@@ -1,0 +1,398 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Вы слышали новость о запуске нового космического проекта?",
+    "pronunciation": "Vy slyshali novast' a zapuske novava kasmichyeskava prayekta?",
+    "japanese": "新しい宇宙プロジェクトの開始についてのニュースを聞きましたか?",
+    "words": [
+      {
+        "russian": "Вы",
+        "pronunciation": "Vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "слышали",
+        "pronunciation": "slyshali",
+        "japanese": "聞いた"
+      },
+      {
+        "russian": "новость",
+        "pronunciation": "novast'",
+        "japanese": "ニュース"
+      },
+      {
+        "russian": "о",
+        "pronunciation": "a",
+        "japanese": "～について"
+      },
+      {
+        "russian": "запуске",
+        "pronunciation": "zapuske",
+        "japanese": "開始、打ち上げ（前置格）",
+        "baseForm": "запуск"
+      },
+      {
+        "russian": "нового",
+        "pronunciation": "novava",
+        "japanese": "新しい（生格男性形）"
+      },
+      {
+        "russian": "космического",
+        "pronunciation": "kasmichyeskava",
+        "japanese": "宇宙の（生格男性形）"
+      },
+      {
+        "russian": "проекта",
+        "pronunciation": "prayekta",
+        "japanese": "プロジェクト（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, читал об этом сегодня утром. Считаю, что это важный шаг для науки.",
+    "pronunciation": "Da, chital ab etam syevodnya utram. Schitayu, shto eta vazhnyy shak dlya nauki.",
+    "japanese": "はい、今朝それについて読みました。科学にとって重要な一歩だと思います。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "читал",
+        "pronunciation": "chital",
+        "japanese": "読んだ"
+      },
+      {
+        "russian": "об",
+        "pronunciation": "ab",
+        "japanese": "～について"
+      },
+      {
+        "russian": "этом",
+        "pronunciation": "etam",
+        "japanese": "これ（前置格）"
+      },
+      {
+        "russian": "сегодня",
+        "pronunciation": "syevodnya",
+        "japanese": "今日"
+      },
+      {
+        "russian": "утром",
+        "pronunciation": "utram",
+        "japanese": "朝に（造格）"
+      },
+      {
+        "russian": "Считаю",
+        "pronunciation": "Schitayu",
+        "japanese": "思う、考える"
+      },
+      {
+        "russian": "что",
+        "pronunciation": "shto",
+        "japanese": "～ということ"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "важный",
+        "pronunciation": "vazhnyy",
+        "japanese": "重要な"
+      },
+      {
+        "russian": "шаг",
+        "pronunciation": "shak",
+        "japanese": "一歩、ステップ"
+      },
+      {
+        "russian": "для",
+        "pronunciation": "dlya",
+        "japanese": "～にとって"
+      },
+      {
+        "russian": "науки",
+        "pronunciation": "nauki",
+        "japanese": "科学（生格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "意見の表明「Считаю, что...」",
+      "explanation": "自分の意見を述べる時は「Я считаю, что...」（私は～だと思う）という表現を使います。「считать」は「考える、思う」という意味で、後ろに「что」節が続きます。より公式的・客観的な意見表明に使われます。",
+      "examples": [
+        {
+          "russian": "Я считаю, что образование очень важно.",
+          "pronunciation": "Ya schitayu, shto abrazavaniye ochin' vazhna.",
+          "japanese": "私は教育はとても重要だと思います。"
+        },
+        {
+          "russian": "Мы считаем, что это правильное решение.",
+          "pronunciation": "My schitayem, shto eta pravil'naye ryesheniye.",
+          "japanese": "私たちはこれが正しい決定だと考えます。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Согласен. А как вы относитесь к вопросу изменения климата?",
+    "pronunciation": "Saglasyen. A kak vy atnosityes' k vaprosu izmyenyeniya klimata?",
+    "japanese": "同感です。気候変動の問題についてはどう思いますか?",
+    "words": [
+      {
+        "russian": "Согласен",
+        "pronunciation": "Saglasyen",
+        "japanese": "同意する"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "как",
+        "pronunciation": "kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "относитесь",
+        "pronunciation": "atnosityes'",
+        "japanese": "関係する、考える"
+      },
+      {
+        "russian": "к",
+        "pronunciation": "k",
+        "japanese": "～に対して"
+      },
+      {
+        "russian": "вопросу",
+        "pronunciation": "vaprosu",
+        "japanese": "問題（与格）",
+        "baseForm": "вопрос"
+      },
+      {
+        "russian": "изменения",
+        "pronunciation": "izmyenyeniya",
+        "japanese": "変化（生格）"
+      },
+      {
+        "russian": "климата",
+        "pronunciation": "klimata",
+        "japanese": "気候（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Это серьёзная проблема. По-моему, каждый должен внести свой вклад в защиту окружающей среды.",
+    "pronunciation": "Eta syer'yoznaya prablyema. Pa-moyemu, kazhdyy dolzhen vnyesti svoy vklat f zashchitu akruzhayushchyey sryedy.",
+    "japanese": "これは深刻な問題です。私の意見では、誰もが環境保護に貢献すべきです。",
+    "words": [
+      {
+        "russian": "Это",
+        "pronunciation": "Eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "серьёзная",
+        "pronunciation": "syer'yoznaya",
+        "japanese": "深刻な（女性形）"
+      },
+      {
+        "russian": "проблема",
+        "pronunciation": "prablyema",
+        "japanese": "問題"
+      },
+      {
+        "russian": "По-моему",
+        "pronunciation": "Pa-moyemu",
+        "japanese": "私の意見では"
+      },
+      {
+        "russian": "каждый",
+        "pronunciation": "kazhdyy",
+        "japanese": "誰もが、各々の"
+      },
+      {
+        "russian": "должен",
+        "pronunciation": "dolzhen",
+        "japanese": "～すべきである（男性短語尾）"
+      },
+      {
+        "russian": "внести",
+        "pronunciation": "vnyesti",
+        "japanese": "貢献する（完了体）"
+      },
+      {
+        "russian": "свой",
+        "pronunciation": "svoy",
+        "japanese": "自分の"
+      },
+      {
+        "russian": "вклад",
+        "pronunciation": "vklat",
+        "japanese": "貢献"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "защиту",
+        "pronunciation": "zashchitu",
+        "japanese": "保護（対格）"
+      },
+      {
+        "russian": "окружающей",
+        "pronunciation": "akruzhayushchyey",
+        "japanese": "周囲の（生格女性形）"
+      },
+      {
+        "russian": "среды",
+        "pronunciation": "sryedy",
+        "japanese": "環境（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Полностью с вами согласен. Кстати, вы следите за политическими новостями?",
+    "pronunciation": "Polnast'yu s vami saglasyen. Kstati, vy slyed ite za paliтichyeskimi navostyami?",
+    "japanese": "完全に同意します。ところで、政治ニュースをフォローしていますか?",
+    "words": [
+      {
+        "russian": "Полностью",
+        "pronunciation": "Polnast'yu",
+        "japanese": "完全に"
+      },
+      {
+        "russian": "с",
+        "pronunciation": "s",
+        "japanese": "～と"
+      },
+      {
+        "russian": "вами",
+        "pronunciation": "vami",
+        "japanese": "あなた（造格）"
+      },
+      {
+        "russian": "согласен",
+        "pronunciation": "saglasyen",
+        "japanese": "同意する"
+      },
+      {
+        "russian": "Кстати",
+        "pronunciation": "Kstati",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "следите",
+        "pronunciation": "slyed ite",
+        "japanese": "追う、フォローする"
+      },
+      {
+        "russian": "за",
+        "pronunciation": "za",
+        "japanese": "～を（追跡）"
+      },
+      {
+        "russian": "политическими",
+        "pronunciation": "paliтichyeskimi",
+        "japanese": "政治の（造格複数）"
+      },
+      {
+        "russian": "новостями",
+        "pronunciation": "navostyami",
+        "japanese": "ニュース（造格複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, стараюсь быть в курсе основных событий. Важно понимать, что происходит в мире.",
+    "pronunciation": "Da, starayus' byt' f kurse asnovnykh sabytiy. Vazhna panimat', shto praiskhоdit v mire.",
+    "japanese": "はい、主要な出来事を把握するよう努めています。世界で何が起こっているかを理解することは重要です。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "стараюсь",
+        "pronunciation": "starayus'",
+        "japanese": "努める"
+      },
+      {
+        "russian": "быть",
+        "pronunciation": "byt'",
+        "japanese": "である"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "курсе",
+        "pronunciation": "kurse",
+        "japanese": "状況（前置格）"
+      },
+      {
+        "russian": "основных",
+        "pronunciation": "asnovnykh",
+        "japanese": "主要な（生格複数）"
+      },
+      {
+        "russian": "событий",
+        "pronunciation": "sabytiy",
+        "japanese": "出来事（生格複数）"
+      },
+      {
+        "russian": "Важно",
+        "pronunciation": "Vazhna",
+        "japanese": "重要である"
+      },
+      {
+        "russian": "понимать",
+        "pronunciation": "panimat'",
+        "japanese": "理解する"
+      },
+      {
+        "russian": "что",
+        "pronunciation": "shto",
+        "japanese": "何が"
+      },
+      {
+        "russian": "происходит",
+        "pronunciation": "praiskhоdit",
+        "japanese": "起こる"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "мире",
+        "pronunciation": "mire",
+        "japanese": "世界（前置格）"
+      }
+    ]
+  }
+]

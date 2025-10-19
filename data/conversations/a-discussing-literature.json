@@ -1,0 +1,336 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Вы читали «Преступление и наказание» Достоевского?",
+    "pronunciation": "Vy chitali «Pryestupleniye i nakazaniye» Dastaуevskava?",
+    "japanese": "ドストエフスキーの『罪と罰』を読みましたか?",
+    "words": [
+      {
+        "russian": "Вы",
+        "pronunciation": "Vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "читали",
+        "pronunciation": "chitali",
+        "japanese": "読んだ（複数過去形）"
+      },
+      {
+        "russian": "Преступление",
+        "pronunciation": "Pryestupleniye",
+        "japanese": "犯罪"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "наказание",
+        "pronunciation": "nakazaniye",
+        "japanese": "罰"
+      },
+      {
+        "russian": "Достоевского",
+        "pronunciation": "Dastaуevskava",
+        "japanese": "ドストエフスキー（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, читал недавно. Потрясающее произведение! Меня особенно поразила психологическая глубина главного героя.",
+    "pronunciation": "Da, chital nyedavna. Patryasayushcheye praizvyedyeniye! Myenya asobyenna parazila psikhаlagichyeskaya glubina glavnava gyeroya.",
+    "japanese": "はい、最近読みました。素晴らしい作品です! 主人公の心理的な深さに特に感銘を受けました。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "читал",
+        "pronunciation": "chital",
+        "japanese": "読んだ（男性過去形）"
+      },
+      {
+        "russian": "недавно",
+        "pronunciation": "nyedavna",
+        "japanese": "最近"
+      },
+      {
+        "russian": "Потрясающее",
+        "pronunciation": "Patryasayushcheye",
+        "japanese": "素晴らしい（中性形）"
+      },
+      {
+        "russian": "произведение",
+        "pronunciation": "praizvyedyeniye",
+        "japanese": "作品"
+      },
+      {
+        "russian": "Меня",
+        "pronunciation": "Myenya",
+        "japanese": "私を（対格）"
+      },
+      {
+        "russian": "особенно",
+        "pronunciation": "asobyenna",
+        "japanese": "特に"
+      },
+      {
+        "russian": "поразила",
+        "pronunciation": "parazila",
+        "japanese": "感銘を与えた（女性過去形）"
+      },
+      {
+        "russian": "психологическая",
+        "pronunciation": "psikhаlagichyeskaya",
+        "japanese": "心理的な（女性形）"
+      },
+      {
+        "russian": "глубина",
+        "pronunciation": "glubina",
+        "japanese": "深さ"
+      },
+      {
+        "russian": "главного",
+        "pronunciation": "glavnava",
+        "japanese": "主要な（生格男性形）"
+      },
+      {
+        "russian": "героя",
+        "pronunciation": "gyeroya",
+        "japanese": "主人公（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Согласен. А какой ваш любимый русский писатель?",
+    "pronunciation": "Saglasyen. A kakoy vash lyubimyy russkiy pisatyel'?",
+    "japanese": "同感です。お気に入りのロシア作家は誰ですか?",
+    "words": [
+      {
+        "russian": "Согласен",
+        "pronunciation": "Saglasyen",
+        "japanese": "同意する"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "какой",
+        "pronunciation": "kakoy",
+        "japanese": "どの"
+      },
+      {
+        "russian": "ваш",
+        "pronunciation": "vash",
+        "japanese": "あなたの"
+      },
+      {
+        "russian": "любимый",
+        "pronunciation": "lyubimyy",
+        "japanese": "お気に入りの"
+      },
+      {
+        "russian": "русский",
+        "pronunciation": "russkiy",
+        "japanese": "ロシアの"
+      },
+      {
+        "russian": "писатель",
+        "pronunciation": "pisatyel'",
+        "japanese": "作家"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Толстой. «Война и мир» — моё самое любимое произведение. Там так мастерски описана эпоха!",
+    "pronunciation": "Talstoy. «Vayna i mir» — mayo samoye lyubimoye praizvyedyeniye. Tam tak mastyerski apisana epokha!",
+    "japanese": "トルストイです。『戦争と平和』が一番好きな作品です。あの時代が見事に描かれています!",
+    "words": [
+      {
+        "russian": "Толстой",
+        "pronunciation": "Talstoy",
+        "japanese": "トルストイ"
+      },
+      {
+        "russian": "Война",
+        "pronunciation": "Vayna",
+        "japanese": "戦争"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "мир",
+        "pronunciation": "mir",
+        "japanese": "平和"
+      },
+      {
+        "russian": "моё",
+        "pronunciation": "mayo",
+        "japanese": "私の（中性形）"
+      },
+      {
+        "russian": "самое",
+        "pronunciation": "samoye",
+        "japanese": "最も～な（中性形）"
+      },
+      {
+        "russian": "любимое",
+        "pronunciation": "lyubimoye",
+        "japanese": "お気に入りの（中性形）"
+      },
+      {
+        "russian": "произведение",
+        "pronunciation": "praizvyedyeniye",
+        "japanese": "作品"
+      },
+      {
+        "russian": "Там",
+        "pronunciation": "Tam",
+        "japanese": "そこで"
+      },
+      {
+        "russian": "так",
+        "pronunciation": "tak",
+        "japanese": "とても"
+      },
+      {
+        "russian": "мастерски",
+        "pronunciation": "mastyerski",
+        "japanese": "見事に、巧みに"
+      },
+      {
+        "russian": "описана",
+        "pronunciation": "apisana",
+        "japanese": "描かれた（女性短語尾過去分詞）"
+      },
+      {
+        "russian": "эпоха",
+        "pronunciation": "epokha",
+        "japanese": "時代"
+      }
+    ],
+    "grammarPoint": {
+      "title": "最上級「самый + 形容詞」",
+      "explanation": "ロシア語の最上級は「самый」（最も）+ 形容詞の原級で作ります。「самый」は後ろの形容詞と名詞の性・数・格に合わせて変化します。「самое любимое произведение」で「最も好きな作品」という意味です。",
+      "examples": [
+        {
+          "russian": "Это самая интересная книга.",
+          "pronunciation": "Eta samaya intyeryesnaya kniga.",
+          "japanese": "これは最も面白い本です。"
+        },
+        {
+          "russian": "Он самый умный студент.",
+          "pronunciation": "On samyy umnyy studyent.",
+          "japanese": "彼は最も賢い学生です。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "А как вам современная русская литература?",
+    "pronunciation": "A kak vam savryemyennaya russkaya lityeratura?",
+    "japanese": "現代ロシア文学はどうですか?",
+    "words": [
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "как",
+        "pronunciation": "kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "вам",
+        "pronunciation": "vam",
+        "japanese": "あなたに（与格）"
+      },
+      {
+        "russian": "современная",
+        "pronunciation": "savryemyennaya",
+        "japanese": "現代の（女性形）"
+      },
+      {
+        "russian": "русская",
+        "pronunciation": "russkaya",
+        "japanese": "ロシアの（女性形）"
+      },
+      {
+        "russian": "литература",
+        "pronunciation": "lityeratura",
+        "japanese": "文学"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Тоже интересна! Недавно прочитал Пелевина. Его стиль необычный, но увлекательный.",
+    "pronunciation": "Tozhe intyeryesna! Nyedavna prachital Pyelyevina. Yevo stil' nyeabychnyy, no uvlyekatel'nyy.",
+    "japanese": "それも面白いです! 最近ペレーヴィンを読みました。彼のスタイルは独特ですが、魅力的です。",
+    "words": [
+      {
+        "russian": "Тоже",
+        "pronunciation": "Tozhe",
+        "japanese": "同じく"
+      },
+      {
+        "russian": "интересна",
+        "pronunciation": "intyeryesna",
+        "japanese": "面白い（女性短語尾）"
+      },
+      {
+        "russian": "Недавно",
+        "pronunciation": "Nyedavna",
+        "japanese": "最近"
+      },
+      {
+        "russian": "прочитал",
+        "pronunciation": "prachital",
+        "japanese": "読んだ（完了体男性過去形）"
+      },
+      {
+        "russian": "Пелевина",
+        "pronunciation": "Pyelyevina",
+        "japanese": "ペレーヴィン（対格）"
+      },
+      {
+        "russian": "Его",
+        "pronunciation": "Yevo",
+        "japanese": "彼の"
+      },
+      {
+        "russian": "стиль",
+        "pronunciation": "stil'",
+        "japanese": "スタイル"
+      },
+      {
+        "russian": "необычный",
+        "pronunciation": "nyeabychnyy",
+        "japanese": "独特な"
+      },
+      {
+        "russian": "но",
+        "pronunciation": "no",
+        "japanese": "しかし"
+      },
+      {
+        "russian": "увлекательный",
+        "pronunciation": "uvlyekatel'nyy",
+        "japanese": "魅力的な"
+      }
+    ]
+  }
+]
