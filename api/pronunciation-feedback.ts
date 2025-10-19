@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleGenAI, Type } from "@google/genai";
+import { setCorsHeaders } from '../utils/cors';
 
 const feedbackSchema = {
     type: Type.OBJECT,
@@ -21,39 +22,8 @@ const feedbackSchema = {
 };
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-    // CORS headers - restrict in production
-    const allowedOrigins = [
-        'https://russian-talk-tutor.vercel.app',
-        'https://russian-talk-tutor-asofia888s-projects.vercel.app', // Preview deployments
-        'http://localhost:3000', // Local development
-        'http://localhost:5173', // Vite dev server
-    ];
-
-    const origin = req.headers.origin;
-    const isDevelopment = process.env['NODE_ENV'] === 'development';
-
-    // Determine the appropriate CORS origin
-    let allowedOrigin: string;
-
-    const firstAllowedOrigin = allowedOrigins[0];
-    if(firstAllowedOrigin === undefined) {
-        // Should be impossible
-        throw new Error("allowedOrigins cannot be empty");
-    }
-
-    if (isDevelopment) {
-        allowedOrigin = origin ?? '*';
-    } else if (typeof origin === 'string' && allowedOrigins.includes(origin)) {
-        allowedOrigin = origin;
-    } else {
-        allowedOrigin = firstAllowedOrigin;
-    }
-
-    res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
-
-    res.setHeader('Access-Control-Allow-Credentials', 'true');
-    res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,POST');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    // Set CORS headers
+    setCorsHeaders(res, req.headers.origin);
 
     if (req.method === 'OPTIONS') {
         return res.status(200).end();
