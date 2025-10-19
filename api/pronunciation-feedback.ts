@@ -33,11 +33,20 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const isDevelopment = process.env['NODE_ENV'] === 'development';
 
     // Determine the appropriate CORS origin
-    let allowedOrigin: string = allowedOrigins[0];
+    let allowedOrigin: string;
+
+    const firstAllowedOrigin = allowedOrigins[0];
+    if(firstAllowedOrigin === undefined) {
+        // Should be impossible
+        throw new Error("allowedOrigins cannot be empty");
+    }
+
     if (isDevelopment) {
         allowedOrigin = origin ?? '*';
-    } else if (origin && allowedOrigins.includes(origin)) {
+    } else if (typeof origin === 'string' && allowedOrigins.includes(origin)) {
         allowedOrigin = origin;
+    } else {
+        allowedOrigin = firstAllowedOrigin;
     }
 
     res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
