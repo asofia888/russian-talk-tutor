@@ -1,0 +1,365 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Добрый день! Сколько стоит килограмм яблок?",
+    "pronunciation": "Dobryy dyen'! Skol'ka stoit kilagram yablak?",
+    "japanese": "こんにちは! リンゴは1キロいくらですか?",
+    "words": [
+      {
+        "russian": "Добрый",
+        "pronunciation": "Dobryy",
+        "japanese": "良い"
+      },
+      {
+        "russian": "день",
+        "pronunciation": "dyen'",
+        "japanese": "日"
+      },
+      {
+        "russian": "Сколько",
+        "pronunciation": "Skol'ka",
+        "japanese": "いくら"
+      },
+      {
+        "russian": "стоит",
+        "pronunciation": "stoit",
+        "japanese": "値段である"
+      },
+      {
+        "russian": "килограмм",
+        "pronunciation": "kilagram",
+        "japanese": "キログラム"
+      },
+      {
+        "russian": "яблок",
+        "pronunciation": "yablak",
+        "japanese": "リンゴ（生格複数）",
+        "baseForm": "яблоко",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "量や重さを表す名詞の後では、品物の名詞は生格を使います。「килограмм яблок」で「リンゴ1キログラム」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "яблоко",
+              "genitive": "яблока",
+              "dative": "яблоку",
+              "accusative": "яблоко",
+              "instrumental": "яблоком",
+              "prepositional": "яблоке"
+            },
+            "plural": {
+              "nominative": "яблоки",
+              "genitive": "яблок",
+              "dative": "яблокам",
+              "accusative": "яблоки",
+              "instrumental": "яблоками",
+              "prepositional": "яблоках"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Сто двадцать рублей за килограмм. Яблоки свежие, очень вкусные!",
+    "pronunciation": "Sto dvadtsat' rublyey za kilagram. Yablaki svyezhiye, ochin' fkusnyye!",
+    "japanese": "1キロ120ルーブルです。リンゴは新鮮でとても美味しいですよ!",
+    "words": [
+      {
+        "russian": "Сто",
+        "pronunciation": "Sto",
+        "japanese": "100"
+      },
+      {
+        "russian": "двадцать",
+        "pronunciation": "dvadtsat'",
+        "japanese": "20"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）"
+      },
+      {
+        "russian": "за",
+        "pronunciation": "za",
+        "japanese": "～につき"
+      },
+      {
+        "russian": "килограмм",
+        "pronunciation": "kilagram",
+        "japanese": "キログラム"
+      },
+      {
+        "russian": "Яблоки",
+        "pronunciation": "Yablaki",
+        "japanese": "リンゴ（複数主格）"
+      },
+      {
+        "russian": "свежие",
+        "pronunciation": "svyezhiye",
+        "japanese": "新鮮な（複数形）"
+      },
+      {
+        "russian": "очень",
+        "pronunciation": "ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "вкусные",
+        "pronunciation": "fkusnyye",
+        "japanese": "美味しい（複数形）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Хорошо. Взвесьте, пожалуйста, полтора килограмма.",
+    "pronunciation": "Harasho. Vzvyes'te, pazhalusta, paltara kilagrama.",
+    "japanese": "わかりました。1.5キロ量ってください。",
+    "words": [
+      {
+        "russian": "Хорошо",
+        "pronunciation": "Harasho",
+        "japanese": "わかりました"
+      },
+      {
+        "russian": "Взвесьте",
+        "pronunciation": "Vzvyes'te",
+        "japanese": "量ってください（命令形）"
+      },
+      {
+        "russian": "пожалуйста",
+        "pronunciation": "pazhalusta",
+        "japanese": "お願いします"
+      },
+      {
+        "russian": "полтора",
+        "pronunciation": "paltara",
+        "japanese": "1.5"
+      },
+      {
+        "russian": "килограмма",
+        "pronunciation": "kilagrama",
+        "japanese": "キログラム（生格単数）",
+        "baseForm": "килограмм"
+      }
+    ],
+    "grammarPoint": {
+      "title": "数詞「полтора」（1.5）",
+      "explanation": "「полтора」は「1.5」を意味する特殊な数詞です。男性・中性名詞の後では「полтора」、女性名詞の後では「полторы」を使います。後ろの名詞は生格単数形になります。",
+      "examples": [
+        {
+          "russian": "полтора часа",
+          "pronunciation": "paltara chasa",
+          "japanese": "1.5時間"
+        },
+        {
+          "russian": "полторы недели",
+          "pronunciation": "paltary nyedeli",
+          "japanese": "1.5週間"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Пожалуйста. Что-нибудь ещё?",
+    "pronunciation": "Pazhalusta. Shto-nibut' yeshchyo?",
+    "japanese": "どうぞ。他に何か?",
+    "words": [
+      {
+        "russian": "Пожалуйста",
+        "pronunciation": "Pazhalusta",
+        "japanese": "どうぞ"
+      },
+      {
+        "russian": "Что-нибудь",
+        "pronunciation": "Shto-nibut'",
+        "japanese": "何か"
+      },
+      {
+        "russian": "ещё",
+        "pronunciation": "yeshchyo",
+        "japanese": "まだ、さらに"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Да, дайте ещё триста граммов сыра и двести граммов колбасы.",
+    "pronunciation": "Da, dayte yeshchyo trista gramav syra i dvyesti gramav kalbasы.",
+    "japanese": "はい、チーズ300グラムとソーセージ200グラムもください。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "дайте",
+        "pronunciation": "dayte",
+        "japanese": "ください"
+      },
+      {
+        "russian": "ещё",
+        "pronunciation": "yeshchyo",
+        "japanese": "さらに"
+      },
+      {
+        "russian": "триста",
+        "pronunciation": "trista",
+        "japanese": "300"
+      },
+      {
+        "russian": "граммов",
+        "pronunciation": "gramav",
+        "japanese": "グラム（生格複数）"
+      },
+      {
+        "russian": "сыра",
+        "pronunciation": "syra",
+        "japanese": "チーズ（生格）",
+        "baseForm": "сыр"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "двести",
+        "pronunciation": "dvyesti",
+        "japanese": "200"
+      },
+      {
+        "russian": "колбасы",
+        "pronunciation": "kalbasы",
+        "japanese": "ソーセージ（生格）",
+        "baseForm": "колбаса"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Хорошо. С вас четыреста пятьдесят рублей.",
+    "pronunciation": "Harasho. S vas chityresta pyat'desyat rublyey.",
+    "japanese": "わかりました。450ルーブルです。",
+    "words": [
+      {
+        "russian": "Хорошо",
+        "pronunciation": "Harasho",
+        "japanese": "わかりました"
+      },
+      {
+        "russian": "С",
+        "pronunciation": "S",
+        "japanese": "～から"
+      },
+      {
+        "russian": "вас",
+        "pronunciation": "vas",
+        "japanese": "あなた（生格）"
+      },
+      {
+        "russian": "четыреста",
+        "pronunciation": "chityresta",
+        "japanese": "400"
+      },
+      {
+        "russian": "пятьдесят",
+        "pronunciation": "pyat'desyat",
+        "japanese": "50"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Вот, возьмите пятьсот. Сдачу не надо.",
+    "pronunciation": "Vot, vaz'mite pyat'sot. Sdachu nye nada.",
+    "japanese": "これ、500ルーブル受け取ってください。お釣りはいりません。",
+    "words": [
+      {
+        "russian": "Вот",
+        "pronunciation": "Vot",
+        "japanese": "これ、ほら"
+      },
+      {
+        "russian": "возьмите",
+        "pronunciation": "vaz'mite",
+        "japanese": "受け取ってください（命令形）"
+      },
+      {
+        "russian": "пятьсот",
+        "pronunciation": "pyat'sot",
+        "japanese": "500"
+      },
+      {
+        "russian": "Сдачу",
+        "pronunciation": "Sdachu",
+        "japanese": "お釣り（対格）"
+      },
+      {
+        "russian": "не",
+        "pronunciation": "nye",
+        "japanese": "～ない"
+      },
+      {
+        "russian": "надо",
+        "pronunciation": "nada",
+        "japanese": "必要である"
+      }
+    ],
+    "grammarPoint": {
+      "title": "「не надо」（必要ない）",
+      "explanation": "「надо」は「必要である」という意味の非人称述語です。「не надо + 名詞（生格）」または「не надо + 不定形」で「～は必要ない、～しなくていい」という意味になります。",
+      "examples": [
+        {
+          "russian": "Не надо спешить.",
+          "pronunciation": "Nye nada spyeshit'.",
+          "japanese": "急ぐ必要はありません。"
+        },
+        {
+          "russian": "Мне не надо денег.",
+          "pronunciation": "Mnye nye nada dyenyeg.",
+          "japanese": "私はお金は必要ありません。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Спасибо большое! Приходите ещё!",
+    "pronunciation": "Spasiba bal'shoye! Prikhadite yeshchyo!",
+    "japanese": "どうもありがとう! また来てください!",
+    "words": [
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "большое",
+        "pronunciation": "bal'shoye",
+        "japanese": "大きな"
+      },
+      {
+        "russian": "Приходите",
+        "pronunciation": "Prikhadite",
+        "japanese": "来てください（命令形）"
+      },
+      {
+        "russian": "ещё",
+        "pronunciation": "yeshchyo",
+        "japanese": "また"
+      }
+    ]
+  }
+]

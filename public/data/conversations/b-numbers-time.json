@@ -1,0 +1,300 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Сколько сейчас времени?",
+    "pronunciation": "Skol'ka seychas vyemeni?",
+    "japanese": "今何時ですか?",
+    "words": [
+      {
+        "russian": "Сколько",
+        "pronunciation": "Skol'ka",
+        "japanese": "いくつ、どれくらい"
+      },
+      {
+        "russian": "сейчас",
+        "pronunciation": "seychas",
+        "japanese": "今"
+      },
+      {
+        "russian": "времени",
+        "pronunciation": "vyemeni",
+        "japanese": "時間（生格）",
+        "baseForm": "время",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "「Сколько」（いくつ）の後では名詞は生格を使います。「Сколько времени?」で「どれくらいの時間？＝何時？」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "время",
+              "genitive": "времени",
+              "dative": "времени",
+              "accusative": "время",
+              "instrumental": "временем",
+              "prepositional": "времени"
+            },
+            "plural": {
+              "nominative": "времена",
+              "genitive": "времён",
+              "dative": "временам",
+              "accusative": "времена",
+              "instrumental": "временами",
+              "prepositional": "временах"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Сейчас три часа.",
+    "pronunciation": "Seychas tri chasa.",
+    "japanese": "今3時です。",
+    "words": [
+      {
+        "russian": "Сейчас",
+        "pronunciation": "Seychas",
+        "japanese": "今"
+      },
+      {
+        "russian": "три",
+        "pronunciation": "tri",
+        "japanese": "3"
+      },
+      {
+        "russian": "часа",
+        "pronunciation": "chasa",
+        "japanese": "時（生格単数）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Один, два, три, четыре, пять.",
+    "pronunciation": "Adin, dva, tri, chityre, pyat'.",
+    "japanese": "1、2、3、4、5。",
+    "words": [
+      {
+        "russian": "Один",
+        "pronunciation": "Adin",
+        "japanese": "1"
+      },
+      {
+        "russian": "два",
+        "pronunciation": "dva",
+        "japanese": "2"
+      },
+      {
+        "russian": "три",
+        "pronunciation": "tri",
+        "japanese": "3"
+      },
+      {
+        "russian": "четыре",
+        "pronunciation": "chityre",
+        "japanese": "4"
+      },
+      {
+        "russian": "пять",
+        "pronunciation": "pyat'",
+        "japanese": "5"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Шесть, семь, восемь, девять, десять.",
+    "pronunciation": "Shest', syem', vosyem', dyevyat', dyesyat'.",
+    "japanese": "6、7、8、9、10。",
+    "words": [
+      {
+        "russian": "Шесть",
+        "pronunciation": "Shest'",
+        "japanese": "6"
+      },
+      {
+        "russian": "семь",
+        "pronunciation": "syem'",
+        "japanese": "7"
+      },
+      {
+        "russian": "восемь",
+        "pronunciation": "vosyem'",
+        "japanese": "8"
+      },
+      {
+        "russian": "девять",
+        "pronunciation": "dyevyat'",
+        "japanese": "9"
+      },
+      {
+        "russian": "десять",
+        "pronunciation": "dyesyat'",
+        "japanese": "10"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Во сколько начинается фильм?",
+    "pronunciation": "Va skol'ka nachinaetsa fil'm?",
+    "japanese": "映画は何時に始まりますか?",
+    "words": [
+      {
+        "russian": "Во",
+        "pronunciation": "Va",
+        "japanese": "～に（時刻を尋ねる時）"
+      },
+      {
+        "russian": "сколько",
+        "pronunciation": "skol'ka",
+        "japanese": "何時に"
+      },
+      {
+        "russian": "начинается",
+        "pronunciation": "nachinaetsa",
+        "japanese": "始まる"
+      },
+      {
+        "russian": "фильм",
+        "pronunciation": "fil'm",
+        "japanese": "映画"
+      }
+    ],
+    "grammarPoint": {
+      "title": "時刻を尋ねる「Во сколько?」",
+      "explanation": "「何時に～しますか?」と尋ねる時は「Во сколько + 動詞?」を使います。答える時は「В + 時刻」です。例：「В три часа」（3時に）。1時と2時の前には「в」ではなく「в час」、「в два часа」となります。",
+      "examples": [
+        {
+          "russian": "Во сколько ты встаёшь?",
+          "pronunciation": "Va skol'ka ty fstayosh?",
+          "japanese": "何時に起きますか?"
+        },
+        {
+          "russian": "Я встаю в семь часов.",
+          "pronunciation": "Ya fstayu v syem' chasov.",
+          "japanese": "私は7時に起きます。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Фильм начинается в семь часов вечера.",
+    "pronunciation": "Fil'm nachinaetsa f syem' chasov vyechera.",
+    "japanese": "映画は夜7時に始まります。",
+    "words": [
+      {
+        "russian": "Фильм",
+        "pronunciation": "Fil'm",
+        "japanese": "映画"
+      },
+      {
+        "russian": "начинается",
+        "pronunciation": "nachinaetsa",
+        "japanese": "始まる"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に（時刻）"
+      },
+      {
+        "russian": "семь",
+        "pronunciation": "syem'",
+        "japanese": "7"
+      },
+      {
+        "russian": "часов",
+        "pronunciation": "chasov",
+        "japanese": "時（生格複数）",
+        "baseForm": "час",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "「5」以上の数詞の後では名詞は生格複数形を使います。「семь часов」で「7時」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "час",
+              "genitive": "часа",
+              "dative": "часу",
+              "accusative": "час",
+              "instrumental": "часом",
+              "prepositional": "часе"
+            },
+            "plural": {
+              "nominative": "часы",
+              "genitive": "часов",
+              "dative": "часам",
+              "accusative": "часы",
+              "instrumental": "часами",
+              "prepositional": "часах"
+            }
+          }
+        }
+      },
+      {
+        "russian": "вечера",
+        "pronunciation": "vyechera",
+        "japanese": "夜（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "А сколько стоит билет?",
+    "pronunciation": "A skol'ka stoit bilyet?",
+    "japanese": "ではチケットはいくらですか?",
+    "words": [
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では、そして"
+      },
+      {
+        "russian": "сколько",
+        "pronunciation": "skol'ka",
+        "japanese": "いくら"
+      },
+      {
+        "russian": "стоит",
+        "pronunciation": "stoit",
+        "japanese": "かかる、値段である"
+      },
+      {
+        "russian": "билет",
+        "pronunciation": "bilyet",
+        "japanese": "チケット"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Билет стоит пятьсот рублей.",
+    "pronunciation": "Bilyet stoit pyat'sot rublyey.",
+    "japanese": "チケットは500ルーブルです。",
+    "words": [
+      {
+        "russian": "Билет",
+        "pronunciation": "Bilyet",
+        "japanese": "チケット"
+      },
+      {
+        "russian": "стоит",
+        "pronunciation": "stoit",
+        "japanese": "かかる、値段である"
+      },
+      {
+        "russian": "пятьсот",
+        "pronunciation": "pyat'sot",
+        "japanese": "500"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）"
+      }
+    ]
+  }
+]

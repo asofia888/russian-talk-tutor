@@ -1,0 +1,277 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Меня зовут Анна. А вас?",
+    "pronunciation": "Menya zavut Anna. A vas?",
+    "japanese": "私の名前はアンナです。あなたは?",
+    "words": [
+      {
+        "russian": "Меня",
+        "pronunciation": "Menya",
+        "japanese": "私を（対格）",
+        "baseForm": "я",
+        "caseInfo": {
+          "caseName": "Accusative",
+          "caseNameJapanese": "対格",
+          "explanation": "動詞「зовут」（呼ぶ）の目的語として対格を使います。「Меня зовут」は直訳すると「私を呼ぶ」、つまり「私の名前は」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "я",
+              "genitive": "меня",
+              "dative": "мне",
+              "accusative": "меня",
+              "instrumental": "мной",
+              "prepositional": "мне"
+            },
+            "plural": {
+              "nominative": "мы",
+              "genitive": "нас",
+              "dative": "нам",
+              "accusative": "нас",
+              "instrumental": "нами",
+              "prepositional": "нас"
+            }
+          }
+        }
+      },
+      {
+        "russian": "зовут",
+        "pronunciation": "zavut",
+        "japanese": "呼ぶ（三人称複数形）"
+      },
+      {
+        "russian": "Анна",
+        "pronunciation": "Anna",
+        "japanese": "アンナ（女性名）"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では、そして"
+      },
+      {
+        "russian": "вас",
+        "pronunciation": "vas",
+        "japanese": "あなたを（対格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "名前の尋ね方・答え方",
+      "explanation": "ロシア語で名前を言う時は「Меня зовут + 名前」という構文を使います。これは非人称構文で、直訳すると「（人々は）私を～と呼ぶ」という意味です。名前を尋ねる時は「Как вас зовут?」（あなたを何と呼びますか?）または短く「А вас?」（あなたは?）と言います。",
+      "examples": [
+        {
+          "russian": "Как тебя зовут?",
+          "pronunciation": "Kak tebya zavut?",
+          "japanese": "君の名前は何？（カジュアル）"
+        },
+        {
+          "russian": "Меня зовут Иван.",
+          "pronunciation": "Menya zavut Ivan.",
+          "japanese": "私の名前はイワンです。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Меня зовут Борис. Я из России. А вы откуда?",
+    "pronunciation": "Menya zavut Boris. Ya iz Rossii. A vy atkuda?",
+    "japanese": "私の名前はボリスです。私はロシア出身です。あなたはどこから?",
+    "words": [
+      {
+        "russian": "Меня",
+        "pronunciation": "Menya",
+        "japanese": "私を"
+      },
+      {
+        "russian": "зовут",
+        "pronunciation": "zavut",
+        "japanese": "呼ぶ"
+      },
+      {
+        "russian": "Борис",
+        "pronunciation": "Boris",
+        "japanese": "ボリス（男性名）"
+      },
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "из",
+        "pronunciation": "iz",
+        "japanese": "～から（起点を表す前置詞）"
+      },
+      {
+        "russian": "России",
+        "pronunciation": "Rossii",
+        "japanese": "ロシア（生格）",
+        "baseForm": "Россия",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "前置詞「из」（～から）の後では生格を使います。出身地を表す時に使う基本的な構文です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "Россия",
+              "genitive": "России",
+              "dative": "России",
+              "accusative": "Россию",
+              "instrumental": "Россией",
+              "prepositional": "России"
+            },
+            "plural": {
+              "nominative": "России",
+              "genitive": "Россий",
+              "dative": "Россиям",
+              "accusative": "России",
+              "instrumental": "Россиями",
+              "prepositional": "Россиях"
+            }
+          }
+        }
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "откуда",
+        "pronunciation": "atkuda",
+        "japanese": "どこから"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Я из Японии. Я студентка.",
+    "pronunciation": "Ya iz Yaponii. Ya studentka.",
+    "japanese": "私は日本出身です。私は学生です。",
+    "words": [
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "из",
+        "pronunciation": "iz",
+        "japanese": "～から"
+      },
+      {
+        "russian": "Японии",
+        "pronunciation": "Yaponii",
+        "japanese": "日本（生格）",
+        "baseForm": "Япония"
+      },
+      {
+        "russian": "студентка",
+        "pronunciation": "studentka",
+        "japanese": "女子学生"
+      }
+    ],
+    "grammarPoint": {
+      "title": "職業・身分の表現と男女の区別",
+      "explanation": "ロシア語では職業や身分を表す名詞に男性形と女性形があります。「студент」（男子学生）、「студентка」（女子学生）のように、女性形は通常語尾に「-ка」や「-а」を付けて作ります。文では「Я + 職業名詞（主格）」という形で表現します。",
+      "examples": [
+        {
+          "russian": "Я учитель.",
+          "pronunciation": "Ya uchitel'.",
+          "japanese": "私は教師です。（男性）"
+        },
+        {
+          "russian": "Я учительница.",
+          "pronunciation": "Ya uchitel'nitsa.",
+          "japanese": "私は教師です。（女性）"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Очень приятно! Я работаю в банке.",
+    "pronunciation": "Ochin' priyatna! Ya rabotayu v banke.",
+    "japanese": "とても嬉しいです! 私は銀行で働いています。",
+    "words": [
+      {
+        "russian": "Очень",
+        "pronunciation": "Ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "приятно",
+        "pronunciation": "priyatna",
+        "japanese": "嬉しい、楽しい"
+      },
+      {
+        "russian": "работаю",
+        "pronunciation": "rabotayu",
+        "japanese": "働く（一人称単数現在形）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で、～に（場所）"
+      },
+      {
+        "russian": "банке",
+        "pronunciation": "banke",
+        "japanese": "銀行（前置格）",
+        "baseForm": "банк",
+        "caseInfo": {
+          "caseName": "Prepositional",
+          "caseNameJapanese": "前置格",
+          "explanation": "前置詞「в」（～で）で場所を表す時は前置格を使います。「в банке」で「銀行で」という意味になります。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "банк",
+              "genitive": "банка",
+              "dative": "банку",
+              "accusative": "банк",
+              "instrumental": "банком",
+              "prepositional": "банке"
+            },
+            "plural": {
+              "nominative": "банки",
+              "genitive": "банков",
+              "dative": "банкам",
+              "accusative": "банки",
+              "instrumental": "банками",
+              "prepositional": "банках"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Понятно. Рада познакомиться!",
+    "pronunciation": "Panyatna. Rada paznakomitsa!",
+    "japanese": "なるほど。お会いできて嬉しいです!",
+    "words": [
+      {
+        "russian": "Понятно",
+        "pronunciation": "Panyatna",
+        "japanese": "わかった、なるほど"
+      },
+      {
+        "russian": "Рада",
+        "pronunciation": "Rada",
+        "japanese": "嬉しい（女性形短語尾形容詞）"
+      },
+      {
+        "russian": "познакомиться",
+        "pronunciation": "paznakomitsa",
+        "japanese": "知り合う"
+      }
+    ]
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Добрый день! Сколько стоит эта книга?",
+    "pronunciation": "Dobryy dyen'! Skol'ka stoit eta kniga?",
+    "japanese": "こんにちは! この本はいくらですか?",
+    "words": [
+      {
+        "russian": "Добрый",
+        "pronunciation": "Dobryy",
+        "japanese": "良い"
+      },
+      {
+        "russian": "день",
+        "pronunciation": "dyen'",
+        "japanese": "日、昼"
+      },
+      {
+        "russian": "Сколько",
+        "pronunciation": "Skol'ka",
+        "japanese": "いくら"
+      },
+      {
+        "russian": "стоит",
+        "pronunciation": "stoit",
+        "japanese": "かかる、値段である"
+      },
+      {
+        "russian": "эта",
+        "pronunciation": "eta",
+        "japanese": "この（女性形）"
+      },
+      {
+        "russian": "книга",
+        "pronunciation": "kniga",
+        "japanese": "本"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Триста рублей.",
+    "pronunciation": "Trista rublyey.",
+    "japanese": "300ルーブルです。",
+    "words": [
+      {
+        "russian": "Триста",
+        "pronunciation": "Trista",
+        "japanese": "300"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）",
+        "baseForm": "рубль",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "「5」以上の数詞の後では名詞は生格複数形を使います。「триста рублей」で「300ルーブル」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "рубль",
+              "genitive": "рубля",
+              "dative": "рублю",
+              "accusative": "рубль",
+              "instrumental": "рублём",
+              "prepositional": "рубле"
+            },
+            "plural": {
+              "nominative": "рубли",
+              "genitive": "рублей",
+              "dative": "рублям",
+              "accusative": "рубли",
+              "instrumental": "рублями",
+              "prepositional": "рублях"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Хорошо. Я беру это. Можно картой?",
+    "pronunciation": "Harasho. Ya beru eta. Mozhna kartay?",
+    "japanese": "わかりました。これを買います。カードで払えますか?",
+    "words": [
+      {
+        "russian": "Хорошо",
+        "pronunciation": "Harasho",
+        "japanese": "良い、わかりました"
+      },
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "беру",
+        "pronunciation": "beru",
+        "japanese": "取る、買う"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "これを"
+      },
+      {
+        "russian": "Можно",
+        "pronunciation": "Mozhna",
+        "japanese": "できる、可能である"
+      },
+      {
+        "russian": "картой",
+        "pronunciation": "kartay",
+        "japanese": "カード（造格）",
+        "baseForm": "карта",
+        "caseInfo": {
+          "caseName": "Instrumental",
+          "caseNameJapanese": "造格",
+          "explanation": "支払い手段を表す時は造格を使います。「картой」で「カードで」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "карта",
+              "genitive": "карты",
+              "dative": "карте",
+              "accusative": "карту",
+              "instrumental": "картой",
+              "prepositional": "карте"
+            },
+            "plural": {
+              "nominative": "карты",
+              "genitive": "карт",
+              "dative": "картам",
+              "accusative": "карты",
+              "instrumental": "картами",
+              "prepositional": "картах"
+            }
+          }
+        }
+      }
+    ],
+    "grammarPoint": {
+      "title": "造格で手段を表す",
+      "explanation": "ロシア語では手段や道具を表す時に造格を使います。「картой платить」（カードで払う）、「ручкой писать」（ペンで書く）のように使います。",
+      "examples": [
+        {
+          "russian": "Я пишу ручкой.",
+          "pronunciation": "Ya pishu ruchkay.",
+          "japanese": "私はペンで書きます。"
+        },
+        {
+          "russian": "Мы едем автобусом.",
+          "pronunciation": "My yedem avtobusom.",
+          "japanese": "私たちはバスで行きます。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, конечно. Вот терминал.",
+    "pronunciation": "Da, kanyeshna. Vot terminal.",
+    "japanese": "はい、もちろんです。こちらが端末です。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "конечно",
+        "pronunciation": "kanyeshna",
+        "japanese": "もちろん"
+      },
+      {
+        "russian": "Вот",
+        "pronunciation": "Vot",
+        "japanese": "ほら、これが"
+      },
+      {
+        "russian": "терминал",
+        "pronunciation": "terminal",
+        "japanese": "端末"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Спасибо! Дайте, пожалуйста, чек.",
+    "pronunciation": "Spasiba! Dayte, pazhalusta, chek.",
+    "japanese": "ありがとう! レシートをください。",
+    "words": [
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "Дайте",
+        "pronunciation": "Dayte",
+        "japanese": "ください（命令形）"
+      },
+      {
+        "russian": "пожалуйста",
+        "pronunciation": "pazhalusta",
+        "japanese": "お願いします"
+      },
+      {
+        "russian": "чек",
+        "pronunciation": "chek",
+        "japanese": "レシート"
+      }
+    ],
+    "grammarPoint": {
+      "title": "命令法「Дайте」",
+      "explanation": "「дать」（与える）の命令形は「дай」（親しい相手）または「дайте」（丁寧/複数）です。「Дайте, пожалуйста, ~」で「～をください」という丁寧な依頼表現になります。",
+      "examples": [
+        {
+          "russian": "Дайте мне воду, пожалуйста.",
+          "pronunciation": "Dayte mnye vodu, pazhalusta.",
+          "japanese": "水をください。"
+        },
+        {
+          "russian": "Дай мне ручку.",
+          "pronunciation": "Day mnye ruchku.",
+          "japanese": "ペンをちょうだい。（カジュアル）"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Пожалуйста. Вот ваш чек. Всего доброго!",
+    "pronunciation": "Pazhalusta. Vot vash chek. Vsevo dobrova!",
+    "japanese": "どうぞ。こちらがレシートです。良い一日を!",
+    "words": [
+      {
+        "russian": "Пожалуйста",
+        "pronunciation": "Pazhalusta",
+        "japanese": "どうぞ"
+      },
+      {
+        "russian": "Вот",
+        "pronunciation": "Vot",
+        "japanese": "ほら、こちらが"
+      },
+      {
+        "russian": "ваш",
+        "pronunciation": "vash",
+        "japanese": "あなたの"
+      },
+      {
+        "russian": "чек",
+        "pronunciation": "chek",
+        "japanese": "レシート"
+      },
+      {
+        "russian": "Всего",
+        "pronunciation": "Vsevo",
+        "japanese": "すべて（生格）"
+      },
+      {
+        "russian": "доброго",
+        "pronunciation": "dobrova",
+        "japanese": "良い（生格）"
+      }
+    ]
+  }
+]

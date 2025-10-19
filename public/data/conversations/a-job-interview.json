@@ -1,0 +1,467 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Расскажите, пожалуйста, о вашем опыте работы.",
+    "pronunciation": "Rasskazhite, pazhalusta, a vashem opyte raboty.",
+    "japanese": "あなたの職務経験について教えてください。",
+    "words": [
+      {
+        "russian": "Расскажите",
+        "pronunciation": "Rasskazhite",
+        "japanese": "話してください（命令形）"
+      },
+      {
+        "russian": "пожалуйста",
+        "pronunciation": "pazhalusta",
+        "japanese": "お願いします"
+      },
+      {
+        "russian": "о",
+        "pronunciation": "a",
+        "japanese": "～について"
+      },
+      {
+        "russian": "вашем",
+        "pronunciation": "vashem",
+        "japanese": "あなたの（前置格男性形）"
+      },
+      {
+        "russian": "опыте",
+        "pronunciation": "opyte",
+        "japanese": "経験（前置格）",
+        "baseForm": "опыт"
+      },
+      {
+        "russian": "работы",
+        "pronunciation": "raboty",
+        "japanese": "仕事（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Я работал программистом в японской компании пять лет. Занимался разработкой веб-приложений.",
+    "pronunciation": "Ya rabotal pragramistam v yaponskay kampanii pyat' lyet. Zanimalsya razrabotkay vyeb-prilazhyeniy.",
+    "japanese": "日本の会社でプログラマーとして5年間働いていました。Webアプリケーションの開発を担当していました。",
+    "words": [
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "работал",
+        "pronunciation": "rabotal",
+        "japanese": "働いていた"
+      },
+      {
+        "russian": "программистом",
+        "pronunciation": "pragramistam",
+        "japanese": "プログラマー（造格）",
+        "baseForm": "программист",
+        "caseInfo": {
+          "caseName": "Instrumental",
+          "caseNameJapanese": "造格",
+          "explanation": "職業や役職を表す時は造格を使います。「работать программистом」で「プログラマーとして働く」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "программист",
+              "genitive": "программиста",
+              "dative": "программисту",
+              "accusative": "программиста",
+              "instrumental": "программистом",
+              "prepositional": "программисте"
+            },
+            "plural": {
+              "nominative": "программисты",
+              "genitive": "программистов",
+              "dative": "программистам",
+              "accusative": "программистов",
+              "instrumental": "программистами",
+              "prepositional": "программистах"
+            }
+          }
+        }
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "японской",
+        "pronunciation": "yaponskay",
+        "japanese": "日本の（前置格女性形）"
+      },
+      {
+        "russian": "компании",
+        "pronunciation": "kampanii",
+        "japanese": "会社（前置格）"
+      },
+      {
+        "russian": "пять",
+        "pronunciation": "pyat'",
+        "japanese": "5"
+      },
+      {
+        "russian": "лет",
+        "pronunciation": "lyet",
+        "japanese": "年（生格複数）"
+      },
+      {
+        "russian": "Занимался",
+        "pronunciation": "Zanimalsya",
+        "japanese": "従事していた"
+      },
+      {
+        "russian": "разработкой",
+        "pronunciation": "razrabotkay",
+        "japanese": "開発（造格）"
+      },
+      {
+        "russian": "веб-приложений",
+        "pronunciation": "vyeb-prilazhyeniy",
+        "japanese": "Webアプリケーション（生格複数）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "職業を表す造格「работать + 造格」",
+      "explanation": "職業や役職を表す時、動詞「работать」（働く）や「быть」（である）の後では造格を使います。「Я работаю учителем」で「私は教師として働いています」という意味になります。",
+      "examples": [
+        {
+          "russian": "Она работает врачом.",
+          "pronunciation": "Ana rabotayet vrachom.",
+          "japanese": "彼女は医者として働いています。"
+        },
+        {
+          "russian": "Он стал директором.",
+          "pronunciation": "On stal direktaram.",
+          "japanese": "彼は社長になりました。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Отлично. Почему вы решили сменить место работы?",
+    "pronunciation": "Atlichna. Pachimu vy ryeshili smyenit' myesta raboty?",
+    "japanese": "素晴らしいですね。なぜ職場を変えることにしたのですか?",
+    "words": [
+      {
+        "russian": "Отлично",
+        "pronunciation": "Atlichna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Почему",
+        "pronunciation": "Pachimu",
+        "japanese": "なぜ"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "решили",
+        "pronunciation": "ryeshili",
+        "japanese": "決めた"
+      },
+      {
+        "russian": "сменить",
+        "pronunciation": "smyenit'",
+        "japanese": "変える（完了体）"
+      },
+      {
+        "russian": "место",
+        "pronunciation": "myesta",
+        "japanese": "場所"
+      },
+      {
+        "russian": "работы",
+        "pronunciation": "raboty",
+        "japanese": "仕事（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Хочу развиваться профессионально. В вашей компании есть интересные проекты с использованием новых технологий.",
+    "pronunciation": "Khachu razvivatsa prafyessianal'na. V vashey kampanii yest' intyeryesnyye prayekty s ispol'zavaniyem novykh tyekhnаlagiy.",
+    "japanese": "専門的に成長したいです。御社には新しい技術を使った興味深いプロジェクトがあります。",
+    "words": [
+      {
+        "russian": "Хочу",
+        "pronunciation": "Khachu",
+        "japanese": "欲しい"
+      },
+      {
+        "russian": "развиваться",
+        "pronunciation": "razvivatsa",
+        "japanese": "発展する、成長する"
+      },
+      {
+        "russian": "профессионально",
+        "pronunciation": "prafyessianal'na",
+        "japanese": "専門的に"
+      },
+      {
+        "russian": "В",
+        "pronunciation": "V",
+        "japanese": "～に"
+      },
+      {
+        "russian": "вашей",
+        "pronunciation": "vashey",
+        "japanese": "あなたの（前置格女性形）"
+      },
+      {
+        "russian": "компании",
+        "pronunciation": "kampanii",
+        "japanese": "会社（前置格）"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある"
+      },
+      {
+        "russian": "интересные",
+        "pronunciation": "intyeryesnyye",
+        "japanese": "興味深い（複数形）"
+      },
+      {
+        "russian": "проекты",
+        "pronunciation": "prayekty",
+        "japanese": "プロジェクト（複数主格）"
+      },
+      {
+        "russian": "с",
+        "pronunciation": "s",
+        "japanese": "～を伴った"
+      },
+      {
+        "russian": "использованием",
+        "pronunciation": "ispol'zavaniyem",
+        "japanese": "使用（造格）"
+      },
+      {
+        "russian": "новых",
+        "pronunciation": "novykh",
+        "japanese": "新しい（生格複数）"
+      },
+      {
+        "russian": "технологий",
+        "pronunciation": "tyekhnаlagiy",
+        "japanese": "技術（生格複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Какие ваши сильные стороны?",
+    "pronunciation": "Kakiye vashi sil'nyye starony?",
+    "japanese": "あなたの強みは何ですか?",
+    "words": [
+      {
+        "russian": "Какие",
+        "pronunciation": "Kakiye",
+        "japanese": "どのような（複数形）"
+      },
+      {
+        "russian": "ваши",
+        "pronunciation": "vashi",
+        "japanese": "あなたの（複数形）"
+      },
+      {
+        "russian": "сильные",
+        "pronunciation": "sil'nyye",
+        "japanese": "強い（複数形）"
+      },
+      {
+        "russian": "стороны",
+        "pronunciation": "starony",
+        "japanese": "側面、強み（複数主格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Я ответственный, умею работать в команде и быстро учусь. Владею несколькими языками программирования.",
+    "pronunciation": "Ya atvetstvennyy, umeyu rabоtat' f kamande i bystra uchus'. Vladyeyu nyeskol'kimi yazykami prаgramiravaniya.",
+    "japanese": "私は責任感があり、チームで働くことができ、学習が速いです。複数のプログラミング言語を扱えます。",
+    "words": [
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "ответственный",
+        "pronunciation": "atvetstvennyy",
+        "japanese": "責任感のある"
+      },
+      {
+        "russian": "умею",
+        "pronunciation": "umeyu",
+        "japanese": "できる（能力）"
+      },
+      {
+        "russian": "работать",
+        "pronunciation": "rabоtat'",
+        "japanese": "働く"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "команде",
+        "pronunciation": "kamande",
+        "japanese": "チーム（前置格）"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "そして"
+      },
+      {
+        "russian": "быстро",
+        "pronunciation": "bystra",
+        "japanese": "速く"
+      },
+      {
+        "russian": "учусь",
+        "pronunciation": "uchus'",
+        "japanese": "学ぶ"
+      },
+      {
+        "russian": "Владею",
+        "pronunciation": "Vladyeyu",
+        "japanese": "所有する、扱える"
+      },
+      {
+        "russian": "несколькими",
+        "pronunciation": "nyeskol'kimi",
+        "japanese": "いくつかの（造格複数）"
+      },
+      {
+        "russian": "языками",
+        "pronunciation": "yazykami",
+        "japanese": "言語（造格複数）"
+      },
+      {
+        "russian": "программирования",
+        "pronunciation": "prаgramiravaniya",
+        "japanese": "プログラミング（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Когда вы могли бы приступить к работе?",
+    "pronunciation": "Kagda vy magli by pristupit' k rabоtye?",
+    "japanese": "いつから勤務を開始できますか?",
+    "words": [
+      {
+        "russian": "Когда",
+        "pronunciation": "Kagda",
+        "japanese": "いつ"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "могли",
+        "pronunciation": "magli",
+        "japanese": "できた"
+      },
+      {
+        "russian": "бы",
+        "pronunciation": "by",
+        "japanese": "～だろう（条件法）"
+      },
+      {
+        "russian": "приступить",
+        "pronunciation": "pristupit'",
+        "japanese": "取りかかる、開始する（完了体）"
+      },
+      {
+        "russian": "к",
+        "pronunciation": "k",
+        "japanese": "～に"
+      },
+      {
+        "russian": "работе",
+        "pronunciation": "rabоtye",
+        "japanese": "仕事（与格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Через две недели. Мне нужно завершить текущие задачи на прежней работе.",
+    "pronunciation": "Chyerez dvye nyedyeli. Mnye nuzhna zavyershit' tyekushchiye zadachi na pryezhnyey rabоtye.",
+    "japanese": "2週間後です。前の職場で現在の業務を終わらせる必要があります。",
+    "words": [
+      {
+        "russian": "Через",
+        "pronunciation": "Chyerez",
+        "japanese": "～後に"
+      },
+      {
+        "russian": "две",
+        "pronunciation": "dvye",
+        "japanese": "2"
+      },
+      {
+        "russian": "недели",
+        "pronunciation": "nyedyeli",
+        "japanese": "週（生格単数）"
+      },
+      {
+        "russian": "Мне",
+        "pronunciation": "Mnye",
+        "japanese": "私に"
+      },
+      {
+        "russian": "нужно",
+        "pronunciation": "nuzhna",
+        "japanese": "必要である"
+      },
+      {
+        "russian": "завершить",
+        "pronunciation": "zavyershit'",
+        "japanese": "終わらせる（完了体）"
+      },
+      {
+        "russian": "текущие",
+        "pronunciation": "tyekushchiye",
+        "japanese": "現在の（複数対格）"
+      },
+      {
+        "russian": "задачи",
+        "pronunciation": "zadachi",
+        "japanese": "業務、タスク（複数対格）"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～で"
+      },
+      {
+        "russian": "прежней",
+        "pronunciation": "pryezhnyey",
+        "japanese": "以前の（前置格女性形）"
+      },
+      {
+        "russian": "работе",
+        "pronunciation": "rabоtye",
+        "japanese": "仕事（前置格）"
+      }
+    ]
+  }
+]

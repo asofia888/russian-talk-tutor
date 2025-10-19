@@ -1,0 +1,383 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Привет! Ты свободна в субботу вечером?",
+    "pronunciation": "Privyet! Ty svabodna f subotu vyecheram?",
+    "japanese": "やあ! 土曜日の夜は空いてる?",
+    "words": [
+      {
+        "russian": "Привет",
+        "pronunciation": "Privyet",
+        "japanese": "やあ、こんにちは"
+      },
+      {
+        "russian": "Ты",
+        "pronunciation": "Ty",
+        "japanese": "君は"
+      },
+      {
+        "russian": "свободна",
+        "pronunciation": "svabodna",
+        "japanese": "空いている（女性短語尾）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に（時）"
+      },
+      {
+        "russian": "субботу",
+        "pronunciation": "subotu",
+        "japanese": "土曜日（対格）",
+        "baseForm": "суббота",
+        "caseInfo": {
+          "caseName": "Accusative",
+          "caseNameJapanese": "対格",
+          "explanation": "曜日や日付を「いつ」と表す時は対格を使います。「в субботу」で「土曜日に」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "суббота",
+              "genitive": "субботы",
+              "dative": "субботе",
+              "accusative": "субботу",
+              "instrumental": "субботой",
+              "prepositional": "субботе"
+            },
+            "plural": {
+              "nominative": "субботы",
+              "genitive": "суббот",
+              "dative": "субботам",
+              "accusative": "субботы",
+              "instrumental": "субботами",
+              "prepositional": "субботах"
+            }
+          }
+        }
+      },
+      {
+        "russian": "вечером",
+        "pronunciation": "vyecheram",
+        "japanese": "夕方に（造格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, свободна. А что?",
+    "pronunciation": "Da, svabodna. A shto?",
+    "japanese": "うん、空いてるよ。どうして?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "свободна",
+        "pronunciation": "svabodna",
+        "japanese": "空いている"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "что",
+        "pronunciation": "shto",
+        "japanese": "何"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Давай сходим в кино! Хочу посмотреть новый фильм.",
+    "pronunciation": "Davay skhodim f kino! Khachu pasmaryét' novyy fil'm.",
+    "japanese": "映画に行こう! 新しい映画を見たいんだ。",
+    "words": [
+      {
+        "russian": "Давай",
+        "pronunciation": "Davay",
+        "japanese": "～しよう"
+      },
+      {
+        "russian": "сходим",
+        "pronunciation": "skhodim",
+        "japanese": "行こう（完了体一人称複数）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "кино",
+        "pronunciation": "kino",
+        "japanese": "映画、映画館"
+      },
+      {
+        "russian": "Хочу",
+        "pronunciation": "Khachu",
+        "japanese": "欲しい"
+      },
+      {
+        "russian": "посмотреть",
+        "pronunciation": "pasmaryét'",
+        "japanese": "見る（完了体）"
+      },
+      {
+        "russian": "новый",
+        "pronunciation": "novyy",
+        "japanese": "新しい"
+      },
+      {
+        "russian": "фильм",
+        "pronunciation": "fil'm",
+        "japanese": "映画"
+      }
+    ],
+    "grammarPoint": {
+      "title": "勧誘表現「Давай + 完了体一人称複数」",
+      "explanation": "親しい相手を誘う時は「Давай + 完了体動詞の一人称複数形」を使います。「Давай сходим」で「行こう」という意味です。完了体を使うことで、具体的な一回の行動を提案します。",
+      "examples": [
+        {
+          "russian": "Давай встретимся завтра!",
+          "pronunciation": "Davay fstretimsya zaftra!",
+          "japanese": "明日会おう!"
+        },
+        {
+          "russian": "Давай пообедаем вместе.",
+          "pronunciation": "Davay paabedayem vmyeste.",
+          "japanese": "一緒にランチしよう。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Хорошая идея! А во сколько встретимся?",
+    "pronunciation": "Haroshaya idyeya! A va skol'ka fstretimsya?",
+    "japanese": "いいアイデア! 何時に会う?",
+    "words": [
+      {
+        "russian": "Хорошая",
+        "pronunciation": "Haroshaya",
+        "japanese": "良い（女性形）"
+      },
+      {
+        "russian": "идея",
+        "pronunciation": "idyeya",
+        "japanese": "アイデア"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "во",
+        "pronunciation": "va",
+        "japanese": "～に"
+      },
+      {
+        "russian": "сколько",
+        "pronunciation": "skol'ka",
+        "japanese": "何時に"
+      },
+      {
+        "russian": "встретимся",
+        "pronunciation": "fstretimsya",
+        "japanese": "会おう（完了体一人称複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Сеанс начинается в восемь. Встретимся в половине восьмого у кинотеатра?",
+    "pronunciation": "Syeans nachinaetsa v vosyem'. Fstretimsya f palavine vas'mova u kinateatra?",
+    "japanese": "上映は8時に始まるよ。7時半に映画館で会わない?",
+    "words": [
+      {
+        "russian": "Сеанс",
+        "pronunciation": "Syeans",
+        "japanese": "上映回"
+      },
+      {
+        "russian": "начинается",
+        "pronunciation": "nachinaetsa",
+        "japanese": "始まる"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "восемь",
+        "pronunciation": "vosyem'",
+        "japanese": "8"
+      },
+      {
+        "russian": "Встретимся",
+        "pronunciation": "Fstretimsya",
+        "japanese": "会おう"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "половине",
+        "pronunciation": "palavine",
+        "japanese": "半分（前置格）",
+        "baseForm": "половина",
+        "caseInfo": {
+          "caseName": "Prepositional",
+          "caseNameJapanese": "前置格",
+          "explanation": "「в половине + 数詞（生格）」で「～時半に」という意味になります。「в половине восьмого」で「7時半に」（直訳：8時の半分に）という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "половина",
+              "genitive": "половины",
+              "dative": "половине",
+              "accusative": "половину",
+              "instrumental": "половиной",
+              "prepositional": "половине"
+            },
+            "plural": {
+              "nominative": "половины",
+              "genitive": "половин",
+              "dative": "половинам",
+              "accusative": "половины",
+              "instrumental": "половинами",
+              "prepositional": "половинах"
+            }
+          }
+        }
+      },
+      {
+        "russian": "восьмого",
+        "pronunciation": "vas'mova",
+        "japanese": "8（生格）"
+      },
+      {
+        "russian": "у",
+        "pronunciation": "u",
+        "japanese": "～のところで"
+      },
+      {
+        "russian": "кинотеатра",
+        "pronunciation": "kinateatra",
+        "japanese": "映画館（生格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "時刻の30分「в половине + 生格」",
+      "explanation": "「～時半」を表す時は「в половине + 次の時間（生格）」という表現を使います。「в половине восьмого」は直訳すると「8時の半分に」で、「7時半に」という意味です。これは正式な表現で、口語では「в семь тридцать」（7時30分に）も使えます。",
+      "examples": [
+        {
+          "russian": "Встреча в половине девятого.",
+          "pronunciation": "Fstryecha f palavine dyevyatava.",
+          "japanese": "会議は8時半です。"
+        },
+        {
+          "russian": "Я встаю в половине седьмого.",
+          "pronunciation": "Ya fstayu f palavine syed'mova.",
+          "japanese": "私は6時半に起きます。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Договорились! А после кино можем пойти в кафе?",
+    "pronunciation": "Dagavarilis'! A posle kino mozhem payti f kafe?",
+    "japanese": "約束ね! 映画の後カフェに行ける?",
+    "words": [
+      {
+        "russian": "Договорились",
+        "pronunciation": "Dagavarilis'",
+        "japanese": "約束した"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "そして"
+      },
+      {
+        "russian": "после",
+        "pronunciation": "posle",
+        "japanese": "～の後で"
+      },
+      {
+        "russian": "кино",
+        "pronunciation": "kino",
+        "japanese": "映画"
+      },
+      {
+        "russian": "можем",
+        "pronunciation": "mozhem",
+        "japanese": "できる（一人称複数）"
+      },
+      {
+        "russian": "пойти",
+        "pronunciation": "payti",
+        "japanese": "行く（完了体）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "кафе",
+        "pronunciation": "kafe",
+        "japanese": "カフェ"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Конечно! Отличный план. До встречи в субботу!",
+    "pronunciation": "Kanyeshna! Atlichnyy plan. Da fstrechi f subotu!",
+    "japanese": "もちろん! 素晴らしい計画だね。土曜日に会おう!",
+    "words": [
+      {
+        "russian": "Конечно",
+        "pronunciation": "Kanyeshna",
+        "japanese": "もちろん"
+      },
+      {
+        "russian": "Отличный",
+        "pronunciation": "Atlichnyy",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "план",
+        "pronunciation": "plan",
+        "japanese": "計画"
+      },
+      {
+        "russian": "До",
+        "pronunciation": "Da",
+        "japanese": "～まで"
+      },
+      {
+        "russian": "встречи",
+        "pronunciation": "fstrechi",
+        "japanese": "会合（生格）"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "субботу",
+        "pronunciation": "subotu",
+        "japanese": "土曜日（対格）"
+      }
+    ]
+  }
+]

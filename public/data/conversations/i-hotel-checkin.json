@@ -1,0 +1,428 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Здравствуйте! У меня бронь на имя Танака.",
+    "pronunciation": "Zdravstvuyte! U menya bron' na imya Tanaka.",
+    "japanese": "こんにちは! タナカという名前で予約しています。",
+    "words": [
+      {
+        "russian": "Здравствуйте",
+        "pronunciation": "Zdravstvuyte",
+        "japanese": "こんにちは"
+      },
+      {
+        "russian": "У",
+        "pronunciation": "U",
+        "japanese": "～に"
+      },
+      {
+        "russian": "меня",
+        "pronunciation": "menya",
+        "japanese": "私（生格）"
+      },
+      {
+        "russian": "бронь",
+        "pronunciation": "bron'",
+        "japanese": "予約"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～という"
+      },
+      {
+        "russian": "имя",
+        "pronunciation": "imya",
+        "japanese": "名前（対格）"
+      },
+      {
+        "russian": "Танака",
+        "pronunciation": "Tanaka",
+        "japanese": "タナカ"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, конечно. На три ночи, верно?",
+    "pronunciation": "Da, kanyeshna. Na tri nochi, vyerna?",
+    "japanese": "はい、もちろんです。3泊ですね?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "конечно",
+        "pronunciation": "kanyeshna",
+        "japanese": "もちろん"
+      },
+      {
+        "russian": "На",
+        "pronunciation": "Na",
+        "japanese": "～で（期間）"
+      },
+      {
+        "russian": "три",
+        "pronunciation": "tri",
+        "japanese": "3"
+      },
+      {
+        "russian": "ночи",
+        "pronunciation": "nochi",
+        "japanese": "夜（生格単数）",
+        "baseForm": "ночь"
+      },
+      {
+        "russian": "верно",
+        "pronunciation": "vyerna",
+        "japanese": "正しい、そうですね"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Да, правильно. В номере есть Wi-Fi?",
+    "pronunciation": "Da, pravil'na. V nomere yest' Wi-Fi?",
+    "japanese": "はい、その通りです。部屋にWi-Fiはありますか?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "правильно",
+        "pronunciation": "pravil'na",
+        "japanese": "正しい"
+      },
+      {
+        "russian": "В",
+        "pronunciation": "V",
+        "japanese": "～の中に"
+      },
+      {
+        "russian": "номере",
+        "pronunciation": "nomere",
+        "japanese": "部屋（前置格）",
+        "baseForm": "номер"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある"
+      },
+      {
+        "russian": "Wi-Fi",
+        "pronunciation": "Wi-Fi",
+        "japanese": "Wi-Fi"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, во всех номерах есть бесплатный Wi-Fi. А завтрак входит в стоимость.",
+    "pronunciation": "Da, va fsyekh nomerakh yest' byesplatnyy Wi-Fi. A zaftrak fkhodit v stoimast'.",
+    "japanese": "はい、全ての部屋に無料Wi-Fiがあります。朝食も料金に含まれています。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "во",
+        "pronunciation": "va",
+        "japanese": "～の中に"
+      },
+      {
+        "russian": "всех",
+        "pronunciation": "fsyekh",
+        "japanese": "全ての（前置格複数）"
+      },
+      {
+        "russian": "номерах",
+        "pronunciation": "nomerakh",
+        "japanese": "部屋（前置格複数）"
+      },
+      {
+        "russian": "бесплатный",
+        "pronunciation": "byesplatnyy",
+        "japanese": "無料の"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "そして"
+      },
+      {
+        "russian": "завтрак",
+        "pronunciation": "zaftrak",
+        "japanese": "朝食"
+      },
+      {
+        "russian": "входит",
+        "pronunciation": "fkhodit",
+        "japanese": "含まれる"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "стоимость",
+        "pronunciation": "stoimast'",
+        "japanese": "料金（対格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "「входить в + 対格」（～に含まれる）",
+      "explanation": "「входить в」は「～に入る、～に含まれる」という意味の動詞です。後ろには対格が続きます。ホテルやサービスで「料金に含まれる」という意味でよく使われます。",
+      "examples": [
+        {
+          "russian": "Это входит в цену?",
+          "pronunciation": "Eta fkhodit f tsenu?",
+          "japanese": "これは料金に含まれていますか?"
+        },
+        {
+          "russian": "Экскурсия входит в программу.",
+          "pronunciation": "Ekskursiya fkhodit f pragramu.",
+          "japanese": "ツアーはプログラムに含まれています。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Отлично! А во сколько завтрак?",
+    "pronunciation": "Atlichna! A va skol'ka zaftrak?",
+    "japanese": "素晴らしい! 朝食は何時ですか?",
+    "words": [
+      {
+        "russian": "Отлично",
+        "pronunciation": "Atlichna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "во",
+        "pronunciation": "va",
+        "japanese": "～に（時刻）"
+      },
+      {
+        "russian": "сколько",
+        "pronunciation": "skol'ka",
+        "japanese": "何時に"
+      },
+      {
+        "russian": "завтрак",
+        "pronunciation": "zaftrak",
+        "japanese": "朝食"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Завтрак с семи до десяти утра. Вот ваш ключ. Номер двести пятнадцать, второй этаж.",
+    "pronunciation": "Zaftrak s syemi da dyesyati utra. Vot vash klyuch. Nomyer dvyesti pyatnadtsat', ftaroy etazh.",
+    "japanese": "朝食は朝7時から10時までです。こちらが鍵です。215号室、2階です。",
+    "words": [
+      {
+        "russian": "Завтрак",
+        "pronunciation": "Zaftrak",
+        "japanese": "朝食"
+      },
+      {
+        "russian": "с",
+        "pronunciation": "s",
+        "japanese": "～から"
+      },
+      {
+        "russian": "семи",
+        "pronunciation": "syemi",
+        "japanese": "7（生格）"
+      },
+      {
+        "russian": "до",
+        "pronunciation": "da",
+        "japanese": "～まで"
+      },
+      {
+        "russian": "десяти",
+        "pronunciation": "dyesyati",
+        "japanese": "10（生格）"
+      },
+      {
+        "russian": "утра",
+        "pronunciation": "utra",
+        "japanese": "朝（生格）"
+      },
+      {
+        "russian": "Вот",
+        "pronunciation": "Vot",
+        "japanese": "これが"
+      },
+      {
+        "russian": "ваш",
+        "pronunciation": "vash",
+        "japanese": "あなたの"
+      },
+      {
+        "russian": "ключ",
+        "pronunciation": "klyuch",
+        "japanese": "鍵"
+      },
+      {
+        "russian": "Номер",
+        "pronunciation": "Nomyer",
+        "japanese": "番号"
+      },
+      {
+        "russian": "двести",
+        "pronunciation": "dvyesti",
+        "japanese": "200"
+      },
+      {
+        "russian": "пятнадцать",
+        "pronunciation": "pyatnadtsat'",
+        "japanese": "15"
+      },
+      {
+        "russian": "второй",
+        "pronunciation": "ftaroy",
+        "japanese": "2番目の"
+      },
+      {
+        "russian": "этаж",
+        "pronunciation": "etazh",
+        "japanese": "階"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Спасибо! Скажите, где можно припарковать машину?",
+    "pronunciation": "Spasiba! Skazhite, gde mozhna priparkavat' mashinu?",
+    "japanese": "ありがとう! すみません、車はどこに駐車できますか?",
+    "words": [
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "Скажите",
+        "pronunciation": "Skazhite",
+        "japanese": "教えてください"
+      },
+      {
+        "russian": "где",
+        "pronunciation": "gde",
+        "japanese": "どこで"
+      },
+      {
+        "russian": "можно",
+        "pronunciation": "mozhna",
+        "japanese": "できる"
+      },
+      {
+        "russian": "припарковать",
+        "pronunciation": "priparkavat'",
+        "japanese": "駐車する"
+      },
+      {
+        "russian": "машину",
+        "pronunciation": "mashinu",
+        "japanese": "車（対格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Парковка за зданием. Она тоже бесплатная для гостей.",
+    "pronunciation": "Parkofka za zdaniyem. Ana tozhe byesplatnaya dlya gastey.",
+    "japanese": "駐車場は建物の後ろです。お客様には無料です。",
+    "words": [
+      {
+        "russian": "Парковка",
+        "pronunciation": "Parkofka",
+        "japanese": "駐車場"
+      },
+      {
+        "russian": "за",
+        "pronunciation": "za",
+        "japanese": "～の後ろに"
+      },
+      {
+        "russian": "зданием",
+        "pronunciation": "zdaniyem",
+        "japanese": "建物（造格）",
+        "baseForm": "здание"
+      },
+      {
+        "russian": "Она",
+        "pronunciation": "Ana",
+        "japanese": "それは"
+      },
+      {
+        "russian": "тоже",
+        "pronunciation": "tozhe",
+        "japanese": "同じく"
+      },
+      {
+        "russian": "бесплатная",
+        "pronunciation": "byesplatnaya",
+        "japanese": "無料の（女性形）"
+      },
+      {
+        "russian": "для",
+        "pronunciation": "dlya",
+        "japanese": "～のために"
+      },
+      {
+        "russian": "гостей",
+        "pronunciation": "gastey",
+        "japanese": "お客様（生格複数）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Прекрасно! Большое спасибо за помощь!",
+    "pronunciation": "Pryekrasna! Bal'shoye spasiba za pomashch!",
+    "japanese": "素晴らしい! 助けてくださってありがとう!",
+    "words": [
+      {
+        "russian": "Прекрасно",
+        "pronunciation": "Pryekrasna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Большое",
+        "pronunciation": "Bal'shoye",
+        "japanese": "大きな"
+      },
+      {
+        "russian": "спасибо",
+        "pronunciation": "spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "за",
+        "pronunciation": "za",
+        "japanese": "～に対して"
+      },
+      {
+        "russian": "помощь",
+        "pronunciation": "pomashch",
+        "japanese": "助け"
+      }
+    ]
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Это буква А.",
+    "pronunciation": "Eta bukva A.",
+    "japanese": "これは文字Аです。",
+    "words": [
+      {
+        "russian": "Это",
+        "pronunciation": "Eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "буква",
+        "pronunciation": "bukva",
+        "japanese": "文字"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "А（アー）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "А это буква Б?",
+    "pronunciation": "A eta bukva B?",
+    "japanese": "ではこれは文字Бですか?",
+    "words": [
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では、それで"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "これは"
+      },
+      {
+        "russian": "буква",
+        "pronunciation": "bukva",
+        "japanese": "文字"
+      },
+      {
+        "russian": "Б",
+        "pronunciation": "B",
+        "japanese": "Б（ベー）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Да, правильно! Б, В, Г.",
+    "pronunciation": "Da, pravil'na! B, V, G.",
+    "japanese": "はい、正しいです! Б、В、Г。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "правильно",
+        "pronunciation": "pravil'na",
+        "japanese": "正しい"
+      },
+      {
+        "russian": "Б",
+        "pronunciation": "B",
+        "japanese": "Б（ベー）"
+      },
+      {
+        "russian": "В",
+        "pronunciation": "V",
+        "japanese": "В（ヴェー）"
+      },
+      {
+        "russian": "Г",
+        "pronunciation": "G",
+        "japanese": "Г（ゲー）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Как читается это слово?",
+    "pronunciation": "Kak chitayetsa eta slova?",
+    "japanese": "この単語はどう読みますか?",
+    "words": [
+      {
+        "russian": "Как",
+        "pronunciation": "Kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "читается",
+        "pronunciation": "chitayetsa",
+        "japanese": "読まれる（再帰動詞）"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "この"
+      },
+      {
+        "russian": "слово",
+        "pronunciation": "slova",
+        "japanese": "単語"
+      }
+    ],
+    "grammarPoint": {
+      "title": "再帰動詞「-ся/-сь」",
+      "explanation": "ロシア語の再帰動詞は語尾に「-ся」または「-сь」が付きます。「читается」は「читать」（読む）の再帰形で、「読まれる」という受動的な意味や「読める」という可能の意味を持ちます。",
+      "examples": [
+        {
+          "russian": "Как пишется ваше имя?",
+          "pronunciation": "Kak pishetsa vashe imya?",
+          "japanese": "あなたの名前はどう書きますか?"
+        },
+        {
+          "russian": "Это слово произносится так.",
+          "pronunciation": "Eta slova proiznositsa tak.",
+          "japanese": "この単語はこう発音されます。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "М-А-М-А. Мама.",
+    "pronunciation": "M-A-M-A. Mama.",
+    "japanese": "М-А-М-А。ママ。",
+    "words": [
+      {
+        "russian": "М",
+        "pronunciation": "M",
+        "japanese": "М（エム）"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "А（アー）"
+      },
+      {
+        "russian": "Мама",
+        "pronunciation": "Mama",
+        "japanese": "お母さん"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Понятно. Спасибо!",
+    "pronunciation": "Panyatna. Spasiba!",
+    "japanese": "わかりました。ありがとう!",
+    "words": [
+      {
+        "russian": "Понятно",
+        "pronunciation": "Panyatna",
+        "japanese": "わかった"
+      },
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Пожалуйста. Давайте повторим алфавит.",
+    "pronunciation": "Pazhalusta. Davayte pavtorim alfavit.",
+    "japanese": "どういたしまして。アルファベットを復習しましょう。",
+    "words": [
+      {
+        "russian": "Пожалуйста",
+        "pronunciation": "Pazhalusta",
+        "japanese": "どういたしまして"
+      },
+      {
+        "russian": "Давайте",
+        "pronunciation": "Davayte",
+        "japanese": "～しましょう"
+      },
+      {
+        "russian": "повторим",
+        "pronunciation": "pavtorim",
+        "japanese": "復習する（一人称複数未来形）"
+      },
+      {
+        "russian": "алфавит",
+        "pronunciation": "alfavit",
+        "japanese": "アルファベット"
+      }
+    ],
+    "grammarPoint": {
+      "title": "勧誘表現「Давайте + 動詞」",
+      "explanation": "「Давайте」は「～しましょう」という勧誘を表す表現です。後ろに動詞の一人称複数形を続けます。親しい相手には「Давай」を使います。",
+      "examples": [
+        {
+          "russian": "Давайте начнём урок.",
+          "pronunciation": "Davayte nachnyom urok.",
+          "japanese": "授業を始めましょう。"
+        },
+        {
+          "russian": "Давай пойдём в кино!",
+          "pronunciation": "Davay paydyom v kino!",
+          "japanese": "映画に行こう!（カジュアル）"
+        }
+      ]
+    }
+  }
+]

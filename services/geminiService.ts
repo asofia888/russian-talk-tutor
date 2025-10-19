@@ -67,6 +67,23 @@ const getApiBaseUrl = (): string => {
 
 export const generateConversation = async (topic: string): Promise<ConversationLine[]> => {
     try {
+        // First, try to load from static JSON files (much faster)
+        try {
+            const staticUrl = `/data/conversations/${topic}.json`;
+            const staticResponse = await fetch(staticUrl);
+
+            if (staticResponse.ok) {
+                const conversation = await staticResponse.json();
+                if (Array.isArray(conversation) && conversation.length > 0) {
+                    console.log(`Loaded conversation from static file: ${topic}`);
+                    return conversation as ConversationLine[];
+                }
+            }
+        } catch (staticError) {
+            console.log(`Static file not found for topic: ${topic}, falling back to API`);
+        }
+
+        // Fallback to API generation if static file not found
         return await withRetryAndTimeout(
             async () => {
                 const apiUrl = `${getApiBaseUrl()}/api/generate-conversation`;

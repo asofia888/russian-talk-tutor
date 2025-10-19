@@ -1,0 +1,492 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Какая сегодня погода?",
+    "pronunciation": "Kakaya syevodnya pagoda?",
+    "japanese": "今日の天気はどうですか?",
+    "words": [
+      {
+        "russian": "Какая",
+        "pronunciation": "Kakaya",
+        "japanese": "どのような（女性形）"
+      },
+      {
+        "russian": "сегодня",
+        "pronunciation": "syevodnya",
+        "japanese": "今日"
+      },
+      {
+        "russian": "погода",
+        "pronunciation": "pagoda",
+        "japanese": "天気"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Сегодня холодно и идёт снег. Температура минус десять градусов.",
+    "pronunciation": "Syevodnya kholodna i idyot snyeg. Tyempyeratura minus dyesyat' gradusav.",
+    "japanese": "今日は寒くて雪が降っています。気温はマイナス10度です。",
+    "words": [
+      {
+        "russian": "Сегодня",
+        "pronunciation": "Syevodnya",
+        "japanese": "今日"
+      },
+      {
+        "russian": "холодно",
+        "pronunciation": "kholodna",
+        "japanese": "寒い"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "そして"
+      },
+      {
+        "russian": "идёт",
+        "pronunciation": "idyot",
+        "japanese": "降る、行く"
+      },
+      {
+        "russian": "снег",
+        "pronunciation": "snyeg",
+        "japanese": "雪"
+      },
+      {
+        "russian": "Температура",
+        "pronunciation": "Tyempyeratura",
+        "japanese": "温度、気温"
+      },
+      {
+        "russian": "минус",
+        "pronunciation": "minus",
+        "japanese": "マイナス"
+      },
+      {
+        "russian": "десять",
+        "pronunciation": "dyesyat'",
+        "japanese": "10"
+      },
+      {
+        "russian": "градусов",
+        "pronunciation": "gradusav",
+        "japanese": "度（生格複数）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "天気の表現「идёт дождь/снег」",
+      "explanation": "天気を表す時、雨や雪が降ることは「идёт + дождь/снег」という表現を使います。直訳すると「雨/雪が行く」という意味です。また、気温や天候の状態は副詞で表します：「холодно」（寒い）、「тепло」（暖かい）、「жарко」（暑い）。",
+      "examples": [
+        {
+          "russian": "Идёт дождь.",
+          "pronunciation": "Idyot dozhd'.",
+          "japanese": "雨が降っています。"
+        },
+        {
+          "russian": "Сегодня тепло и солнечно.",
+          "pronunciation": "Syevodnya tyeplo i solnyechna.",
+          "japanese": "今日は暖かくて晴れています。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Ого! А вчера было тепло. Какая переменчивая погода!",
+    "pronunciation": "Ogo! A fchera bylo tyeplo. Kakaya pyeryemenchivaya pagoda!",
+    "japanese": "わあ! 昨日は暖かかったのに。なんて変わりやすい天気でしょう!",
+    "words": [
+      {
+        "russian": "Ого",
+        "pronunciation": "Ogo",
+        "japanese": "わあ、おや"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "でも"
+      },
+      {
+        "russian": "вчера",
+        "pronunciation": "fchera",
+        "japanese": "昨日"
+      },
+      {
+        "russian": "было",
+        "pronunciation": "bylo",
+        "japanese": "だった（中性過去形）"
+      },
+      {
+        "russian": "тепло",
+        "pronunciation": "tyeplo",
+        "japanese": "暖かい"
+      },
+      {
+        "russian": "Какая",
+        "pronunciation": "Kakaya",
+        "japanese": "なんて～な"
+      },
+      {
+        "russian": "переменчивая",
+        "pronunciation": "pyeryemenchivaya",
+        "japanese": "変わりやすい（女性形）"
+      },
+      {
+        "russian": "погода",
+        "pronunciation": "pagoda",
+        "japanese": "天気"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, в это время года погода часто меняется. Какое твоё любимое время года?",
+    "pronunciation": "Da, v eta vryemya goda pagoda chasta myenyayetsa. Kakoye tvayo lyubimoye vryemya goda?",
+    "japanese": "はい、この時期は天気がよく変わります。一番好きな季節は何?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～に"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "この"
+      },
+      {
+        "russian": "время",
+        "pronunciation": "vryemya",
+        "japanese": "時"
+      },
+      {
+        "russian": "года",
+        "pronunciation": "goda",
+        "japanese": "年（生格）"
+      },
+      {
+        "russian": "погода",
+        "pronunciation": "pagoda",
+        "japanese": "天気"
+      },
+      {
+        "russian": "часто",
+        "pronunciation": "chasta",
+        "japanese": "よく、しばしば"
+      },
+      {
+        "russian": "меняется",
+        "pronunciation": "myenyayetsa",
+        "japanese": "変わる"
+      },
+      {
+        "russian": "Какое",
+        "pronunciation": "Kakoye",
+        "japanese": "どの（中性形）"
+      },
+      {
+        "russian": "твоё",
+        "pronunciation": "tvayo",
+        "japanese": "君の（中性形）"
+      },
+      {
+        "russian": "любимое",
+        "pronunciation": "lyubimoye",
+        "japanese": "好きな（中性形）"
+      },
+      {
+        "russian": "время",
+        "pronunciation": "vryemya",
+        "japanese": "時"
+      },
+      {
+        "russian": "года",
+        "pronunciation": "goda",
+        "japanese": "年（生格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Я люблю лето. Летом можно купаться в море и загорать на пляже.",
+    "pronunciation": "Ya lyublyu lyeto. Lyetam mozhna kupatsa v morye i zagarát' na plyazhe.",
+    "japanese": "私は夏が好きです。夏は海で泳いだり、ビーチで日光浴ができます。",
+    "words": [
+      {
+        "russian": "Я",
+        "pronunciation": "Ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "люблю",
+        "pronunciation": "lyublyu",
+        "japanese": "好きである"
+      },
+      {
+        "russian": "лето",
+        "pronunciation": "lyeto",
+        "japanese": "夏"
+      },
+      {
+        "russian": "Летом",
+        "pronunciation": "Lyetam",
+        "japanese": "夏に（造格）",
+        "baseForm": "лето",
+        "caseInfo": {
+          "caseName": "Instrumental",
+          "caseNameJapanese": "造格",
+          "explanation": "季節を「いつ」と表す時は造格を使います。「летом」（夏に）、「зимой」（冬に）、「весной」（春に）、「осенью」（秋に）。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "лето",
+              "genitive": "лета",
+              "dative": "лету",
+              "accusative": "лето",
+              "instrumental": "летом",
+              "prepositional": "лете"
+            },
+            "plural": {
+              "nominative": "лета",
+              "genitive": "лет",
+              "dative": "летам",
+              "accusative": "лета",
+              "instrumental": "летами",
+              "prepositional": "летах"
+            }
+          }
+        }
+      },
+      {
+        "russian": "можно",
+        "pronunciation": "mozhna",
+        "japanese": "できる"
+      },
+      {
+        "russian": "купаться",
+        "pronunciation": "kupatsa",
+        "japanese": "泳ぐ、入浴する"
+      },
+      {
+        "russian": "в",
+        "pronunciation": "v",
+        "japanese": "～で"
+      },
+      {
+        "russian": "море",
+        "pronunciation": "morye",
+        "japanese": "海（前置格）"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "そして"
+      },
+      {
+        "russian": "загорать",
+        "pronunciation": "zagarát'",
+        "japanese": "日光浴する"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～で"
+      },
+      {
+        "russian": "пляже",
+        "pronunciation": "plyazhe",
+        "japanese": "ビーチ（前置格）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "季節の表現（造格）",
+      "explanation": "季節を「いつ」と表す時は造格を使います。「зимой」（冬に）、「весной」（春に）、「летом」（夏に）、「осенью」（秋に）。これらは副詞的に使われ、「～の季節に」という意味を表します。",
+      "examples": [
+        {
+          "russian": "Зимой я катаюсь на лыжах.",
+          "pronunciation": "Zimoy ya katayus' na lyzhakh.",
+          "japanese": "冬は私はスキーをします。"
+        },
+        {
+          "russian": "Весной распускаются цветы.",
+          "pronunciation": "Vyesnoy raspuskayutsa tsvyety.",
+          "japanese": "春には花が咲きます。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "А я предпочитаю осень. Осенью такая красивая природа!",
+    "pronunciation": "A ya pryadpachitayu osyen'. Osyen'yu takaya krasivaya prirоda!",
+    "japanese": "私は秋が好きです。秋はとても美しい自然です!",
+    "words": [
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "я",
+        "pronunciation": "ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "предпочитаю",
+        "pronunciation": "pryadpachitayu",
+        "japanese": "好む"
+      },
+      {
+        "russian": "осень",
+        "pronunciation": "osyen'",
+        "japanese": "秋"
+      },
+      {
+        "russian": "Осенью",
+        "pronunciation": "Osyen'yu",
+        "japanese": "秋に（造格）"
+      },
+      {
+        "russian": "такая",
+        "pronunciation": "takaya",
+        "japanese": "とても、そのような（女性形）"
+      },
+      {
+        "russian": "красивая",
+        "pronunciation": "krasivaya",
+        "japanese": "美しい（女性形）"
+      },
+      {
+        "russian": "природа",
+        "pronunciation": "prirоda",
+        "japanese": "自然"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Да, согласен. Особенно когда листья меняют цвет. А какой прогноз на завтра?",
+    "pronunciation": "Da, saglasyen. Asobyenna kagda list'ya myenyayut tsvyet. A kakoy pragnoz na zaftra?",
+    "japanese": "はい、同感です。特に葉が色を変える時ですね。明日の予報はどうですか?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "согласен",
+        "pronunciation": "saglasyen",
+        "japanese": "同意する（男性短語尾）"
+      },
+      {
+        "russian": "Особенно",
+        "pronunciation": "Asobyenna",
+        "japanese": "特に"
+      },
+      {
+        "russian": "когда",
+        "pronunciation": "kagda",
+        "japanese": "～する時"
+      },
+      {
+        "russian": "листья",
+        "pronunciation": "list'ya",
+        "japanese": "葉（複数主格）"
+      },
+      {
+        "russian": "меняют",
+        "pronunciation": "myenyayut",
+        "japanese": "変える"
+      },
+      {
+        "russian": "цвет",
+        "pronunciation": "tsvyet",
+        "japanese": "色"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "какой",
+        "pronunciation": "kakoy",
+        "japanese": "どのような"
+      },
+      {
+        "russian": "прогноз",
+        "pronunciation": "pragnoz",
+        "japanese": "予報"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～に"
+      },
+      {
+        "russian": "завтра",
+        "pronunciation": "zaftra",
+        "japanese": "明日"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Завтра обещают солнце и плюс пять градусов. Будет теплее!",
+    "pronunciation": "Zaftra abyeshchayut sontse i plyus pyat' gradusav. Budyet tyepleye!",
+    "japanese": "明日は太陽とプラス5度を予測しています。もっと暖かくなります!",
+    "words": [
+      {
+        "russian": "Завтра",
+        "pronunciation": "Zaftra",
+        "japanese": "明日"
+      },
+      {
+        "russian": "обещают",
+        "pronunciation": "abyeshchayut",
+        "japanese": "約束する、予測する"
+      },
+      {
+        "russian": "солнце",
+        "pronunciation": "sontse",
+        "japanese": "太陽"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "そして"
+      },
+      {
+        "russian": "плюс",
+        "pronunciation": "plyus",
+        "japanese": "プラス"
+      },
+      {
+        "russian": "пять",
+        "pronunciation": "pyat'",
+        "japanese": "5"
+      },
+      {
+        "russian": "градусов",
+        "pronunciation": "gradusav",
+        "japanese": "度（生格複数）"
+      },
+      {
+        "russian": "Будет",
+        "pronunciation": "Budyet",
+        "japanese": "～でしょう"
+      },
+      {
+        "russian": "теплее",
+        "pronunciation": "tyepleye",
+        "japanese": "もっと暖かい（比較級）"
+      }
+    ]
+  }
+]

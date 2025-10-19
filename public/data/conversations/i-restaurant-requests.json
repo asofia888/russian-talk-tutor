@@ -1,0 +1,378 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Добрый вечер! Есть свободный столик?",
+    "pronunciation": "Dobryy vyecher! Yest' svabodnyy stolik?",
+    "japanese": "こんばんは! 空いているテーブルはありますか?",
+    "words": [
+      {
+        "russian": "Добрый",
+        "pronunciation": "Dobryy",
+        "japanese": "良い"
+      },
+      {
+        "russian": "вечер",
+        "pronunciation": "vyecher",
+        "japanese": "夕方、晩"
+      },
+      {
+        "russian": "Есть",
+        "pronunciation": "Yest'",
+        "japanese": "ある、いる"
+      },
+      {
+        "russian": "свободный",
+        "pronunciation": "svabodnyy",
+        "japanese": "空いている"
+      },
+      {
+        "russian": "столик",
+        "pronunciation": "stolik",
+        "japanese": "小さなテーブル"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, конечно. На сколько человек?",
+    "pronunciation": "Da, kanyeshna. Na skol'ka chelavyek?",
+    "japanese": "はい、もちろんです。何名様ですか?",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "конечно",
+        "pronunciation": "kanyeshna",
+        "japanese": "もちろん"
+      },
+      {
+        "russian": "На",
+        "pronunciation": "Na",
+        "japanese": "～のための"
+      },
+      {
+        "russian": "сколько",
+        "pronunciation": "skol'ka",
+        "japanese": "何人"
+      },
+      {
+        "russian": "человек",
+        "pronunciation": "chelavyek",
+        "japanese": "人"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "На двоих. Что вы посоветуете?",
+    "pronunciation": "Na dvaikh. Shto vy pasavetuete?",
+    "japanese": "2名です。何をおすすめしますか?",
+    "words": [
+      {
+        "russian": "На",
+        "pronunciation": "Na",
+        "japanese": "～のための"
+      },
+      {
+        "russian": "двоих",
+        "pronunciation": "dvaikh",
+        "japanese": "2人（生格）"
+      },
+      {
+        "russian": "Что",
+        "pronunciation": "Shto",
+        "japanese": "何を"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "посоветуете",
+        "pronunciation": "pasavetuete",
+        "japanese": "アドバイスする（完了体未来形）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Рекомендую борщ и пельмени. Это наши фирменные блюда.",
+    "pronunciation": "Ryekaményuyu borshch i pyel'meni. Eta nashi firmennyye blyuda.",
+    "japanese": "ボルシチとペリメニをおすすめします。これらが当店の名物料理です。",
+    "words": [
+      {
+        "russian": "Рекомендую",
+        "pronunciation": "Ryekaményuyu",
+        "japanese": "おすすめします"
+      },
+      {
+        "russian": "борщ",
+        "pronunciation": "borshch",
+        "japanese": "ボルシチ"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "пельмени",
+        "pronunciation": "pyel'meni",
+        "japanese": "ペリメニ（水餃子）"
+      },
+      {
+        "russian": "Это",
+        "pronunciation": "Eta",
+        "japanese": "これらは"
+      },
+      {
+        "russian": "наши",
+        "pronunciation": "nashi",
+        "japanese": "私たちの（複数形）"
+      },
+      {
+        "russian": "фирменные",
+        "pronunciation": "firmennyye",
+        "japanese": "名物の（複数形）"
+      },
+      {
+        "russian": "блюда",
+        "pronunciation": "blyuda",
+        "japanese": "料理（複数主格）"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Отлично! А у меня аллергия на орехи. В этих блюдах нет орехов?",
+    "pronunciation": "Atlichna! A u menya allyergiya na aryekhi. V etikh blyudakh nyet aryekhav?",
+    "japanese": "素晴らしい! 私はナッツアレルギーなんです。これらの料理にナッツは入っていませんか?",
+    "words": [
+      {
+        "russian": "Отлично",
+        "pronunciation": "Atlichna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "ところで"
+      },
+      {
+        "russian": "у",
+        "pronunciation": "u",
+        "japanese": "～に"
+      },
+      {
+        "russian": "меня",
+        "pronunciation": "menya",
+        "japanese": "私（生格）"
+      },
+      {
+        "russian": "аллергия",
+        "pronunciation": "allyergiya",
+        "japanese": "アレルギー"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～に対する"
+      },
+      {
+        "russian": "орехи",
+        "pronunciation": "aryekhi",
+        "japanese": "ナッツ（対格複数）"
+      },
+      {
+        "russian": "В",
+        "pronunciation": "V",
+        "japanese": "～の中に"
+      },
+      {
+        "russian": "этих",
+        "pronunciation": "etikh",
+        "japanese": "これらの（前置格複数）"
+      },
+      {
+        "russian": "блюдах",
+        "pronunciation": "blyudakh",
+        "japanese": "料理（前置格複数）",
+        "baseForm": "блюдо"
+      },
+      {
+        "russian": "нет",
+        "pronunciation": "nyet",
+        "japanese": "ない"
+      },
+      {
+        "russian": "орехов",
+        "pronunciation": "aryekhav",
+        "japanese": "ナッツ（生格複数）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "アレルギーの表現「У меня аллергия на + 対格」",
+      "explanation": "アレルギーを表す時は「У + 人（生格） + аллергия на + アレルゲン（対格）」という構文を使います。「У меня аллергия на орехи」で「私はナッツアレルギーです」という意味です。",
+      "examples": [
+        {
+          "russian": "У него аллергия на молоко.",
+          "pronunciation": "U nyevo allyergiya na malako.",
+          "japanese": "彼は牛乳アレルギーです。"
+        },
+        {
+          "russian": "У вас есть аллергия на что-нибудь?",
+          "pronunciation": "U vas yest' allyergiya na shto-nibut'?",
+          "japanese": "何かアレルギーはありますか?"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Нет, не беспокойтесь. Орехов там нет.",
+    "pronunciation": "Nyet, nye byespakóytes'. Aryekhav tam nyet.",
+    "japanese": "いいえ、ご心配なく。ナッツは入っていません。",
+    "words": [
+      {
+        "russian": "Нет",
+        "pronunciation": "Nyet",
+        "japanese": "いいえ"
+      },
+      {
+        "russian": "не",
+        "pronunciation": "nye",
+        "japanese": "～しないで"
+      },
+      {
+        "russian": "беспокойтесь",
+        "pronunciation": "byespakóytes'",
+        "japanese": "心配する（命令形否定）"
+      },
+      {
+        "russian": "Орехов",
+        "pronunciation": "Aryekhav",
+        "japanese": "ナッツ（生格複数）"
+      },
+      {
+        "russian": "там",
+        "pronunciation": "tam",
+        "japanese": "そこに"
+      },
+      {
+        "russian": "нет",
+        "pronunciation": "nyet",
+        "japanese": "ない"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Прекрасно! Тогда я закажу борщ и пельмени. И принесите, пожалуйста, минеральную воду.",
+    "pronunciation": "Pryekrasna! Tagda ya zakazhu borshch i pyel'meni. I prinyesite, pazhalusta, minyeral'nuyu vodu.",
+    "japanese": "素晴らしい! ではボルシチとペリメニを注文します。それとミネラルウォーターも持ってきてください。",
+    "words": [
+      {
+        "russian": "Прекрасно",
+        "pronunciation": "Pryekrasna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Тогда",
+        "pronunciation": "Tagda",
+        "japanese": "では、それなら"
+      },
+      {
+        "russian": "я",
+        "pronunciation": "ya",
+        "japanese": "私は"
+      },
+      {
+        "russian": "закажу",
+        "pronunciation": "zakazhu",
+        "japanese": "注文する（完了体未来形）"
+      },
+      {
+        "russian": "И",
+        "pronunciation": "I",
+        "japanese": "そして"
+      },
+      {
+        "russian": "принесите",
+        "pronunciation": "prinyesite",
+        "japanese": "持ってきてください（命令形）"
+      },
+      {
+        "russian": "пожалуйста",
+        "pronunciation": "pazhalusta",
+        "japanese": "お願いします"
+      },
+      {
+        "russian": "минеральную",
+        "pronunciation": "minyeral'nuyu",
+        "japanese": "ミネラルの（対格女性形）"
+      },
+      {
+        "russian": "воду",
+        "pronunciation": "vodu",
+        "japanese": "水（対格）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Хорошо. Через пятнадцать минут всё будет готово. Приятного аппетита!",
+    "pronunciation": "Harasho. Chyerez pyatnadtsat' minut vsyo budet gatova. Priyatnava appyetita!",
+    "japanese": "わかりました。15分で全て準備できます。どうぞ召し上がれ!",
+    "words": [
+      {
+        "russian": "Хорошо",
+        "pronunciation": "Harasho",
+        "japanese": "わかりました"
+      },
+      {
+        "russian": "Через",
+        "pronunciation": "Chyerez",
+        "japanese": "～後に"
+      },
+      {
+        "russian": "пятнадцать",
+        "pronunciation": "pyatnadtsat'",
+        "japanese": "15"
+      },
+      {
+        "russian": "минут",
+        "pronunciation": "minut",
+        "japanese": "分（生格複数）"
+      },
+      {
+        "russian": "всё",
+        "pronunciation": "vsyo",
+        "japanese": "全て"
+      },
+      {
+        "russian": "будет",
+        "pronunciation": "budet",
+        "japanese": "～でしょう"
+      },
+      {
+        "russian": "готово",
+        "pronunciation": "gatova",
+        "japanese": "準備ができた（中性短語尾）"
+      },
+      {
+        "russian": "Приятного",
+        "pronunciation": "Priyatnava",
+        "japanese": "楽しい（生格）"
+      },
+      {
+        "russian": "аппетита",
+        "pronunciation": "appyetita",
+        "japanese": "食欲（生格）"
+      }
+    ]
+  }
+]

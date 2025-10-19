@@ -1,0 +1,265 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Здравствуйте! Что вы хотите?",
+    "pronunciation": "Zdravstvuyte! Shto vy hatite?",
+    "japanese": "こんにちは! 何になさいますか?",
+    "words": [
+      {
+        "russian": "Здравствуйте",
+        "pronunciation": "Zdravstvuyte",
+        "japanese": "こんにちは"
+      },
+      {
+        "russian": "Что",
+        "pronunciation": "Shto",
+        "japanese": "何を"
+      },
+      {
+        "russian": "вы",
+        "pronunciation": "vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "хотите",
+        "pronunciation": "hatite",
+        "japanese": "欲しい（二人称複数/丁寧現在形）"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Мне, пожалуйста, кофе и пирожок.",
+    "pronunciation": "Mnye, pazhalusta, kofe i pirozhok.",
+    "japanese": "コーヒーとピロシキをください。",
+    "words": [
+      {
+        "russian": "Мне",
+        "pronunciation": "Mnye",
+        "japanese": "私に（与格）",
+        "baseForm": "я",
+        "caseInfo": {
+          "caseName": "Dative",
+          "caseNameJapanese": "与格",
+          "explanation": "注文する時「Мне, пожалуйста, ~」という表現をよく使います。直訳すると「私に、お願いします、～を」という意味で、与格を使います。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "я",
+              "genitive": "меня",
+              "dative": "мне",
+              "accusative": "меня",
+              "instrumental": "мной",
+              "prepositional": "мне"
+            },
+            "plural": {
+              "nominative": "мы",
+              "genitive": "нас",
+              "dative": "нам",
+              "accusative": "нас",
+              "instrumental": "нами",
+              "prepositional": "нас"
+            }
+          }
+        }
+      },
+      {
+        "russian": "пожалуйста",
+        "pronunciation": "pazhalusta",
+        "japanese": "お願いします"
+      },
+      {
+        "russian": "кофе",
+        "pronunciation": "kofe",
+        "japanese": "コーヒー"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "пирожок",
+        "pronunciation": "pirozhok",
+        "japanese": "ピロシキ"
+      }
+    ],
+    "grammarPoint": {
+      "title": "注文の表現「Мне + 対格」",
+      "explanation": "カフェやレストランで注文する時は「Мне, пожалуйста, + 品物（対格）」という表現を使います。「Я хочу ~」（私は～が欲しい）も使えますが、「Мне」を使った方がより自然で丁寧です。",
+      "examples": [
+        {
+          "russian": "Мне чай, пожалуйста.",
+          "pronunciation": "Mnye chay, pazhalusta.",
+          "japanese": "紅茶をください。"
+        },
+        {
+          "russian": "Нам два кофе.",
+          "pronunciation": "Nam dva kofe.",
+          "japanese": "私たちにコーヒー2つください。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Какой кофе? С молоком или без?",
+    "pronunciation": "Kakoy kofe? S molokom ili byez?",
+    "japanese": "どのコーヒーですか? ミルク入りですか、それとも入れませんか?",
+    "words": [
+      {
+        "russian": "Какой",
+        "pronunciation": "Kakoy",
+        "japanese": "どの（男性形）"
+      },
+      {
+        "russian": "кофе",
+        "pronunciation": "kofe",
+        "japanese": "コーヒー"
+      },
+      {
+        "russian": "С",
+        "pronunciation": "S",
+        "japanese": "～と一緒に"
+      },
+      {
+        "russian": "молоком",
+        "pronunciation": "molokom",
+        "japanese": "ミルク（造格）",
+        "baseForm": "молоко",
+        "caseInfo": {
+          "caseName": "Instrumental",
+          "caseNameJapanese": "造格",
+          "explanation": "前置詞「с」（～と一緒に）の後では造格を使います。「с молоком」で「ミルクと一緒に、ミルク入りで」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "молоко",
+              "genitive": "молока",
+              "dative": "молоку",
+              "accusative": "молоко",
+              "instrumental": "молоком",
+              "prepositional": "молоке"
+            },
+            "plural": {
+              "nominative": "молока",
+              "genitive": "молок",
+              "dative": "молокам",
+              "accusative": "молока",
+              "instrumental": "молоками",
+              "prepositional": "молоках"
+            }
+          }
+        }
+      },
+      {
+        "russian": "или",
+        "pronunciation": "ili",
+        "japanese": "または"
+      },
+      {
+        "russian": "без",
+        "pronunciation": "byez",
+        "japanese": "～なしで"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "С молоком, пожалуйста.",
+    "pronunciation": "S molokom, pazhalusta.",
+    "japanese": "ミルク入りでお願いします。",
+    "words": [
+      {
+        "russian": "С",
+        "pronunciation": "S",
+        "japanese": "～と一緒に"
+      },
+      {
+        "russian": "молоком",
+        "pronunciation": "molokom",
+        "japanese": "ミルク（造格）"
+      },
+      {
+        "russian": "пожалуйста",
+        "pronunciation": "pazhalusta",
+        "japanese": "お願いします"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Хорошо. С вас сто пятьдесят рублей.",
+    "pronunciation": "Harasho. S vas sto pyat'desyat rublyey.",
+    "japanese": "わかりました。150ルーブルになります。",
+    "words": [
+      {
+        "russian": "Хорошо",
+        "pronunciation": "Harasho",
+        "japanese": "わかりました"
+      },
+      {
+        "russian": "С",
+        "pronunciation": "S",
+        "japanese": "～から（支払い）"
+      },
+      {
+        "russian": "вас",
+        "pronunciation": "vas",
+        "japanese": "あなた（生格）"
+      },
+      {
+        "russian": "сто",
+        "pronunciation": "sto",
+        "japanese": "100"
+      },
+      {
+        "russian": "пятьдесят",
+        "pronunciation": "pyat'desyat",
+        "japanese": "50"
+      },
+      {
+        "russian": "рублей",
+        "pronunciation": "rublyey",
+        "japanese": "ルーブル（生格複数）"
+      }
+    ],
+    "grammarPoint": {
+      "title": "支払い額の表現「С + 生格」",
+      "explanation": "料金を伝える時は「С вас + 金額」という表現を使います。直訳すると「あなたから～」という意味で、「С вас сто рублей」で「あなたから100ルーブルです＝100ルーブルになります」となります。",
+      "examples": [
+        {
+          "russian": "С вас триста рублей.",
+          "pronunciation": "S vas trista rublyey.",
+          "japanese": "300ルーブルになります。"
+        },
+        {
+          "russian": "С нас тысяча рублей.",
+          "pronunciation": "S nas tysyacha rublyey.",
+          "japanese": "私たちは1000ルーブルです。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Вот деньги. Спасибо!",
+    "pronunciation": "Vot dyen'gi. Spasiba!",
+    "japanese": "お金です。ありがとう!",
+    "words": [
+      {
+        "russian": "Вот",
+        "pronunciation": "Vot",
+        "japanese": "これが、ほら"
+      },
+      {
+        "russian": "деньги",
+        "pronunciation": "dyen'gi",
+        "japanese": "お金"
+      },
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      }
+    ]
+  }
+]

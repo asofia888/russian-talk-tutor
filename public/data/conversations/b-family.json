@@ -1,0 +1,347 @@
+[
+  {
+    "speaker": "A",
+    "russian": "У вас есть семья?",
+    "pronunciation": "U vas yest' syem'ya?",
+    "japanese": "家族はいますか?",
+    "words": [
+      {
+        "russian": "У",
+        "pronunciation": "U",
+        "japanese": "～のところに"
+      },
+      {
+        "russian": "вас",
+        "pronunciation": "vas",
+        "japanese": "あなた（生格）"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある、いる"
+      },
+      {
+        "russian": "семья",
+        "pronunciation": "syem'ya",
+        "japanese": "家族"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, у меня есть семья. У меня есть мама, папа и сестра.",
+    "pronunciation": "Da, u menya yest' syem'ya. U menya yest' mama, papa i sestra.",
+    "japanese": "はい、家族がいます。母、父、妹がいます。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "у",
+        "pronunciation": "u",
+        "japanese": "～のところに"
+      },
+      {
+        "russian": "меня",
+        "pronunciation": "menya",
+        "japanese": "私（生格）",
+        "baseForm": "я",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "前置詞「у」の後では生格を使います。「у меня есть」で「私は～を持っている、私には～がいる」という所有を表します。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "я",
+              "genitive": "меня",
+              "dative": "мне",
+              "accusative": "меня",
+              "instrumental": "мной",
+              "prepositional": "мне"
+            },
+            "plural": {
+              "nominative": "мы",
+              "genitive": "нас",
+              "dative": "нам",
+              "accusative": "нас",
+              "instrumental": "нами",
+              "prepositional": "нас"
+            }
+          }
+        }
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "ある、いる"
+      },
+      {
+        "russian": "семья",
+        "pronunciation": "syem'ya",
+        "japanese": "家族"
+      },
+      {
+        "russian": "мама",
+        "pronunciation": "mama",
+        "japanese": "お母さん"
+      },
+      {
+        "russian": "папа",
+        "pronunciation": "papa",
+        "japanese": "お父さん"
+      },
+      {
+        "russian": "и",
+        "pronunciation": "i",
+        "japanese": "と"
+      },
+      {
+        "russian": "сестра",
+        "pronunciation": "sestra",
+        "japanese": "姉、妹"
+      }
+    ],
+    "grammarPoint": {
+      "title": "所有表現「У + 生格 + есть」",
+      "explanation": "ロシア語には「持っている」という動詞がないため、「у + 人（生格） + есть + 物（主格）」という構文を使います。直訳すると「～のところに～がある/いる」という意味です。否定形は「у меня нет + 生格」となります。",
+      "examples": [
+        {
+          "russian": "У тебя есть брат?",
+          "pronunciation": "U tebya yest' brat?",
+          "japanese": "兄弟はいますか?"
+        },
+        {
+          "russian": "У меня нет брата.",
+          "pronunciation": "U menya nyet brata.",
+          "japanese": "私には兄弟がいません。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "А у вас есть брат?",
+    "pronunciation": "A u vas yest' brat?",
+    "japanese": "兄弟はいますか?",
+    "words": [
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では、そして"
+      },
+      {
+        "russian": "у",
+        "pronunciation": "u",
+        "japanese": "～のところに"
+      },
+      {
+        "russian": "вас",
+        "pronunciation": "vas",
+        "japanese": "あなた（生格）"
+      },
+      {
+        "russian": "есть",
+        "pronunciation": "yest'",
+        "japanese": "いる"
+      },
+      {
+        "russian": "брат",
+        "pronunciation": "brat",
+        "japanese": "兄、弟"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Нет, у меня нет брата. Только сестра.",
+    "pronunciation": "Nyet, u menya nyet brata. Tol'ka sestra.",
+    "japanese": "いいえ、兄弟はいません。妹だけです。",
+    "words": [
+      {
+        "russian": "Нет",
+        "pronunciation": "Nyet",
+        "japanese": "いいえ"
+      },
+      {
+        "russian": "у",
+        "pronunciation": "u",
+        "japanese": "～のところに"
+      },
+      {
+        "russian": "меня",
+        "pronunciation": "menya",
+        "japanese": "私（生格）"
+      },
+      {
+        "russian": "нет",
+        "pronunciation": "nyet",
+        "japanese": "ない"
+      },
+      {
+        "russian": "брата",
+        "pronunciation": "brata",
+        "japanese": "兄、弟（生格）",
+        "baseForm": "брат",
+        "caseInfo": {
+          "caseName": "Genitive",
+          "caseNameJapanese": "生格",
+          "explanation": "否定文「нет」の後では名詞は生格を使います。「у меня нет брата」で「私には兄弟がいない」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "брат",
+              "genitive": "брата",
+              "dative": "брату",
+              "accusative": "брата",
+              "instrumental": "братом",
+              "prepositional": "брате"
+            },
+            "plural": {
+              "nominative": "братья",
+              "genitive": "братьев",
+              "dative": "братьям",
+              "accusative": "братьев",
+              "instrumental": "братьями",
+              "prepositional": "братьях"
+            }
+          }
+        }
+      },
+      {
+        "russian": "Только",
+        "pronunciation": "Tol'ka",
+        "japanese": "だけ"
+      },
+      {
+        "russian": "сестра",
+        "pronunciation": "sestra",
+        "japanese": "姉、妹"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Как зовут вашу сестру?",
+    "pronunciation": "Kak zavut vashu syestru?",
+    "japanese": "妹さんの名前は何ですか?",
+    "words": [
+      {
+        "russian": "Как",
+        "pronunciation": "Kak",
+        "japanese": "どのように"
+      },
+      {
+        "russian": "зовут",
+        "pronunciation": "zavut",
+        "japanese": "呼ぶ"
+      },
+      {
+        "russian": "вашу",
+        "pronunciation": "vashu",
+        "japanese": "あなたの（女性対格）"
+      },
+      {
+        "russian": "сестру",
+        "pronunciation": "syestru",
+        "japanese": "姉、妹（対格）",
+        "baseForm": "сестра",
+        "caseInfo": {
+          "caseName": "Accusative",
+          "caseNameJapanese": "対格",
+          "explanation": "動詞「зовут」（呼ぶ）の目的語として対格を使います。「Как зовут вашу сестру?」で「あなたの妹を何と呼びますか？」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "сестра",
+              "genitive": "сестры",
+              "dative": "сестре",
+              "accusative": "сестру",
+              "instrumental": "сестрой",
+              "prepositional": "сестре"
+            },
+            "plural": {
+              "nominative": "сёстры",
+              "genitive": "сестёр",
+              "dative": "сёстрам",
+              "accusative": "сестёр",
+              "instrumental": "сёстрами",
+              "prepositional": "сёстрах"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Её зовут Мария. Она студентка.",
+    "pronunciation": "Yeyo zavut Mariya. Ana studentka.",
+    "japanese": "彼女の名前はマリアです。彼女は学生です。",
+    "words": [
+      {
+        "russian": "Её",
+        "pronunciation": "Yeyo",
+        "japanese": "彼女を（対格）"
+      },
+      {
+        "russian": "зовут",
+        "pronunciation": "zavut",
+        "japanese": "呼ぶ"
+      },
+      {
+        "russian": "Мария",
+        "pronunciation": "Mariya",
+        "japanese": "マリア"
+      },
+      {
+        "russian": "Она",
+        "pronunciation": "Ana",
+        "japanese": "彼女は"
+      },
+      {
+        "russian": "студентка",
+        "pronunciation": "studentka",
+        "japanese": "女子学生"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Какая большая семья!",
+    "pronunciation": "Kakaya bal'shaya syem'ya!",
+    "japanese": "なんて大きな家族でしょう!",
+    "words": [
+      {
+        "russian": "Какая",
+        "pronunciation": "Kakaya",
+        "japanese": "なんて～な（女性形感嘆）"
+      },
+      {
+        "russian": "большая",
+        "pronunciation": "bal'shaya",
+        "japanese": "大きい（女性形）"
+      },
+      {
+        "russian": "семья",
+        "pronunciation": "syem'ya",
+        "japanese": "家族"
+      }
+    ],
+    "grammarPoint": {
+      "title": "感嘆表現「Какой/Какая/Какое!」",
+      "explanation": "「なんて～な！」という感嘆を表す時は「Какой + 形容詞 + 名詞!」を使います。「Какой」は名詞の性と格に合わせて変化します：男性形「Какой」、女性形「Какая」、中性形「Какое」、複数形「Какие」。",
+      "examples": [
+        {
+          "russian": "Какой красивый дом!",
+          "pronunciation": "Kakoy krasivyy dom!",
+          "japanese": "なんて美しい家でしょう!"
+        },
+        {
+          "russian": "Какие хорошие люди!",
+          "pronunciation": "Kakiye haroshiye lyudi!",
+          "japanese": "なんて良い人たちでしょう!"
+        }
+      ]
+    }
+  }
+]

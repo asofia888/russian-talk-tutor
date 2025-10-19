@@ -1,0 +1,383 @@
+[
+  {
+    "speaker": "A",
+    "russian": "Простите, не подскажете, где находится музей?",
+    "pronunciation": "Prastite, nye padskazhete, gde nakhoditsa muzey?",
+    "japanese": "すみません、博物館がどこにあるか教えていただけますか?",
+    "words": [
+      {
+        "russian": "Простите",
+        "pronunciation": "Prastite",
+        "japanese": "すみません"
+      },
+      {
+        "russian": "не",
+        "pronunciation": "nye",
+        "japanese": "～しませんか（丁寧な依頼）"
+      },
+      {
+        "russian": "подскажете",
+        "pronunciation": "padskazhete",
+        "japanese": "教える（完了体未来形）"
+      },
+      {
+        "russian": "где",
+        "pronunciation": "gde",
+        "japanese": "どこに"
+      },
+      {
+        "russian": "находится",
+        "pronunciation": "nakhoditsa",
+        "japanese": "位置する"
+      },
+      {
+        "russian": "музей",
+        "pronunciation": "muzey",
+        "japanese": "博物館"
+      }
+    ],
+    "grammarPoint": {
+      "title": "丁寧な依頼「Не подскажете...?」",
+      "explanation": "「Не подскажете...?」は非常に丁寧な依頼表現で、直訳すると「教えませんか?」という意味です。否定形を使うことで控えめで丁寧なニュアンスになります。道を尋ねる時によく使われます。",
+      "examples": [
+        {
+          "russian": "Не подскажете, который час?",
+          "pronunciation": "Nye padskazhete, katoryy chas?",
+          "japanese": "すみません、今何時ですか?"
+        },
+        {
+          "russian": "Не подскажете, как пройти к вокзалу?",
+          "pronunciation": "Nye padskazhete, kak prayti k vakzalu?",
+          "japanese": "駅へはどう行けばいいか教えていただけますか?"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "B",
+    "russian": "Конечно. Идите по этой улице до светофора, затем поверните направо.",
+    "pronunciation": "Kanyeshna. Idite pa etay ulitse da svetafora, zatyem pavernite naprava.",
+    "japanese": "もちろんです。この通りを信号まで行って、それから右に曲がってください。",
+    "words": [
+      {
+        "russian": "Конечно",
+        "pronunciation": "Kanyeshna",
+        "japanese": "もちろん"
+      },
+      {
+        "russian": "Идите",
+        "pronunciation": "Idite",
+        "japanese": "行ってください"
+      },
+      {
+        "russian": "по",
+        "pronunciation": "pa",
+        "japanese": "～に沿って"
+      },
+      {
+        "russian": "этой",
+        "pronunciation": "etay",
+        "japanese": "この（与格女性形）"
+      },
+      {
+        "russian": "улице",
+        "pronunciation": "ulitse",
+        "japanese": "通り（与格）",
+        "baseForm": "улица",
+        "caseInfo": {
+          "caseName": "Dative",
+          "caseNameJapanese": "与格",
+          "explanation": "前置詞「по」（～に沿って）の後では与格を使います。「по улице」で「通りに沿って」という意味です。",
+          "declensionTable": {
+            "singular": {
+              "nominative": "улица",
+              "genitive": "улицы",
+              "dative": "улице",
+              "accusative": "улицу",
+              "instrumental": "улицей",
+              "prepositional": "улице"
+            },
+            "plural": {
+              "nominative": "улицы",
+              "genitive": "улиц",
+              "dative": "улицам",
+              "accusative": "улицы",
+              "instrumental": "улицами",
+              "prepositional": "улицах"
+            }
+          }
+        }
+      },
+      {
+        "russian": "до",
+        "pronunciation": "da",
+        "japanese": "～まで"
+      },
+      {
+        "russian": "светофора",
+        "pronunciation": "svetafora",
+        "japanese": "信号（生格）",
+        "baseForm": "светофор"
+      },
+      {
+        "russian": "затем",
+        "pronunciation": "zatyem",
+        "japanese": "それから"
+      },
+      {
+        "russian": "поверните",
+        "pronunciation": "pavernite",
+        "japanese": "曲がってください"
+      },
+      {
+        "russian": "направо",
+        "pronunciation": "naprava",
+        "japanese": "右に"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "А это далеко отсюда?",
+    "pronunciation": "A eta dalyeko atsyuda?",
+    "japanese": "ここから遠いですか?",
+    "words": [
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "это",
+        "pronunciation": "eta",
+        "japanese": "それは"
+      },
+      {
+        "russian": "далеко",
+        "pronunciation": "dalyeko",
+        "japanese": "遠い"
+      },
+      {
+        "russian": "отсюда",
+        "pronunciation": "atsyuda",
+        "japanese": "ここから"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Нет, недалеко. Минут десять пешком. Музей будет слева от парка.",
+    "pronunciation": "Nyet, nyedalyeko. Minut dyesyat' pyeshkom. Muzey budet slyeva at parka.",
+    "japanese": "いいえ、遠くないです。歩いて10分くらいです。博物館は公園の左側にあります。",
+    "words": [
+      {
+        "russian": "Нет",
+        "pronunciation": "Nyet",
+        "japanese": "いいえ"
+      },
+      {
+        "russian": "недалеко",
+        "pronunciation": "nyedalyeko",
+        "japanese": "近い"
+      },
+      {
+        "russian": "Минут",
+        "pronunciation": "Minut",
+        "japanese": "分（生格複数）"
+      },
+      {
+        "russian": "десять",
+        "pronunciation": "dyesyat'",
+        "japanese": "10"
+      },
+      {
+        "russian": "пешком",
+        "pronunciation": "pyeshkom",
+        "japanese": "徒歩で"
+      },
+      {
+        "russian": "Музей",
+        "pronunciation": "Muzey",
+        "japanese": "博物館"
+      },
+      {
+        "russian": "будет",
+        "pronunciation": "budet",
+        "japanese": "～でしょう（未来形）"
+      },
+      {
+        "russian": "слева",
+        "pronunciation": "slyeva",
+        "japanese": "左側に"
+      },
+      {
+        "russian": "от",
+        "pronunciation": "at",
+        "japanese": "～から"
+      },
+      {
+        "russian": "парка",
+        "pronunciation": "parka",
+        "japanese": "公園（生格）",
+        "baseForm": "парк"
+      }
+    ],
+    "grammarPoint": {
+      "title": "時間の長さ「数詞 + 時間単位（生格）」",
+      "explanation": "時間の長さを表す時は「数詞 + 時間単位」の形を使います。時間単位は数詞に応じて格変化します。「минут десять」（10分くらい）、「час」（1時間）、「два часа」（2時間）、「пять минут」（5分）のように使います。",
+      "examples": [
+        {
+          "russian": "Я жду час.",
+          "pronunciation": "Ya zhdu chas.",
+          "japanese": "私は1時間待っています。"
+        },
+        {
+          "russian": "Поезд идёт три часа.",
+          "pronunciation": "Poyezd idyot tri chasa.",
+          "japanese": "列車は3時間かかります。"
+        }
+      ]
+    }
+  },
+  {
+    "speaker": "A",
+    "russian": "Спасибо большое! А можно туда доехать на автобусе?",
+    "pronunciation": "Spasiba bal'shoye! A mozhna tuda dayekhat' na avtobuse?",
+    "japanese": "どうもありがとう! バスでそこに行けますか?",
+    "words": [
+      {
+        "russian": "Спасибо",
+        "pronunciation": "Spasiba",
+        "japanese": "ありがとう"
+      },
+      {
+        "russian": "большое",
+        "pronunciation": "bal'shoye",
+        "japanese": "大きな"
+      },
+      {
+        "russian": "А",
+        "pronunciation": "A",
+        "japanese": "では"
+      },
+      {
+        "russian": "можно",
+        "pronunciation": "mozhna",
+        "japanese": "できる"
+      },
+      {
+        "russian": "туда",
+        "pronunciation": "tuda",
+        "japanese": "そこへ"
+      },
+      {
+        "russian": "доехать",
+        "pronunciation": "dayekhat'",
+        "japanese": "乗り物で行く"
+      },
+      {
+        "russian": "на",
+        "pronunciation": "na",
+        "japanese": "～で（乗り物）"
+      },
+      {
+        "russian": "автобусе",
+        "pronunciation": "avtobuse",
+        "japanese": "バス（前置格）",
+        "baseForm": "автобус"
+      }
+    ]
+  },
+  {
+    "speaker": "B",
+    "russian": "Да, можно. Остановка через дорогу. Садитесь на автобус номер пять.",
+    "pronunciation": "Da, mozhna. Astanofka chyerez darogu. Sadites' na aftobus nomyer pyat'.",
+    "japanese": "はい、行けます。バス停は道の向こうです。5番のバスに乗ってください。",
+    "words": [
+      {
+        "russian": "Да",
+        "pronunciation": "Da",
+        "japanese": "はい"
+      },
+      {
+        "russian": "можно",
+        "pronunciation": "mozhna",
+        "japanese": "できる"
+      },
+      {
+        "russian": "Остановка",
+        "pronunciation": "Astanofka",
+        "japanese": "バス停"
+      },
+      {
+        "russian": "через",
+        "pronunciation": "chyerez",
+        "japanese": "～を越えて、～の向こうに"
+      },
+      {
+        "russian": "дорогу",
+        "pronunciation": "darogu",
+        "japanese": "道（対格）",
+        "baseForm": "дорога"
+      },
+      {
+        "russian": "Садитесь",
+        "pronunciation": "Sadites'",
+        "japanese": "乗ってください"
+      },
+      {
+        "russian": "автобус",
+        "pronunciation": "aftobus",
+        "japanese": "バス"
+      },
+      {
+        "russian": "номер",
+        "pronunciation": "nomyer",
+        "japanese": "番号"
+      },
+      {
+        "russian": "пять",
+        "pronunciation": "pyat'",
+        "japanese": "5"
+      }
+    ]
+  },
+  {
+    "speaker": "A",
+    "russian": "Отлично! Вы очень помогли. Всего доброго!",
+    "pronunciation": "Atlichna! Vy ochin' pamagli. Vsevo dobrova!",
+    "japanese": "素晴らしい! とても助かりました。良い一日を!",
+    "words": [
+      {
+        "russian": "Отлично",
+        "pronunciation": "Atlichna",
+        "japanese": "素晴らしい"
+      },
+      {
+        "russian": "Вы",
+        "pronunciation": "Vy",
+        "japanese": "あなたは"
+      },
+      {
+        "russian": "очень",
+        "pronunciation": "ochin'",
+        "japanese": "とても"
+      },
+      {
+        "russian": "помогли",
+        "pronunciation": "pamagli",
+        "japanese": "助けた（過去形複数）"
+      },
+      {
+        "russian": "Всего",
+        "pronunciation": "Vsevo",
+        "japanese": "すべて（生格）"
+      },
+      {
+        "russian": "доброго",
+        "pronunciation": "dobrova",
+        "japanese": "良い（生格）"
+      }
+    ]
+  }
+]
