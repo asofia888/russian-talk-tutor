@@ -21,9 +21,25 @@ const feedbackSchema = {
 };
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-    // CORS headers
+    // CORS headers - restrict in production
+    const allowedOrigins = [
+        'https://russian-talk-tutor.vercel.app',
+        'https://russian-talk-tutor-asofia888s-projects.vercel.app', // Preview deployments
+        'http://localhost:3000', // Local development
+        'http://localhost:5173', // Vite dev server
+    ];
+
+    const origin = req.headers.origin;
+
+    // In development or if origin is in allowed list
+    if (process.env.NODE_ENV === 'development' || (origin && allowedOrigins.includes(origin))) {
+        res.setHeader('Access-Control-Allow-Origin', origin || '*');
+    } else {
+        // Fallback to wildcard only in development
+        res.setHeader('Access-Control-Allow-Origin', process.env.NODE_ENV === 'development' ? '*' : allowedOrigins[0]);
+    }
+
     res.setHeader('Access-Control-Allow-Credentials', 'true');
-    res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,POST');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 

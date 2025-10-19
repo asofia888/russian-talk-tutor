@@ -18,34 +18,51 @@ export const useConversationData = (topicId: string | undefined, topicTitle: str
 
         const isCustomTopic = topicId?.startsWith('custom');
         const cacheKey = `conversation-${topicId}`;
+        const cacheTimestampKey = `conversation-timestamp-${topicId}`;
+        const CACHE_EXPIRY_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
         let isComponentMounted = true;
 
         const loadConversation = async () => {
             // Reset state for new topic
             setError(null);
 
-            // 1. Try to load from cache first for instant UI (skip for custom topics)
+            // 1. Try to load from cache first for instant UI
             let hasCache = false;
-            if (!isCustomTopic) {
-                try {
-                    const cachedData = localStorage.getItem(cacheKey);
-                    if (cachedData) {
+            let isCacheExpired = false;
+
+            try {
+                const cachedData = localStorage.getItem(cacheKey);
+                const cachedTimestamp = localStorage.getItem(cacheTimestampKey);
+
+                if (cachedData) {
+                    // Check if cache has expired (only for custom topics)
+                    if (isCustomTopic && cachedTimestamp) {
+                        const cacheAge = Date.now() - parseInt(cachedTimestamp, 10);
+                        isCacheExpired = cacheAge > CACHE_EXPIRY_MS;
+
+                        if (isCacheExpired) {
+                            console.log(`Cache expired for custom topic: ${topicId}`);
+                        }
+                    }
+
+                    // Use cache if it's not expired (or if it's not a custom topic)
+                    if (!isCacheExpired) {
                         if (isComponentMounted) {
                             setConversation(JSON.parse(cachedData));
                             setIsLoading(false); // We have data, don't show full-page skeleton
                             hasCache = true;
                         }
                     } else {
-                        // No cache, so we are definitely in a full loading state
+                        // Cache expired, show loading state
                         if (isComponentMounted) setIsLoading(true);
                     }
-                } catch (cacheError) {
-                    console.error("Failed to read from cache:", cacheError);
-                    if (isComponentMounted) setIsLoading(true); // Treat corrupted cache as no cache
+                } else {
+                    // No cache, so we are definitely in a full loading state
+                    if (isComponentMounted) setIsLoading(true);
                 }
-            } else {
-                // For custom topics, always show the full loading spinner
-                if(isComponentMounted) setIsLoading(true);
+            } catch (cacheError) {
+                console.error("Failed to read from cache:", cacheError);
+                if (isComponentMounted) setIsLoading(true); // Treat corrupted cache as no cache
             }
 
 
@@ -56,12 +73,18 @@ export const useConversationData = (topicId: string | undefined, topicTitle: str
                 const freshData = await generateConversation(topicIdentifier);
                 if (isComponentMounted) {
                     setConversation(freshData);
-                    // Update cache with fresh data (skip for custom topics)
-                    if (!isCustomTopic) {
-                        try {
-                            localStorage.setItem(cacheKey, JSON.stringify(freshData));
-                        } catch (e) {
-                            console.error("Failed to write to cache", e);
+                    // Update cache with fresh data (including custom topics with timestamp)
+                    try {
+                        localStorage.setItem(cacheKey, JSON.stringify(freshData));
+                        // Save timestamp for custom topics to track cache expiry
+                        if (isCustomTopic) {
+                            localStorage.setItem(cacheTimestampKey, Date.now().toString());
+                        }
+                    } catch (e) {
+                        console.error("Failed to write to cache", e);
+                        // Handle quota exceeded or other storage errors gracefully
+                        if (e instanceof DOMException && e.name === 'QuotaExceededError') {
+                            console.warn("localStorage quota exceeded. Consider clearing old cache.");
                         }
                     }
                 }
