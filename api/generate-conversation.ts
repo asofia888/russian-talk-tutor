@@ -99,10 +99,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     // In development or if origin is in allowed list
     if (isDevelopment || (origin && allowedOrigins.includes(origin))) {
-        res.setHeader('Access-Control-Allow-Origin', origin || '*');
+        res.setHeader('Access-Control-Allow-Origin', origin ?? '*');
     } else {
         // Fallback to first allowed origin in production
-        res.setHeader('Access-Control-Allow-Origin', isDevelopment ? '*' : allowedOrigins[0]);
+        res.setHeader('Access-Control-Allow-Origin', allowedOrigins[0]);
     }
 
     res.setHeader('Access-Control-Allow-Credentials', 'true');
