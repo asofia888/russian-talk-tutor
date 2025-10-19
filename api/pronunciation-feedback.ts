@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleGenAI, Type } from "@google/genai";
-import { setCorsHeaders } from '../utils/cors';
+import { setCorsHeaders } from './_cors';
 
 const feedbackSchema = {
     type: Type.OBJECT,

@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { GoogleGenAI, Type } from "@google/genai";
 import fs from 'fs';
 import path from 'path';
-import { setCorsHeaders } from '../utils/cors';
+import { setCorsHeaders } from './_cors';
 
 const declensionSchema = {
     type: Type.OBJECT,
