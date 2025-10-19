@@ -104,7 +104,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         allowedOrigin = origin ? origin : '*';
     } else if (origin && allowedOrigins.includes(origin)) {
         // Origin is guaranteed to be string here due to the condition
-        allowedOrigin = origin;
+        allowedOrigin = origin!;
     } else {
         // Fallback to first allowed origin
         allowedOrigin = allowedOrigins[0];
