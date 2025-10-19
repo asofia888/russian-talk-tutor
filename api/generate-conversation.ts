@@ -97,13 +97,17 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const origin = req.headers.origin;
     const isDevelopment = process.env['NODE_ENV'] === 'development';
 
-    // In development or if origin is in allowed list
-    if (isDevelopment || (origin && allowedOrigins.includes(origin))) {
-        res.setHeader('Access-Control-Allow-Origin', origin ?? '*');
+    // Determine the appropriate CORS origin
+    let allowedOrigin: string;
+    if (isDevelopment) {
+        allowedOrigin = origin || '*';
+    } else if (origin && allowedOrigins.includes(origin)) {
+        allowedOrigin = origin;
     } else {
-        // Fallback to first allowed origin in production
-        res.setHeader('Access-Control-Allow-Origin', allowedOrigins[0]);
+        allowedOrigin = allowedOrigins[0];
     }
+
+    res.setHeader('Access-Control-Allow-Origin', allowedOrigin);
 
     res.setHeader('Access-Control-Allow-Credentials', 'true');
     res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,POST');
