@@ -73,10 +73,14 @@ async function cacheFirst(request) {
   try {
     const fetchResponse = await fetch(request);
     if (fetchResponse && fetchResponse.status === 200) {
-      const cache = await caches.open(STATIC_CACHE);
-      cache.put(request, fetchResponse.clone()).catch(err => {
-        console.log('[Service Worker] Cache put failed:', err.message);
-      });
+      // Only cache http/https requests
+      const url = new URL(request.url);
+      if (url.protocol.startsWith('http')) {
+        const cache = await caches.open(STATIC_CACHE);
+        cache.put(request, fetchResponse.clone()).catch(err => {
+          console.log('[Service Worker] Cache put failed:', err.message);
+        });
+      }
     }
     return fetchResponse;
   } catch (error) {
@@ -90,10 +94,14 @@ async function networkFirst(request) {
   try {
     const fetchResponse = await fetch(request);
     if (fetchResponse && fetchResponse.status === 200) {
-      const cache = await caches.open(DYNAMIC_CACHE);
-      cache.put(request, fetchResponse.clone()).catch(err => {
-        console.log('[Service Worker] Cache put failed:', err.message);
-      });
+      // Only cache http/https requests
+      const url = new URL(request.url);
+      if (url.protocol.startsWith('http')) {
+        const cache = await caches.open(DYNAMIC_CACHE);
+        cache.put(request, fetchResponse.clone()).catch(err => {
+          console.log('[Service Worker] Cache put failed:', err.message);
+        });
+      }
     }
     return fetchResponse;
   } catch (error) {
