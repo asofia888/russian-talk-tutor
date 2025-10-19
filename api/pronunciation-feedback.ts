@@ -35,7 +35,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     // Determine the appropriate CORS origin
     let allowedOrigin: string;
     if (isDevelopment) {
-        allowedOrigin = origin || '*';
+        allowedOrigin = (origin || '*') as string;
     } else if (origin && allowedOrigins.includes(origin)) {
         allowedOrigin = origin;
     } else {
